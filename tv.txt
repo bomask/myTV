@@ -1,5 +1,6 @@
-央视频道,#genre#
+如无法播放，请点击【导入直播源】-【下载并解析】,#genre#
 
+央视频道,#genre#
 CCTV1,http://45.192.97.170:8880/play/1.m3u8
 CCTV1,http://219.156.94.94:4022/rtp/225.1.4.73:1102
 CCTV1,http://171.119.206.17:6000/rtp/226.0.2.153:9136
@@ -283,14 +284,12 @@ CCTV9,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv9.m3u8
 神探狄仁杰第三部,https://live.ottiptv.cc/douyu/6027991
 爱情公寓,https://live.ottiptv.cc/huya/11336726
 爱情公寓（斗鱼）,https://live.ottiptv.cc/douyu/4105989
-亮剑,https://live.ottiptv.cc/huya/30080238
 雪豹,https://live.ottiptv.cc/huya/29580970
 特种兵之火凤凰,https://live.ottiptv.cc/huya/29982636
 士兵突击,https://live.ottiptv.cc/huya/11342430
 笑傲江湖,https://live.ottiptv.cc/huya/26355790
 神雕侠侣,https://live.ottiptv.cc/huya/11352964
 天龙八部,https://live.ottiptv.cc/huya/20985816
-倚天屠龙记,https://live.ottiptv.cc/huya/11342403
 铁齿铜牙纪晓岚,https://live.ottiptv.cc/huya/11342396
 康熙王朝,https://live.ottiptv.cc/huya/11352940
 陈情令,https://live.ottiptv.cc/huya/29465862
@@ -304,7 +303,6 @@ CCTV9,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv9.m3u8
 隋唐英雄传,https://live.ottiptv.cc/yy/1352475619
 仙剑奇侠传,https://live.ottiptv.cc/yy/1382749903
 西游记续集,https://live.ottiptv.cc/douyu/3113309
-我是特种兵之利刃出鞘,https://live.ottiptv.cc/yy/37999586
 狂飙,https://live.ottiptv.cc/yy/1355142167
 三国演义,https://live.ottiptv.cc/huya/11602081
 西游记,https://live.ottiptv.cc/huya/26355861
@@ -315,7 +313,6 @@ CCTV9,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv9.m3u8
 大秦赋,https://live.ottiptv.cc/huya/23903130
 永夜星河,https://live.ottiptv.cc/huya/23734169
 流水迢迢,https://live.ottiptv.cc/huya/23865036
-唐诡之西行,https://live.ottiptv.cc/huya/26355763
 玫瑰的故事,https://live.ottiptv.cc/huya/23865142
 梦中的那片海,https://live.ottiptv.cc/huya/26355765
 知否知否,https://live.ottiptv.cc/yy/21881901
