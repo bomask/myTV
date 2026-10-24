@@ -1,5 +1,5 @@
 花卷频道,#genre#
-温馨提示,https://gh-proxy.com/https://raw.githubusercontent.com/bomask/myTV/main/huajuanTip.jpg
+温馨提示,https://gh-proxy.com/https://raw.githubusercontent.com/bomask/myTV/main/tips.jpg
 
 
 央视频道,#genre#
