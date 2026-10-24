@@ -1,52 +1,5 @@
 央视频道,#genre#
-CCTV 怀旧剧场,http://45.192.97.170:8880/play/157.m3u8
-CCTV 怀旧剧场,http://8w97qbaxj0.apps.bot-hosting.cloud/cctvhjjc.m3u8
-CCTV 第一剧场,http://45.192.97.170:8880/play/156.m3u8
-CCTV 第一剧场,http://8w97qbaxj0.apps.bot-hosting.cloud/cctvdyjc.m3u8
-CCTV 风云剧场,http://45.192.97.170:8880/play/155.m3u8
-CCTV 风云剧场,http://8w97qbaxj0.apps.bot-hosting.cloud/cctvfyjc.m3u8
-CCTV-1 综合,http://45.192.97.170:8880/play/128.m3u8
-CCTV-1 综合,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv1.m3u8
-CCTV-10 科教,http://45.192.97.170:8880/play/138.m3u8
-CCTV-10 科教,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv10.m3u8
-CCTV-11 戏曲,http://45.192.97.170:8880/play/139.m3u8
-CCTV-11 戏曲,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv11.m3u8
-CCTV-12 社会与法,http://45.192.97.170:8880/play/140.m3u8
-CCTV-12 社会与法,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv12.m3u8
-CCTV-13 新闻,http://45.192.97.170:8880/play/141.m3u8
-CCTV-13 新闻,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv13.m3u8
-CCTV-14 少儿,http://45.192.97.170:8880/play/142.m3u8
-CCTV-14 少儿,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv14.m3u8
-CCTV-15 音乐,http://45.192.97.170:8880/play/143.m3u8
-CCTV-15 音乐,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv15.m3u8
-CCTV-16 4K,http://45.192.97.170:8880/play/145.m3u8
-CCTV-16 4K,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv164k.m3u8
-CCTV-16 奥林匹克,http://45.192.97.170:8880/play/144.m3u8
-CCTV-16 奥林匹克,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv16.m3u8
-CCTV-17 农业农村,http://45.192.97.170:8880/play/146.m3u8
-CCTV-17 农业农村,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv17.m3u8
-CCTV-2 财经,http://45.192.97.170:8880/play/129.m3u8
-CCTV-2 财经,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv2.m3u8
-CCTV-3 综艺,http://45.192.97.170:8880/play/130.m3u8
-CCTV-3 综艺,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv3.m3u8
-CCTV-4 中文国际,http://45.192.97.170:8880/play/131.m3u8
-CCTV-4 中文国际,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv4.m3u8
-CCTV-4K 超高清,http://45.192.97.170:8880/play/147.m3u8
-CCTV-4K 超高清,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv4k.m3u8
-CCTV-5 体育,http://45.192.97.170:8880/play/132.m3u8
-CCTV-5 体育,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv5.m3u8
-CCTV-5+ 体育赛事,http://45.192.97.170:8880/play/133.m3u8
-CCTV-5+ 体育赛事,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv5p.m3u8
-CCTV-6 电影,http://45.192.97.170:8880/play/134.m3u8
-CCTV-6 电影,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv6.m3u8
-CCTV-7 国防军事,http://45.192.97.170:8880/play/135.m3u8
-CCTV-7 国防军事,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv7.m3u8
-CCTV-8 电视剧,http://45.192.97.170:8880/play/136.m3u8
-CCTV-8 电视剧,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv8.m3u8
-CCTV-8K 超高清,http://45.192.97.170:8880/play/148.m3u8
-CCTV-8K 超高清,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv8k.m3u8
-CCTV-9 纪录,http://45.192.97.170:8880/play/137.m3u8
-CCTV-9 纪录,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv9.m3u8
+
 CCTV1,http://45.192.97.170:8880/play/1.m3u8
 CCTV1,http://219.156.94.94:4022/rtp/225.1.4.73:1102
 CCTV1,http://171.119.206.17:6000/rtp/226.0.2.153:9136
@@ -270,6 +223,50 @@ CGTN 阿拉伯语,http://8w97qbaxj0.apps.bot-hosting.cloud/cgtnar.m3u8
 中国教育4台,http://115.171.216.32:4000/rtp/225.1.8.195:4120
 中国教育4台,http://114.254.38.234:8888/rtp/239.3.1.56:4120
 中国教育4台,http://111.196.128.44:20000/rtp/239.3.1.56:4120
+CCTV1,http://45.192.97.170:8880/play/128.m3u8
+CCTV1,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv1.m3u8
+CCTV10,http://45.192.97.170:8880/play/138.m3u8
+CCTV10,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv10.m3u8
+CCTV11,http://45.192.97.170:8880/play/139.m3u8
+CCTV11,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv11.m3u8
+CCTV12,http://45.192.97.170:8880/play/140.m3u8
+CCTV12,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv12.m3u8
+CCTV13,http://45.192.97.170:8880/play/141.m3u8
+CCTV13,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv13.m3u8
+CCTV14,http://45.192.97.170:8880/play/142.m3u8
+CCTV14,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv14.m3u8
+CCTV15,http://45.192.97.170:8880/play/143.m3u8
+CCTV15,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv15.m3u8
+CCTV16,http://45.192.97.170:8880/play/145.m3u8
+CCTV16,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv164k.m3u8
+CCTV16,http://45.192.97.170:8880/play/144.m3u8
+CCTV16,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv16.m3u8
+CCTV17,http://45.192.97.170:8880/play/146.m3u8
+CCTV17,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv17.m3u8
+CCTV2,http://45.192.97.170:8880/play/129.m3u8
+CCTV2,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv2.m3u8
+CCTV3,http://45.192.97.170:8880/play/130.m3u8
+CCTV3,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv3.m3u8
+CCTV4,http://45.192.97.170:8880/play/131.m3u8
+CCTV4,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv4.m3u8
+CCTV4K,http://45.192.97.170:8880/play/147.m3u8
+CCTV4K,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv4k.m3u8
+CCTV5,http://45.192.97.170:8880/play/132.m3u8
+CCTV5,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv5.m3u8
+CCTV5+,http://45.192.97.170:8880/play/133.m3u8
+CCTV5+,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv5p.m3u8
+CCTV6,http://45.192.97.170:8880/play/134.m3u8
+CCTV6,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv6.m3u8
+CCTV7,http://45.192.97.170:8880/play/135.m3u8
+CCTV7,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv7.m3u8
+CCTV8,http://45.192.97.170:8880/play/136.m3u8
+CCTV8,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv8.m3u8
+CCTV8K,http://45.192.97.170:8880/play/148.m3u8
+CCTV8K,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv8k.m3u8
+CCTV9,http://45.192.97.170:8880/play/137.m3u8
+CCTV9,http://8w97qbaxj0.apps.bot-hosting.cloud/cctv9.m3u8
+
+
 
 卫视频道,#genre#
 三沙卫视,http://219.156.94.94:4022/rtp/225.1.4.234:1280
