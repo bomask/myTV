@@ -1,5 +1,5 @@
 花卷频道,#genre#
-温馨提示,https://gh-proxy.com/https://raw.githubusercontent.com/bomask/myTV/main/1024tip.jpg
+温馨提示,https://i.imgs.ovh/2026/10/24/f0b309a21be2be1b6bf9e8dc0a7aca92.jpg
 
 央视频道,#genre#
 CCTV1,http://45.192.97.170:8880/play/1.m3u8
