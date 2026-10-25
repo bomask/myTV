@@ -2,7 +2,7 @@ name: Update dotv live sources
 
 on:
   schedule:
-    - cron: "31 13 * * *"   # 【测试用】北京时间每天 21:31 触发一次; 测完改回 "0 */4 * * *" 即每4小时
+    - cron: "0 */4 * * *"   # 每 4 小时一次 (UTC 0/4/8/12/16/20 点 = 北京时间 8/12/16/20/0/4 点)
   workflow_dispatch:       # 允许在 Actions 页面手动点击运行
 
 permissions:
