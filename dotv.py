@@ -11,11 +11,12 @@ dotv (tmxk) 直播源抓取脚本（含可用性检测）
 3. 并发探测每条线路 (Range 只拉 2KB, 200/206 = 可用, 自动跟随重定向)
 4. 只把可用线路写进输出文件, 格式: 分组,#genre# + 频道名,URL
    分组规则: 央视(CCTV/CGTN开头) / 卫视(名字含"卫视") / 其他
+5. 输出文件最前面固定写入 "花卷频道 + 温馨提示" 两行 (HEADER_LINES)
 
 用法:
-    python dotv直播源抓取.py                 # 输出 dotv直播源.txt 到脚本同目录
-    python dotv直播源抓取.py 输出路径.txt
-    python dotv直播源抓取.py --no-check      # 跳过检测, 全部线路直接输出
+    python dotv.py                # 输出 tv.txt 到脚本同目录 (GitHub Actions 用这个)
+    python dotv.py 输出路径.txt
+    python dotv.py --no-check     # 跳过检测, 全部线路直接输出
 
 仅用 Python 标准库。
 """
@@ -25,12 +26,12 @@ import os
 import re
 import ssl
 import sys
-import time
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 API_URL = "https://dotv.tmxk.kdns.fr/?key=LEON888"
 UA = "okhttp/4.10.0"
+DEFAULT_OUT = "tv.txt"
 
 # 输出文件最前面的固定头部 (温馨提示图片行)
 HEADER_LINES = [
@@ -142,7 +143,7 @@ def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     no_check = "--no-check" in sys.argv
     out = args[0] if args else os.path.join(
-        os.path.dirname(os.path.abspath(__file__)), "dotv直播源.txt")
+        os.path.dirname(os.path.abspath(__file__)), DEFAULT_OUT)
     out_dir = os.path.dirname(out) or "."
     out_report = os.path.join(out_dir, "dotv失效线路报告.txt")
 
