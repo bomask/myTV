@@ -1,1 +1,42 @@
+name: Update dotv live sources
 
+on:
+  schedule:
+    - cron: "31 13 * * *"   # 【测试用】北京时间每天 21:31 触发一次; 测完改回 "0 */4 * * *" 即每4小时
+  workflow_dispatch:       # 允许在 Actions 页面手动点击运行
+
+permissions:
+  contents: write          # 允许内置 GITHUB_TOKEN 推送提交
+
+concurrency:
+  group: update-dotv
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run script
+        run: |
+          python "dotv.py" "tv.txt"
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "内容无变化, 跳过提交"
+          else
+            git commit -m "auto: update dotv live sources $(TZ=Asia/Shanghai date '+%F %H:%M')"
+            git push
+          fi
