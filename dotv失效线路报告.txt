@@ -3,47 +3,81 @@ dotv 直播源可用性检测报告
 探测并发 64 | 超时 7s
 注意: HTTP 探测仅验证地址可达, 不代表画面内容一定正常。
 
-===== 央视 ===== 失效 118 条
+===== 央视 ===== 失效 114 条
 [失效] CCTV1  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/195.m3u8
+        http://45.192.97.170:8880/play/192.m3u8
 [失效] CCTV2  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/196.m3u8
+        http://45.192.97.170:8880/play/193.m3u8
 [失效] CCTV3  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/194.m3u8
+[失效] CCTV4  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/195.m3u8
+[失效] CCTV5  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/196.m3u8
+[失效] CCTV5  (<urlopen error [Errno 111] Connection refused>)
+        http://8w97qbaxj0.apps.bot-hosting.cloud/cctv5.m3u8
+[失效] CCTV5+  (<urlopen error [Errno 111] Connection refused>)
         http://45.192.97.170:8880/play/197.m3u8
+[失效] CCTV5+  (<urlopen error [Errno 111] Connection refused>)
+        http://8w97qbaxj0.apps.bot-hosting.cloud/cctv5p.m3u8
+[失效] CCTV6  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/198.m3u8
 [失效] CCTV6  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cctv6.m3u8
 [失效] CCTV7  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/202.m3u8
+        http://45.192.97.170:8880/play/199.m3u8
 [失效] CCTV7  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cctv7.m3u8
 [失效] CCTV8  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/200.m3u8
+[失效] CCTV8  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cctv8.m3u8
 [失效] CCTV9  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/204.m3u8
+        http://45.192.97.170:8880/play/201.m3u8
 [失效] CCTV9  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cctv9.m3u8
-[失效] CCTV16  (HTTP Error 503: Service Unavailable)
-        http://45.192.97.170:8880/play/211.m3u8
+[失效] CCTV10  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/202.m3u8
+[失效] CCTV11  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/203.m3u8
+[失效] CCTV12  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/204.m3u8
+[失效] CCTV13  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/205.m3u8
+[失效] CCTV14  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/206.m3u8
+[失效] CCTV15  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/207.m3u8
+[失效] CCTV16  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/208.m3u8
 [失效] CCTV16  (HTTP Error 503: Service Unavailable)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cctv16.m3u8
 [失效] CCTV16  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/212.m3u8
+        http://45.192.97.170:8880/play/209.m3u8
 [失效] CCTV16  (HTTP Error 503: Service Unavailable)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cctv164k.m3u8
 [失效] CCTV17  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/210.m3u8
+[失效] CCTV4K  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/211.m3u8
+[失效] CCTV8K  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/212.m3u8
+[失效] CCTV8K  (<urlopen error [Errno 111] Connection refused>)
+        http://8w97qbaxj0.apps.bot-hosting.cloud/cctv8k.m3u8
+[失效] CGTN  (<urlopen error [Errno 111] Connection refused>)
         http://45.192.97.170:8880/play/213.m3u8
 [失效] CGTN  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cgtn.m3u8
-[失效] CGTN  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/609017205
 [失效] CGTN 法语  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cgtnfr.m3u8
+[失效] CGTN 俄语  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/215.m3u8
 [失效] CGTN 俄语  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cgtnru.m3u8
 [失效] CGTN 阿拉伯语  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cgtnar.m3u8
 [失效] CGTN 西班牙语  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/220.m3u8
+        http://45.192.97.170:8880/play/217.m3u8
 [失效] CGTN 西班牙语  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cgtnes.m3u8
 [失效] CGTN 纪录  (<urlopen error [Errno 111] Connection refused>)
@@ -51,69 +85,25 @@ dotv 直播源可用性检测报告
 [失效] CCTV 风云剧场  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cctvfyjc.m3u8
 [失效] CCTV 第一剧场  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/220.m3u8
+[失效] CCTV 第一剧场  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cctvdyjc.m3u8
 [失效] CCTV 怀旧剧场  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/221.m3u8
+[失效] CCTV 怀旧剧场  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cctvhjjc.m3u8
-[失效] CCTV1综合  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/608807420
-[失效] CCTV2财经  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/631780532
-[失效] CCTV3综艺  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/624878271
-[失效] CCTV4中文国际  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/631780421
-[失效] CCTV5体育  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/641886683
-[失效] CCTV5+体育赛事  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/641886773
-[失效] CCTV6电影  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/624878396
-[失效] CCTV7国防军事  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/673168121
-[失效] CCTV8电视剧  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/624878356
-[失效] CCTV9纪录  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/673168140
-[失效] CCTV10科教  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/624878405
-[失效] CCTV11戏曲  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/667987558
-[失效] CCTV12社会与法  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/673168185
-[失效] CCTV13新闻  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/608807423
-[失效] CCTV14少儿  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/624878440
-[失效] CCTV15音乐  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/673168223
-[失效] CCTV17农业农村  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/673168256
-[失效] CCTV4欧洲  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/608807419
 [失效] CCTV4欧洲  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.5.31:1342
 [失效] CCTV4欧洲  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.213:4220
 [失效] CCTV4欧洲  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.213:4220
-[失效] CCTV4美洲  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/608807416
 [失效] CCTV4美洲  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.5.32:1343
 [失效] CCTV4美洲  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.214:4220
 [失效] CCTV4美洲  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.214:4220
-[失效] CGTN外语纪录  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/609006487
-[失效] CGTN阿拉伯语  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/609154345
-[失效] CGTN西班牙语  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/609006450
-[失效] CGTN法语  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/609006476
-[失效] CGTN俄语  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/609006446
 [失效] CCTV1  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.73:1102
 [失效] CCTV1  (<urlopen error timed out>)
@@ -126,6 +116,8 @@ dotv 直播源可用性检测报告
         http://219.156.94.94:4022/rtp/225.1.4.74:1103
 [失效] CCTV2  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.154:9144
+[失效] CCTV2  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.60:8084
 [失效] CCTV2  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.60:8084
 [失效] CCTV3  (<urlopen error timed out>)
@@ -140,8 +132,6 @@ dotv 直播源可用性检测报告
         http://219.156.94.94:4022/rtp/225.1.5.30:1333
 [失效] CCTV4  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.156:9160
-[失效] CCTV4  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.105:8092
 [失效] CCTV4  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.105:8092
 [失效] CCTV5  (<urlopen error timed out>)
@@ -156,8 +146,6 @@ dotv 直播源可用性检测报告
         http://219.156.94.94:4022/rtp/225.1.4.75:1104
 [失效] CCTV5+  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.168:9256
-[失效] CCTV5+  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.130:8004
 [失效] CCTV5+  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.130:8004
 [失效] CCTV6  (<urlopen error timed out>)
@@ -186,26 +174,26 @@ dotv 直播源可用性检测报告
         http://219.156.94.94:4022/rtp/225.1.4.77:1106
 [失效] CCTV9  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.161:9200
-[失效] CCTV9  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.62:8112
 [失效] CCTV9  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.62:8112
 [失效] CCTV10  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.78:1107
 [失效] CCTV10  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.162:9208
-[失效] CCTV10  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.63:8116
 [失效] CCTV10  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.63:8116
 [失效] CCTV11  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.215:1268
+[失效] CCTV11  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.152:8120
 [失效] CCTV11  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.152:8120
 [失效] CCTV12  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.79:1108
 [失效] CCTV12  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.164:9224
+[失效] CCTV12  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.64:8124
 [失效] CCTV12  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.64:8124
 [失效] CCTV13  (<urlopen error timed out>)
@@ -226,6 +214,8 @@ dotv 直播源可用性检测报告
         http://111.196.128.44:20000/rtp/239.3.1.65:8132
 [失效] CCTV15  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.216:1269
+[失效] CCTV15  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.153:8136
 [失效] CCTV15  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.153:8136
 [失效] CCTV16  (<urlopen error timed out>)
@@ -238,128 +228,24 @@ dotv 直播源可用性检测报告
         http://219.156.94.94:4022/rtp/225.1.4.226:2506
 [失效] CCTV17  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.170:9272
+[失效] CCTV17  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.151:8144
 [失效] CCTV17  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.151:8144
 
-===== 其他 ===== 失效 339 条
+===== 其他 ===== 失效 178 条
+[失效] CETV-1  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/222.m3u8
 [失效] CETV-1  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cetv1.m3u8
 [失效] 国学频道  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/guoxue.m3u8
-[失效] 老故事  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/884121956
-[失效] 发现之旅  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/624878970
-[失效] 中学生  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/708869532
-[失效] 上视新闻综合  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/651632657
-[失效] 上视东方影视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/617290047
-[失效] 上海第一财经  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/608780988
-[失效] 南京新闻综合频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/838109047
-[失效] 南京教科频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/838153729
-[失效] 南京十八频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/838151753
-[失效] 体育休闲频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/626064707
-[失效] 江苏城市频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/626064714
-[失效] 江苏国际  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/626064674
-[失效] 江苏教育  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/628008321
-[失效] 江苏影视频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/626064697
-[失效] 江苏综艺频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/626065193
-[失效] 公共新闻频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/626064693
-[失效] 盐城新闻综合  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/639731825
-[失效] 淮安新闻综合  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/639731826
-[失效] 泰州新闻综合  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/639731818
-[失效] 连云港新闻综合  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/639731715
-[失效] 宿迁新闻综合  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/639731832
-[失效] 徐州新闻综合  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/639731747
-[失效] 优漫卡通频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/626064703
-[失效] 南通新闻综合  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/955227985
-[失效] 宜兴新闻综合  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/955227996
-[失效] 溧水新闻综合  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/639737327
-[失效] 陕西银龄频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/956909362
-[失效] 陕西都市青春频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/956909358
-[失效] 陕西秦腔频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/956909303
-[失效] 陕西新闻资讯频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/956909289
-[失效] 财富天下  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/956923159
-[失效] 镇江新闻综合  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/639731783
-[失效] 海南广播电视总台新闻频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/962067517
-[失效] 海南广播电视总台自贸频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/962045226
-[失效] 海南广播电视总台社会与法频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/962045223
-[失效] 海南广播电视总台文旅频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/962067526
-[失效] 海南广播电视总台少儿频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/962067523
-[失效] 广东珠江频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/639731952
-[失效] 吉林生活频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968553133
-[失效] 吉林综艺文化频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968553163
-[失效] 吉林乡村频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968553176
-[失效] 吉林影视频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968553184
-[失效] 吉林都市频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968553190
-[失效] 赛事最经典  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/646596895
-[失效] 体坛名栏汇  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/629943305
-[失效] 四海钓鱼  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/637444975
-[失效] 陕西体育休闲频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/956909356
-[失效] 24小时城市联赛轮播台  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/915512915
-[失效] 武术世界  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/958475359
 [失效] 武术世界  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.97:8688
-[失效] 快乐垂钓  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/961930263
 [失效] 快乐垂钓  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.164:8001
 [失效] 快乐垂钓  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.164:8001
-[失效] 建党105周年巡礼  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/713600957
-[失效] 经典香港电影  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/625703337
-[失效] 新片放映厅  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/619495952
-[失效] CHC影迷电影  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/952383261
 [失效] CHC影迷电影  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.207:1260
 [失效] CHC影迷电影  (<urlopen error timed out>)
@@ -372,363 +258,151 @@ dotv 直播源可用性检测报告
         http://219.156.94.94:4022/rtp/225.1.4.209:1262
 [失效] CHC家庭影院  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.240:9820
-[失效] 和美乡途轮播台  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/713591450
-[失效] 南方影视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/614961829
-[失效] CETV1  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/923287154
-[失效] CETV2  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/923287211
-[失效] CETV4  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/923287339
-[失效] 山东教育  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/609154353
-[失效] 书画频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968663920
-[失效] 熊猫频道01高清  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/609158151
-[失效] 熊猫频道1  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/608933610
-[失效] 熊猫频道2  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/608933640
-[失效] 熊猫频道3  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/608934619
-[失效] 熊猫频道4  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/608934721
-[失效] 熊猫频道5  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/608935104
-[失效] 熊猫频道6  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/608935797
-[失效] 熊猫频道7  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/609169286
-[失效] 熊猫频道8  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/609169287
-[失效] 熊猫频道9  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/609169226
-[失效] 熊猫频道10  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/609169285
-[失效] 最强综艺趴  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/629942228
-[失效] 嘉佳卡通  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/614952364
 [失效] 嘉佳卡通  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.92:1121
 [失效] 嘉佳卡通  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.147:9268
 [失效] 嘉佳卡通  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.147:9268
-[失效] 经典动画大集合  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/629942219
-[失效] 新动力量创一流  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/713589837
-[失效] 中华特产  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/959986618
-[失效] 环球旅游  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/958475356
-[失效] 梨园频道  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/961930369
 [失效] 梨园频道  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.115:8832
-[失效] 亚冠精英 迪拜青年国民VS德黑兰独立 全场回放（李霄） 23:45  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968840243
-[失效] 亚冠二级 锡卜VS东孟加拉 全场回放（乔迁） 23:45  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] 亚冠二级 锡卜VS东孟加拉 全场回放（乔迁） 23:45  (timed out)
         http://8.137.121.66:20241/968840453
-[失效] 意甲 萨索洛VS拉齐奥 全场回放（张昊泽） 01:25  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968841971
-[失效] 意甲 萨索洛VS拉齐奥 全场回放（AI智慧观赛） 01:25  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968841995
-[失效] 意甲 萨索洛VS拉齐奥 全场回放（智能解说） 01:25  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968842071
-[失效] WTT 陈熠3-1闯进16强 松岛辉空鏖战五局晋级 全场回放（张靖松） 01:30  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968844686
-[失效] WTT 陈熠3-1闯进16强 松岛辉空鏖战五局晋级 全场回放 01:30  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968845663
-[失效] WTT 陈熠3-1闯进16强 松岛辉空鏖战五局晋级 全场回放（英文解说智能字幕） 01:30  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968844810
-[失效] 亚冠精英 北部区体育VS利雅得新月 全场回放（涂远） 02:00  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] 亚冠精英 北部区体育VS利雅得新月 全场回放（涂远） 02:00  (timed out)
         http://8.137.121.66:20241/968843810
-[失效] 亚冠二级 巴格达警察VS伊尔比德侯赛因 全场回放（洪宇青） 02:00  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968843921
-[失效] 意甲 都灵VS科莫 全场回放（谭逸雄） 03:40  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] 意甲 都灵VS科莫 全场回放（谭逸雄） 03:40  (timed out)
         http://8.137.121.66:20241/968845458
-[失效] 意甲 罗马VS卡利亚里 全场回放（刘腾） 03:40  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968845504
-[失效] NBA 凯尔特人VS篮网 全场回放（刘圳展） 07:25  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] NBA 凯尔特人VS篮网 全场回放（刘圳展） 07:25  (timed out)
         http://8.137.121.66:20241/968849805
-[失效] NBA 凯尔特人VS篮网 全场回放（英文原声） 07:25  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] NBA 凯尔特人VS篮网 全场回放（英文原声） 07:25  (timed out)
         http://8.137.121.66:20241/968851430
-[失效] NBA 马刺VS国王 全场回放（李嘉伟） 07:55  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968849804
-[失效] NBA 马刺VS国王 全场回放（王晓晨） 07:55  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968849774
-[失效] NBA 马刺VS国王 全场回放（英文原声） 07:55  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968851082
-[失效] NBA 尼克斯VS活塞 全场回放（张泽欣） 07:55  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] NBA 尼克斯VS活塞 全场回放（张泽欣） 07:55  (timed out)
         http://8.137.121.66:20241/968850310
-[失效] NBA 尼克斯VS活塞 全场回放（英文原声） 07:55  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968851378
-[失效] 全国游泳锦标赛 潘展乐200米自由泳预赛成绩第一 全场回放（赛场原声） 09:00  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968851963
-[失效] WTA 伊埃拉晋级八强 施耐德东京开门红 【回放】拉克西莫娃2-1亚历山德洛娃（赛场原声） 09:30  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968854208
-[失效] WTA 伊埃拉晋级八强 施耐德东京开门红 【女单第2轮】伊埃拉2-1吉布森（赛场原声） 09:30  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968862756
-[失效] WTA 伊埃拉晋级八强 施耐德东京开门红 【女单第2轮】萨斯诺维奇1-2施耐德（赛场原声） 09:30  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968860228
-[失效] WTA 伊埃拉晋级八强 施耐德东京开门红 【回放】布克沙1-2乔恩特（赛场原声） 09:30  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968856607
-[失效] WTA 伊埃拉晋级八强 施耐德东京开门红 【回放】拉克西莫娃2-1亚历山德洛娃（英文原声） 09:30  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] WTA 伊埃拉晋级八强 施耐德东京开门红 【回放】拉克西莫娃2-1亚历山德洛娃（英文原声） 09:30  (timed out)
         http://8.137.121.66:20241/968853769
-[失效] WTA 伊埃拉晋级八强 施耐德东京开门红 【回放】布克沙1-2乔恩特（英文原声） 09:30  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] WTA 伊埃拉晋级八强 施耐德东京开门红 【回放】布克沙1-2乔恩特（英文原声） 09:30  (timed out)
         http://8.137.121.66:20241/968856700
-[失效] NBA 湖人VS开拓者 全场回放（邢晨） 10:30  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968854413
-[失效] NBA 湖人VS开拓者 全场回放（英文原声） 10:30  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968855686
-[失效] BWF 安东森、乔纳坦横扫顺利晋级 【回放】安东森2-0黄涵瑞（朱胤丞） 21:45  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] BWF 安东森、乔纳坦横扫顺利晋级 【回放】安东森2-0黄涵瑞（朱胤丞） 21:45  (timed out)
         http://8.137.121.66:20241/968863722
-[失效] BWF 安东森、乔纳坦横扫顺利晋级 【回放】乔纳坦2-0博格比耶（朱胤丞） 21:45  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] BWF 安东森、乔纳坦横扫顺利晋级 【回放】乔纳坦2-0博格比耶（朱胤丞） 21:45  (timed out)
         http://8.137.121.66:20241/968864853
-[失效] BWF 安东森、乔纳坦横扫顺利晋级 【回放】李美妙2-0安娜·西斯（杨妮娜） 21:45  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968858181
-[失效] BWF 安东森、乔纳坦横扫顺利晋级 【回放】叶宏蔚/詹又蓁2-0沃克菲尔德/西安·凯利（金子嘉） 21:45  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968859662
-[失效] BWF 安东森、乔纳坦横扫顺利晋级 【回放】李梓嘉2-1郑加恒（赛场原声） 21:45  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968861249
-[失效] BWF 安东森、乔纳坦横扫顺利晋级 【回放】斯瓦比科娃1-2胡达（杨妮娜） 21:45  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] BWF 安东森、乔纳坦横扫顺利晋级 【回放】斯瓦比科娃1-2胡达（杨妮娜） 21:45  (timed out)
         http://8.137.121.66:20241/968862572
-[失效] BWF 安东森、乔纳坦横扫顺利晋级 【回放】普兰诺伊0-2大波波夫（赛场原声） 21:45  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968874135
-[失效] BWF 安东森、乔纳坦横扫顺利晋级 【回放】普拉克里蒂0-2辛杜（赛场原声） 21:45  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968873950
-[失效] BWF 安东森、乔纳坦横扫顺利晋级 【回放】马梅里/坦纳0-2吉凯尔/德尔吕 21:45  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968866025
-[失效] BWF 安东森、乔纳坦横扫顺利晋级 【全场回放】一号场地（赛场原声）（一） 21:45  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968866195
-[失效] BWF 安东森、乔纳坦横扫顺利晋级 【全场回放】二号场地（赛场原声）（一） 21:45  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968866111
-[失效] BWF 安东森、乔纳坦横扫顺利晋级 【全场回放】三号场地（赛场原声）（一） 21:45  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968865649
-[失效] BWF 安东森、乔纳坦横扫顺利晋级 2026BWF海露羽毛球公开赛Day2三号场地全场回放（赛场原声）（三） 21:45  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] BWF 安东森、乔纳坦横扫顺利晋级 2026BWF海露羽毛球公开赛Day2三号场地全场回放（赛场原声）（三） 21:45  (timed out)
         http://8.137.121.66:20241/968874468
-[失效] BWF 安东森、乔纳坦横扫顺利晋级 2026BWF海露羽毛球公开赛Day2三号场地全场回放（赛场原声）（二） 21:45  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968874494
-[失效] BWF 安东森、乔纳坦横扫顺利晋级 2026BWF海露羽毛球公开赛Day2二号场地全场回放（赛场原声）（二） 21:45  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968875330
-[失效] BWF 安东森、乔纳坦横扫顺利晋级 2026BWF海露羽毛球公开赛Day2一号场地全场回放（赛场原声）（二） 21:45  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968876407
-[失效] 亚冠精英 大阪钢巴VS武里南联 全场回放（盛斌） 17:45  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968862132
-[失效] 亚冠精英 鹿岛鹿角VS浦项铁人 全场回放（鲁靖明） 17:45  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968862000
-[失效] 东亚超级联赛 桃园璞园领航猿VS琉球黄金国王 全场回放（季孟年） 18:50  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968864664
-[失效] 东亚超级联赛 桃园璞园领航猿VS琉球黄金国王 全场回放（英文解说） 18:50  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968865640
-[失效] 东亚超级联赛 桃园璞园领航猿VS琉球黄金国王 全场回放（赛场原声） 18:50  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] 东亚超级联赛 桃园璞园领航猿VS琉球黄金国王 全场回放（赛场原声） 18:50  (timed out)
         http://8.137.121.66:20241/968865160
-[失效] WTT 王曼昱横扫 蒯曼、周启豪鏖战进16强 全场回放（周冠达、侯英超、程靖淇） 19:00  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968867454
-[失效] WTT 王曼昱横扫 蒯曼、周启豪鏖战进16强 全场回放 19:00  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968871781
-[失效] WTT 王曼昱横扫 蒯曼、周启豪鏖战进16强 全场回放（CCTV5） 19:00  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968865664
-[失效] WTT 王曼昱横扫 蒯曼、周启豪鏖战进16强 全场回放（英文解说智能字幕） 19:00  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968866279
-[失效] WTT 王曼昱横扫 蒯曼、周启豪鏖战进16强 全场回放（智能解说） 19:00  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968866226
-[失效] WTT 王曼昱横扫 蒯曼、周启豪鏖战进16强 全场回放（AI观赛） 19:00  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968866228
-[失效] 全国游泳锦标赛 张展硕、李冰洁夺得男女子200米自由泳冠军 全场回放（赛场原声） 19:00  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968864421
-[失效] 浙BA 永康73-71丽水 2026浙江省城市篮球联赛小组赛第8轮全场回放：永康VS丽水（赛场原声） 19:30  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968865095
-[失效] 浙BA 台州78-80杭州 2026浙江省城市篮球联赛小组赛第8轮全场回放：台州VS杭州（赛场原声） 19:30  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968865571
-[失效] CBA 深圳马可波罗VS山西汾酒 全场回放（庄宁宇、丁伟） 19:25  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968863741
-[失效] CBA 深圳马可波罗VS山西汾酒 全场回放（李嘉伟） 19:25  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] CBA 深圳马可波罗VS山西汾酒 全场回放（李嘉伟） 19:25  (timed out)
         http://8.137.121.66:20241/968863730
-[失效] CBA 深圳马可波罗VS山西汾酒 全场回放（石楷文） 19:25  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968863742
-[失效] CBA 深圳马可波罗VS山西汾酒 全场回放（赛场原声） 19:25  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968863772
-[失效] 东亚超级联赛 澳门昊骏VS长崎维尔卡 全场回放（周鹏） 19:50  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] 东亚超级联赛 澳门昊骏VS长崎维尔卡 全场回放（周鹏） 19:50  (timed out)
         http://8.137.121.66:20241/968864682
-[失效] 东亚超级联赛 澳门昊骏VS长崎维尔卡 全场回放（英文解说） 19:50  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968865218
-[失效] 东亚超级联赛 澳门昊骏VS长崎维尔卡 全场回放（赛场原声） 19:50  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968865952
-[失效] 亚冠二级 电讯体工VS首尔 全场回放（刘洋） 20:00  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] 亚冠二级 电讯体工VS首尔 全场回放（刘洋） 20:00  (timed out)
         http://8.137.121.66:20241/968864171
-[失效] 亚冠二级 万隆VS墨尔本胜利 全场回放（张天翼） 20:10  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968863988
-[失效] 亚冠二级 万隆VS墨尔本胜利 全场回放（AI智慧观赛） 20:10  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968864062
-[失效] 亚冠二级 万隆VS墨尔本胜利 全场回放（智能解说） 20:10  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968864023
-[失效] 亚冠二级 戈尔戈哈尔锡尔詹VS阿尔卡达格 全场回放（乔迁） 21:30  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] 亚冠二级 戈尔戈哈尔锡尔詹VS阿尔卡达格 全场回放（乔迁） 21:30  (timed out)
         http://8.137.121.66:20241/968865488
-[失效] 亚冠二级 纳萨夫VS科威特竞技 全场回放（吴子越） 21:30  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968865586
-[失效] 亚冠二级 阿尔纳达VS赖扬 全场回放（鹿中原） 23:45  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968867576
-[失效] 亚冠二级 阿布扎比半岛足球俱乐部VS穆哈拉格 全场回放（周楚雄） 23:45  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968867320
-[失效] 意甲 威尼斯VS国际米兰 全场回放（刘腾、贺宇） 01:25  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] 意甲 威尼斯VS国际米兰 全场回放（刘腾、贺宇） 01:25  (timed out)
         http://8.137.121.66:20241/968871621
-[失效] 意甲 威尼斯VS国际米兰 全场回放（AI智慧观赛） 01:25  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968871680
-[失效] 意甲 威尼斯VS国际米兰 全场回放 01:25  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968876996
-[失效] 意甲 帕尔马VS乌迪内斯 全场回放（乔迁） 01:25  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968871555
-[失效] 意甲 帕尔马VS乌迪内斯 全场回放（智能解说） 01:25  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] 意甲 帕尔马VS乌迪内斯 全场回放（智能解说） 01:25  (timed out)
         http://8.137.121.66:20241/968871561
-[失效] 意甲 帕尔马VS乌迪内斯 全场回放（AI观赛） 01:25  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968871565
-[失效] 意甲 AC米兰VS博洛尼亚 全场回放（石庆圣、李彦） 01:25  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968871842
-[失效] WTT 西蒙·高茨零封张本 弗朗西斯卡逆转晋级 全场回放（李柯鑫） 01:30  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] WTT 西蒙·高茨零封张本 弗朗西斯卡逆转晋级 全场回放（李柯鑫） 01:30  (timed out)
         http://8.137.121.66:20241/968874109
-[失效] WTT 西蒙·高茨零封张本 弗朗西斯卡逆转晋级 全场回放 01:30  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968874327
-[失效] WTT 西蒙·高茨零封张本 弗朗西斯卡逆转晋级 全场回放（英文解说智能字幕） 01:30  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968874112
-[失效] 亚冠二级 费萨里体育VS布赖代合作 全场回放（洪宇青） 02:00  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968872411
-[失效] 亚冠二级 永恒体育VS阿布扎比统一 全场回放（刘一臻） 02:00  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968872192
-[失效] 意甲 蒙扎VS那不勒斯 全场回放（鲁靖明） 03:30  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968874046
-[失效] 意甲 热那亚VS尤文图斯 全场回放（孙雨轩、王宇） 03:40  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] 意甲 热那亚VS尤文图斯 全场回放（孙雨轩、王宇） 03:40  (timed out)
         http://8.137.121.66:20241/968874099
-[失效] NBA 骑士VS奇才 全场回放（刘圳展） 06:55  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968876622
-[失效] NBA 骑士VS奇才 全场回放（英文原声） 06:55  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968878574
-[失效] NBA 老鹰VS热火 全场回放（周赫） 06:55  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968876461
-[失效] NBA 老鹰VS热火 全场回放（英文原声） 06:55  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968878589
-[失效] NBA 步行者VS76人 全场回放（李天宇、陈正昊、殷文玉、廖昕阳） 06:55  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968878443
-[失效] NBA 步行者VS76人 全场回放（英文原声） 06:55  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968885301
-[失效] NBA 步行者VS76人 全场回放（莫俊祺） 06:55  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968878760
-[失效] NBA 步行者VS76人 全场回放（洪荒） 06:55  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968878678
-[失效] NBA 活塞VS黄蜂 全场回放（张泽欣） 06:55  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968876994
-[失效] NBA 活塞VS黄蜂 全场回放（英文原声） 06:55  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] NBA 活塞VS黄蜂 全场回放（英文原声） 06:55  (timed out)
         http://8.137.121.66:20241/968880079
-[失效] NBA 猛龙VS魔术 全场回放（罗森） 07:25  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968877638
-[失效] NBA 猛龙VS魔术 全场回放（英文原声） 07:25  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968879255
-[失效] NBA 雄鹿VS火箭 全场回放（邵化谦、周鹏） 07:55  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968878943
-[失效] NBA 雄鹿VS火箭 全场回放（英文原声） 07:55  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968881115
-[失效] NBA 公牛VS尼克斯 全场回放（王琰博） 07:55  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968878948
-[失效] NBA 公牛VS尼克斯 全场回放（英文原声） 07:55  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968886579
-[失效] NBA 森林狼VS勇士 全场回放（姜帆、马健、闫宇峰、拜月宁） 07:30  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] NBA 森林狼VS勇士 全场回放（姜帆、马健、闫宇峰、拜月宁） 07:30  (timed out)
         http://8.137.121.66:20241/968879775
-[失效] NBA 森林狼VS勇士 全场回放（董倡硕） 07:30  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968879290
-[失效] NBA 森林狼VS勇士 全场回放（英文原声） 07:30  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968880970
-[失效] NBA 鹈鹕VS掘金 全场回放（王凯） 07:55  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968878658
-[失效] NBA 鹈鹕VS掘金 全场回放（英文原声） 07:55  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] NBA 鹈鹕VS掘金 全场回放（英文原声） 07:55  (timed out)
         http://8.137.121.66:20241/968881038
-[失效] NBA 爵士VS马刺 全场回放（连睿） 08:55  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968881079
-[失效] NBA 爵士VS马刺 全场回放（王晓晨） 08:55  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] NBA 爵士VS马刺 全场回放（王晓晨） 08:55  (timed out)
         http://8.137.121.66:20241/968881096
-[失效] NBA 爵士VS马刺 全场回放（英文原声） 08:55  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] NBA 爵士VS马刺 全场回放（英文原声） 08:55  (timed out)
         http://8.137.121.66:20241/968886541
-[失效] NBA 独行侠VS雷霆 全场回放（庄宁宇、郭维盛） 09:25  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968881420
-[失效] NBA 快船VS湖人 全场回放（孙博、曾令旭、季孟年、秋童） 10:00  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968883990
-[失效] NBA 快船VS湖人 全场回放（英文原声） 10:00  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968886491
-[失效] 中国围棋甲级联赛 围甲总决赛第一轮 解说 14:00  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968822990
-[失效] 亚冠二级 阿德莱德联VS狮城水手 鹿中原 15:30  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968634821
-[失效] BWF 李梓嘉PK奈良冈功大 1号场地 17:00  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] BWF 李梓嘉止步 安东森冲击八强 1号场地 17:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968793243
-[失效] BWF 李梓嘉PK奈良冈功大 2号场地 17:10  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] BWF 李梓嘉止步 安东森冲击八强 2号场地 17:10  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968793286
-[失效] BWF 李梓嘉PK奈良冈功大 3号场地 17:10  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] BWF 李梓嘉止步 安东森冲击八强 3号场地 17:10  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968793305
-[失效] CBA 《篮色狂想》第二期 杨健 孙悦 李根 杨毅 17:30  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968853548
-[失效] 亚冠二级 江原VS古晋 刘洋 17:45  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968635168
-[失效] 亚冠二级 淡滨尼流浪者VS柴桢 张天翼 17:45  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968634857
-[失效] 短道速滑世界巡回赛 短道速滑世界巡回赛 温哥华站 2 解说 18:04  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968880397
-[失效] WTT 温瑞博首轮迎战梁靖崑 向鹏vs奥恰洛夫 CCTV5+ 19:00  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968879710
-[失效] 浙BA 舟山VS临安 赛场原声 19:30  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968789036
-[失效] 浙BA 绍兴VS临海 赛场原声 19:30  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968789061
-[失效] CBA 北京控股VS四川锦城 邢晨 19:20  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968847005
-[失效] CBA 新疆广汇能源VS南京同曦宙光 刘圳展 郭维盛 19:40  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/968847999
-[失效] 亚冠二级 金边皇冠VS杰志 吴子越 20:00  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] 亚冠二级 江原VS古晋 全场回放（刘洋） 17:45  (timed out)
+        http://8.137.121.66:20241/968893759
+[失效] 亚冠二级 江原VS古晋 全场回放 17:45  (timed out)
+        http://8.137.121.66:20241/968896095
+[失效] 亚冠二级 金边皇冠VS杰志 吴子越 20:00  (timed out)
         http://8.137.121.66:20241/968635293
-[失效] 亚冠二级 大埔VS巴吞联 周楚雄 20:00  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] 亚冠二级 大埔VS巴吞联 周楚雄 20:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968635199
-[失效] 意甲 弗罗西诺内VS莱切 涂远 01:15  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] 意甲 弗罗西诺内VS莱切 涂远 01:15  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968788480
-[失效] 咪咕体育日报 undefined 咪咕体育日报 第226期 08:00  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] 国际自盟场地自行车世锦赛 国际自盟场地自行车世锦赛-2 解说 07:26  (timed out)
+        http://8.137.121.66:20241/968886419
+[失效] NBA 老鹰VS骑士 英文原声 07:55  (timed out)
+        http://8.137.121.66:20241/968750513
+[失效] NBA 鹈鹕VS国王 英文原声 07:55  (timed out)
+        http://8.137.121.66:20241/968750584
+[失效] UFC BJJ UFC巴西柔术大赛第13期：塔克特VS罗德里格斯 何鹏 07:55  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/968886267
+[失效] UFC BJJ UFC巴西柔术大赛第13期：塔克特VS罗德里格斯 英文原声 07:55  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/968886303
+[失效] 咪咕体育日报 undefined 咪咕体育日报 第226期 08:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968047985
-[失效] 跑酷世界杯 跑酷世界杯北京站day1 北京站 11:10  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] 中国体育舞蹈联合会系列赛 中国体育舞蹈公开系列赛北京站Day1 北京站 08:25  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/968879813
+[失效] 攀岩系列赛 全国青年攀岩锦标赛 解说 09:00  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/968889196
+[失效] WTA 冲四强！莱巴交锋费尔南德斯 赛场原声 09:30  (timed out)
+        http://8.137.121.66:20241/968661103
+[失效] 跑酷世界杯 跑酷世界杯北京站day1 北京站 11:10  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968572944
-[失效] 跑酷世界杯 跑酷世界杯北京站day1 北京站 11:10  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] 跑酷世界杯 跑酷世界杯北京站day1 北京站 11:10  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968884770
-[失效] 琼超 三沙VS五指山 赛场原声 15:30  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] 四姑娘山登山大会 第九届四姑娘山登山大会 解说 14:00  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/968891023
+[失效] 琼超 三沙VS五指山 赛场原声 15:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968802820
-[失效] 浙BA 宁海VS衢州 赛场原声 19:30  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] 短道速滑世界巡回赛 短道速滑世界巡回赛 加拿大温哥华站 解说 18:00  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/968886485
+[失效] WTT 孙颖莎冲八强 王曼昱迎战陈熠 周冠达 周雨 程靖淇 18:00  (timed out)
+        http://8.137.121.66:20241/968633695
+[失效] 浙BA 宁海VS衢州 赛场原声 19:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968789109
-[失效] 浙BA 金华VS海宁 赛场原声 19:30  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] 浙BA 金华VS海宁 赛场原声 19:30  (timed out)
         http://8.137.121.66:20241/968789156
-[失效] CBA 长白山恩都里VS深圳马可波罗 王冠证 19:20  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] CBA 广州智都集团VS山西汾酒 吕程 巩晓彬 周鹏 19:00  (timed out)
+        http://8.137.121.66:20241/968847397
+[失效] CBA 广州智都集团VS山西汾酒 赛场原声 19:25  (timed out)
+        http://8.137.121.66:20241/968847441
+[失效] CBA 长白山恩都里VS深圳马可波罗 王冠证 19:20  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968847456
-[失效] CBA 宁波町渥VS辽宁本钢 孙博 丁彦雨航 闫宇峰 19:00  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] CBA 长白山恩都里VS深圳马可波罗 赛场原声 19:25  (timed out)
+        http://8.137.121.66:20241/968847494
+[失效] CBA 宁波町渥VS辽宁本钢 孙博 丁彦雨航 闫宇峰 19:00  (timed out)
         http://8.137.121.66:20241/968847505
-[失效] CBA 天津先行者VS浙江浙商证券 姜帆 19:20  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] CBA 宁波町渥VS辽宁本钢 宁波主队解说 19:25  (timed out)
+        http://8.137.121.66:20241/968847517
+[失效] CBA 天津先行者VS浙江浙商证券 姜帆 19:20  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968847560
-[失效] CBA 浙江稠州金租VS上海久事 徐秦威 陈正昊 王羽希 19:15  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] CBA 浙江稠州金租VS上海久事 徐秦威 陈正昊 王羽希 19:15  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968847592
-[失效] 楚超 荆州恒隆队VS武汉华工科技队 赛场原声 19:45  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] 楚超 荆州恒隆队VS武汉华工科技队 赛场原声 19:45  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968549101
-[失效] BWF 海露羽毛球公开赛第四日 1号场地 20:00  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] BWF 海露羽毛球公开赛第四日 1号场地 20:00  (timed out)
         http://8.137.121.66:20241/968793349
-[失效] BWF 海露羽毛球公开赛第四日 2号场地 20:10  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] BWF 海露羽毛球公开赛第四日 2号场地 20:10  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968793396
-[失效] BWF 海露羽毛球公开赛第四日 3号场地 20:10  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] BWF 海露羽毛球公开赛第四日 3号场地 20:10  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968793408
-[失效] 浪琴环球马术冠军赛 拉巴特站GCL团体赛 中文解说原声 21:20  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] BWF 海露羽毛球公开赛第四日 1号场地英文视角 20:00  (timed out)
+        http://8.137.121.66:20241/968793446
+[失效] 浪琴环球马术冠军赛 拉巴特站GCL团体赛 中文解说原声 21:20  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968790960
-[失效] 浪琴环球马术冠军赛 拉巴特站GCL团体赛 清流原声 21:20  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] 浪琴环球马术冠军赛 拉巴特站GCL团体赛 清流原声 21:20  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968790881
-[失效] 浪琴环球马术冠军赛 拉巴特站GCL团体赛 英文解说原声 21:20  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] 浪琴环球马术冠军赛 拉巴特站GCL团体赛 英文解说原声 21:20  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968790926
-[失效] ONE冠军赛 ONE周五格斗夜176：兰邦VS汤普森 赵凡尘 21:25  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] ONE冠军赛 ONE周五格斗夜176：兰邦VS汤普森 赵凡尘 21:25  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968886414
-[失效] ONE冠军赛 ONE周五格斗夜176：兰邦VS汤普森 英文原声 21:25  (<urlopen error [Errno 101] Network is unreachable>)
+[失效] ONE冠军赛 ONE周五格斗夜176：兰邦VS汤普森 英文原声 21:25  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968886422
 [失效] 兵器科技  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.223:9696
@@ -758,12 +432,12 @@ dotv 直播源可用性检测报告
         http://219.156.94.94:4022/rtp/225.1.4.173:1712
 [失效] 中国教育1台  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.181:9360
+[失效] 中国教育1台  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.57:8152
 [失效] 中国教育1台  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.57:8152
 [失效] 中国教育2台  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.165:1206
-[失效] 中国教育2台  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.54:4120
 [失效] 中国教育2台  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.54:4120
 [失效] 中国教育4台  (<urlopen error timed out>)
@@ -786,30 +460,22 @@ dotv 直播源可用性检测报告
         http://114.254.38.234:8888/rtp/239.3.1.249:8001
 [失效] 淘4K  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.249:8001
-[失效] 淘娱乐  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.100:8001
 [失效] 淘娱乐  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.100:8001
 [失效] 淘BABY  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.238:8001
 [失效] 淘BABY  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.238:8001
-[失效] 淘萌宠  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.102:8001
 [失效] 淘萌宠  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.102:8001
 [失效] 金鹰纪实  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.172:1711
 [失效] 金鹰纪实  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.194:9464
-[失效] 金鹰纪实  (timed out)
-        http://144.255.16.190:6688/udp/239.21.1.170:5002
 [失效] 金鹰纪实  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.58:8156
 [失效] 金鹰纪实  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.58:8156
-[失效] 纪实科教  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.115:8000
 [失效] 纪实科教  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.115:8000
 [失效] 睛彩青少  (HTTP Error 503: Service Unavailable)
@@ -858,8 +524,6 @@ dotv 直播源可用性检测报告
         http://219.156.94.94:4022/rtp/225.1.4.49:1078
 [失效] 金鹰卡通  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.172:9288
-[失效] 金鹰卡通  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.51:9252
 [失效] 金鹰卡通  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.51:9252
 [失效] 中国交通  (HTTP Error 503: Service Unavailable)
@@ -872,14 +536,14 @@ dotv 直播源可用性检测报告
         http://114.254.38.234:8888/rtp/239.3.1.236:2000
 [失效] 华数4K  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.236:2000
+[失效] 华数星影  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.94:4120
 [失效] 华数星影  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.94:4120
 [失效] 华数动作影院  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.92:4120
 [失效] 华数动作影院  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.92:4120
-[失效] 华数喜剧影院  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.91:4120
 [失效] 华数喜剧影院  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.91:4120
 [失效] 华数家庭影院  (HTTP Error 503: Service Unavailable)
@@ -898,10 +562,16 @@ dotv 直播源可用性检测报告
         http://114.254.38.234:8888/rtp/239.3.1.194:9020
 [失效] 华数热播剧场  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.194:9020
+[失效] 华数军旅剧场  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.68:4120
 [失效] 华数军旅剧场  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.68:4120
+[失效] 华数城市剧场  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.67:4120
 [失效] 华数城市剧场  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.67:4120
+[失效] 华数武侠剧场  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.90:4120
 [失效] 华数武侠剧场  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.90:4120
 [失效] 华数魅力时尚  (<urlopen error timed out>)
@@ -921,9 +591,7 @@ dotv 直播源可用性检测报告
 [失效] 华数动画  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.80:4120
 
-===== 卫视 ===== 失效 201 条
-[失效] 北京卫视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/630287636
+===== 卫视 ===== 失效 181 条
 [失效] 北京卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.81:1110
 [失效] 北京卫视  (<urlopen error timed out>)
@@ -932,12 +600,8 @@ dotv 直播源可用性检测报告
         http://114.254.38.234:8888/rtp/239.3.1.241:8000
 [失效] 北京卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.241:8000
-[失效] 江苏卫视  (timed out)
-        http://45.192.97.170:8880/play/228.m3u8
 [失效] 江苏卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/jsws.m3u8
-[失效] 江苏卫视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/623899368
 [失效] 江苏卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.83:1112
 [失效] 江苏卫视  (<urlopen error timed out>)
@@ -947,21 +611,19 @@ dotv 直播源可用性检测报告
 [失效] 江苏卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.135:8028
 [失效] 东方卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/229.m3u8
+        http://45.192.97.170:8880/play/226.m3u8
 [失效] 东方卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/dfws.m3u8
-[失效] 东方卫视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/651632648
 [失效] 东方卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.85:1114
 [失效] 东方卫视  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.175:9312
+[失效] 东方卫视  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.136:8032
 [失效] 东方卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.136:8032
 [失效] 浙江卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/230.m3u8
-[失效] 浙江卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/zjws.m3u8
+        http://45.192.97.170:8880/play/227.m3u8
 [失效] 浙江卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.84:1113
 [失效] 浙江卫视  (<urlopen error timed out>)
@@ -970,6 +632,8 @@ dotv 直播源可用性检测报告
         http://114.254.38.234:8888/rtp/239.3.1.137:8036
 [失效] 浙江卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.137:8036
+[失效] 湖南卫视  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/228.m3u8
 [失效] 湖南卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/hnws.m3u8
 [失效] 湖南卫视  (<urlopen error timed out>)
@@ -981,11 +645,9 @@ dotv 直播源可用性检测报告
 [失效] 湖南卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.132:8012
 [失效] 湖北卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/232.m3u8
+        http://45.192.97.170:8880/play/229.m3u8
 [失效] 湖北卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/hbws.m3u8
-[失效] 湖北卫视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/947472496
 [失效] 湖北卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.89:1118
 [失效] 湖北卫视  (<urlopen error timed out>)
@@ -995,11 +657,9 @@ dotv 直播源可用性检测报告
 [失效] 湖北卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.138:8044
 [失效] 广东卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/233.m3u8
+        http://45.192.97.170:8880/play/230.m3u8
 [失效] 广东卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/gdws.m3u8
-[失效] 广东卫视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/608831231
 [失效] 广东卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.166:1207
 [失效] 广东卫视  (<urlopen error timed out>)
@@ -1009,7 +669,7 @@ dotv 直播源可用性检测报告
 [失效] 广东卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.142:8048
 [失效] 广西卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/234.m3u8
+        http://45.192.97.170:8880/play/231.m3u8
 [失效] 广西卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/gxws.m3u8
 [失效] 广西卫视  (<urlopen error timed out>)
@@ -1021,11 +681,9 @@ dotv 直播源可用性检测报告
 [失效] 广西卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.39:8300
 [失效] 黑龙江卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/235.m3u8
+        http://45.192.97.170:8880/play/232.m3u8
 [失效] 黑龙江卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/hljws.m3u8
-[失效] 黑龙江卫视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/738906901
 [失效] 黑龙江卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.91:1120
 [失效] 黑龙江卫视  (<urlopen error timed out>)
@@ -1037,11 +695,9 @@ dotv 直播源可用性检测报告
 [失效] 黑龙江卫视  (HTTP Error 404: Not Found)
         http://113.57.140.161:10081/newlive/live/hls/38/live.m3u8
 [失效] 海南卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/236.m3u8
+        http://45.192.97.170:8880/play/233.m3u8
 [失效] 海南卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/hainanws.m3u8
-[失效] 海南卫视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/947472502
 [失效] 海南卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.195:1310
 [失效] 海南卫视  (<urlopen error timed out>)
@@ -1051,21 +707,17 @@ dotv 直播源可用性检测报告
 [失效] 海南卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.45:8304
 [失效] 重庆卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/237.m3u8
+        http://45.192.97.170:8880/play/234.m3u8
 [失效] 重庆卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cqws.m3u8
-[失效] 重庆卫视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/738910914
 [失效] 重庆卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.157:1308
 [失效] 重庆卫视  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.174:9304
-[失效] 重庆卫视  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.122:8160
 [失效] 重庆卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.122:8160
 [失效] 深圳卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/238.m3u8
+        http://45.192.97.170:8880/play/235.m3u8
 [失效] 深圳卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/szws.m3u8
 [失效] 深圳卫视  (<urlopen error timed out>)
@@ -1077,7 +729,7 @@ dotv 直播源可用性检测报告
 [失效] 深圳卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.134:8020
 [失效] 四川卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/239.m3u8
+        http://45.192.97.170:8880/play/236.m3u8
 [失效] 四川卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/scws.m3u8
 [失效] 四川卫视  (<urlopen error timed out>)
@@ -1089,11 +741,9 @@ dotv 直播源可用性检测报告
 [失效] 四川卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.29:8288
 [失效] 河南卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/240.m3u8
+        http://45.192.97.170:8880/play/237.m3u8
 [失效] 河南卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/henanws.m3u8
-[失效] 河南卫视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/790187291
 [失效] 河南卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.98:1127
 [失效] 河南卫视  (<urlopen error timed out>)
@@ -1105,11 +755,9 @@ dotv 直播源可用性检测报告
 [失效] 河南卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.27:8128
 [失效] 东南卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/241.m3u8
+        http://45.192.97.170:8880/play/238.m3u8
 [失效] 东南卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/dnws.m3u8
-[失效] 东南卫视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/849116810
 [失效] 东南卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.228:1274
 [失效] 东南卫视  (<urlopen error timed out>)
@@ -1119,45 +767,39 @@ dotv 直播源可用性检测报告
 [失效] 东南卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.156:8148
 [失效] 贵州卫视  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/239.m3u8
+[失效] 贵州卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/gzws.m3u8
 [失效] 贵州卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.122:1302
 [失效] 贵州卫视  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.180:9352
+[失效] 贵州卫视  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.149:8076
 [失效] 贵州卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.149:8076
 [失效] 贵州卫视  (HTTP Error 404: Not Found)
         http://113.57.140.161:10081/newlive/live/hls/39/live.m3u8
 [失效] 江西卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/243.m3u8
+        http://45.192.97.170:8880/play/240.m3u8
 [失效] 江西卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/jxws.m3u8
-[失效] 江西卫视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/783847495
 [失效] 江西卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.139:1305
 [失效] 江西卫视  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.54:8344
-[失效] 江西卫视  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.123:8164
 [失效] 江西卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.123:8164
 [失效] 辽宁卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/244.m3u8
+        http://45.192.97.170:8880/play/241.m3u8
 [失效] 辽宁卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/lnws.m3u8
-[失效] 辽宁卫视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/630291707
 [失效] 辽宁卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.167:1208
 [失效] 辽宁卫视  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.173:9296
-[失效] 辽宁卫视  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.210:8056
 [失效] 辽宁卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.210:8056
-[失效] 安徽卫视  (timed out)
-        http://45.192.97.170:8880/play/245.m3u8
 [失效] 安徽卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.87:1116
 [失效] 安徽卫视  (<urlopen error timed out>)
@@ -1170,8 +812,6 @@ dotv 直播源可用性检测报告
         http://113.57.140.161:10081/newlive/live/hls/40/live.m3u8
 [失效] 河北卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/hebws.m3u8
-[失效] 河北卫视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/962042070
 [失效] 河北卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.123:1304
 [失效] 河北卫视  (<urlopen error timed out>)
@@ -1181,7 +821,7 @@ dotv 直播源可用性检测报告
 [失效] 河北卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.148:8072
 [失效] 山东卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/247.m3u8
+        http://45.192.97.170:8880/play/244.m3u8
 [失效] 山东卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/sdws.m3u8
 [失效] 山东卫视  (<urlopen error timed out>)
@@ -1193,6 +833,8 @@ dotv 直播源可用性检测报告
 [失效] 山东卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.209:8052
 [失效] 天津卫视  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/245.m3u8
+[失效] 天津卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/tjws.m3u8
 [失效] 天津卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.86:1115
@@ -1203,9 +845,7 @@ dotv 直播源可用性检测报告
 [失效] 天津卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.141:1234
 [失效] 吉林卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/249.m3u8
-[失效] 吉林卫视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/947472500
+        http://8w97qbaxj0.apps.bot-hosting.cloud/jlws.m3u8
 [失效] 吉林卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.174:1309
 [失效] 吉林卫视  (<urlopen error timed out>)
@@ -1215,9 +855,9 @@ dotv 直播源可用性检测报告
 [失效] 吉林卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.240:8172
 [失效] 陕西卫视  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/247.m3u8
+[失效] 陕西卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/saxws.m3u8
-[失效] 陕西卫视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/738910838
 [失效] 陕西卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.39:1068
 [失效] 陕西卫视  (HTTP Error 503: Service Unavailable)
@@ -1225,27 +865,25 @@ dotv 直播源可用性检测报告
 [失效] 陕西卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.41:8140
 [失效] 宁夏卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/251.m3u8
+        http://45.192.97.170:8880/play/248.m3u8
 [失效] 宁夏卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/nxws.m3u8
-[失效] 宁夏卫视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/738910535
 [失效] 宁夏卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.43:1072
 [失效] 宁夏卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.46:8124
 [失效] 宁夏卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.46:8124
-[失效] 内蒙古卫视  (timed out)
-        http://45.192.97.170:8880/play/252.m3u8
 [失效] 内蒙古卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/nmgws.m3u8
+        http://45.192.97.170:8880/play/249.m3u8
 [失效] 内蒙古卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.45:1074
 [失效] 内蒙古卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.43:8176
 [失效] 内蒙古卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.43:8176
+[失效] 云南卫视  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/250.m3u8
 [失效] 云南卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/ynws.m3u8
 [失效] 云南卫视  (<urlopen error timed out>)
@@ -1254,8 +892,8 @@ dotv 直播源可用性检测报告
         http://114.254.38.234:8888/rtp/239.3.1.26:8108
 [失效] 云南卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.26:8108
-[失效] 山西卫视  (timed out)
-        http://45.192.97.170:8880/play/254.m3u8
+[失效] 山西卫视  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/251.m3u8
 [失效] 山西卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/shanxiws.m3u8
 [失效] 山西卫视  (<urlopen error timed out>)
@@ -1267,9 +905,9 @@ dotv 直播源可用性检测报告
 [失效] 山西卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.42:8172
 [失效] 青海卫视  (<urlopen error [Errno 111] Connection refused>)
+        http://45.192.97.170:8880/play/252.m3u8
+[失效] 青海卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/qhws.m3u8
-[失效] 青海卫视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/947472506
 [失效] 青海卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.44:1073
 [失效] 青海卫视  (HTTP Error 503: Service Unavailable)
@@ -1277,7 +915,9 @@ dotv 直播源可用性检测报告
 [失效] 青海卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.44:8184
 [失效] 西藏卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/256.m3u8
+        http://45.192.97.170:8880/play/253.m3u8
+[失效] 西藏卫视  (<urlopen error [Errno 111] Connection refused>)
+        http://8w97qbaxj0.apps.bot-hosting.cloud/xizangws.m3u8
 [失效] 西藏卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.46:1075
 [失效] 西藏卫视  (HTTP Error 503: Service Unavailable)
@@ -1292,24 +932,16 @@ dotv 直播源可用性检测报告
         http://114.254.38.234:8888/rtp/239.3.1.48:8160
 [失效] 新疆卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.48:8160
-[失效] 大湾区卫视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/608917627
-[失效] 海峡卫视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/849119120
-[失效] 中国农林卫视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/956904896
-[失效] 兵团卫视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/956923145
 [失效] 兵团卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.97:1126
 [失效] 兵团卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.144:4120
 [失效] 兵团卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.144:4120
-[失效] 三沙卫视  (<urlopen error [Errno 101] Network is unreachable>)
-        http://8.137.121.66:20241/961023778
 [失效] 三沙卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.234:1280
+[失效] 三沙卫视  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.155:4120
 [失效] 三沙卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.155:4120
 [失效] 甘肃卫视  (<urlopen error timed out>)
@@ -1320,8 +952,6 @@ dotv 直播源可用性检测报告
         http://111.196.128.44:20000/rtp/239.3.1.49:8188
 [失效] 山东教育卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.164:1205
-[失效] 山东教育卫视  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.52:4120
 [失效] 山东教育卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.52:4120
 
