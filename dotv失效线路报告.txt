@@ -3,11 +3,7 @@ dotv 直播源可用性检测报告
 探测并发 64 | 超时 7s
 注意: HTTP 探测仅验证地址可达, 不代表画面内容一定正常。
 
-===== 央视 ===== 失效 114 条
-[失效] CCTV3  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/cctv3.m3u8
-[失效] CCTV5  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/cctv5.m3u8
+===== 央视 ===== 失效 106 条
 [失效] CCTV5+  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cctv5p.m3u8
 [失效] CCTV6  (<urlopen error [Errno 111] Connection refused>)
@@ -22,18 +18,12 @@ dotv 直播源可用性检测报告
         http://8w97qbaxj0.apps.bot-hosting.cloud/cctv16.m3u8
 [失效] CCTV16  (HTTP Error 503: Service Unavailable)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cctv164k.m3u8
-[失效] CCTV4K  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/cctv4k.m3u8
-[失效] CCTV8K  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/cctv8k.m3u8
 [失效] CGTN  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cgtn.m3u8
 [失效] CGTN 法语  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cgtnfr.m3u8
 [失效] CGTN 俄语  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cgtnru.m3u8
-[失效] CGTN 阿拉伯语  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/cgtnar.m3u8
 [失效] CGTN 西班牙语  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cgtnes.m3u8
 [失效] CGTN 纪录  (<urlopen error [Errno 111] Connection refused>)
@@ -48,13 +38,13 @@ dotv 直播源可用性检测报告
         http://219.156.94.94:4022/rtp/225.1.5.31:1342
 [失效] CCTV4欧洲  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.2.28:5002
-[失效] CCTV4欧洲  (timed out)
+[失效] CCTV4欧洲  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.213:4220
 [失效] CCTV4欧洲  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.213:4220
 [失效] CCTV4美洲  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.5.32:1343
-[失效] CCTV4美洲  (timed out)
+[失效] CCTV4美洲  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.214:4220
 [失效] CCTV4美洲  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.214:4220
@@ -64,7 +54,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.153:9136
 [失效] CCTV1  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.120:5002
-[失效] CCTV1  (timed out)
+[失效] CCTV1  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.129:8008
 [失效] CCTV1  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.129:8008
@@ -74,7 +64,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.154:9144
 [失效] CCTV2  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.151:5002
-[失效] CCTV2  (timed out)
+[失效] CCTV2  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.60:8084
 [失效] CCTV2  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.60:8084
@@ -84,7 +74,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.208:9576
 [失效] CCTV3  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.2.45:5002
-[失效] CCTV3  (timed out)
+[失效] CCTV3  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.172:8001
 [失效] CCTV3  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.172:8001
@@ -94,6 +84,8 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.156:9160
 [失效] CCTV4  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.154:5002
+[失效] CCTV4  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.105:8092
 [失效] CCTV4  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.2.29:5002
 [失效] CCTV4  (<urlopen error timed out>)
@@ -104,7 +96,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.209:9584
 [失效] CCTV5  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.2.46:5002
-[失效] CCTV5  (timed out)
+[失效] CCTV5  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.173:8001
 [失效] CCTV5  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.173:8001
@@ -114,7 +106,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.168:9256
 [失效] CCTV5+  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.142:5002
-[失效] CCTV5+  (timed out)
+[失效] CCTV5+  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.130:8004
 [失效] CCTV5+  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.130:8004
@@ -124,7 +116,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.210:9592
 [失效] CCTV6  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.2.47:5002
-[失效] CCTV6  (timed out)
+[失效] CCTV6  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.174:8001
 [失效] CCTV6  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.174:8001
@@ -134,7 +126,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.159:9184
 [失效] CCTV7  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.152:5002
-[失效] CCTV7  (timed out)
+[失效] CCTV7  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.61:8104
 [失效] CCTV7  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.61:8104
@@ -144,7 +136,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.211:9600
 [失效] CCTV8  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.2.48:5002
-[失效] CCTV8  (timed out)
+[失效] CCTV8  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.175:8001
 [失效] CCTV8  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.175:8001
@@ -154,7 +146,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.161:9200
 [失效] CCTV9  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.153:5002
-[失效] CCTV9  (timed out)
+[失效] CCTV9  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.62:8112
 [失效] CCTV9  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.62:8112
@@ -164,7 +156,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.162:9208
 [失效] CCTV10  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.155:5002
-[失效] CCTV10  (timed out)
+[失效] CCTV10  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.63:8116
 [失效] CCTV10  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.63:8116
@@ -172,10 +164,6 @@ dotv 直播源可用性检测报告
         http://219.156.94.94:4022/rtp/225.1.4.215:1268
 [失效] CCTV11  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.2.2:5002
-[失效] CCTV11  ([Errno 104] Connection reset by peer)
-        http://115.171.216.32:4000/rtp/225.1.8.73:8120
-[失效] CCTV11  (timed out)
-        http://114.254.38.234:8888/rtp/239.3.1.152:8120
 [失效] CCTV11  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.152:8120
 [失效] CCTV12  (<urlopen error timed out>)
@@ -184,7 +172,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.164:9224
 [失效] CCTV12  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.156:5002
-[失效] CCTV12  (timed out)
+[失效] CCTV12  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.64:8124
 [失效] CCTV12  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.64:8124
@@ -194,7 +182,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.165:9232
 [失效] CCTV13  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.2.3:5002
-[失效] CCTV13  (timed out)
+[失效] CCTV13  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.124:8128
 [失效] CCTV13  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.124:8128
@@ -204,21 +192,19 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.166:9240
 [失效] CCTV14  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.157:5002
-[失效] CCTV14  (timed out)
-        http://114.254.38.234:8888/rtp/239.3.1.65:8132
 [失效] CCTV14  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.65:8132
 [失效] CCTV15  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.216:1269
 [失效] CCTV15  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.2.4:5002
-[失效] CCTV15  (timed out)
+[失效] CCTV15  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.153:8136
 [失效] CCTV15  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.153:8136
 [失效] CCTV16  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.169:9264
-[失效] CCTV16  (timed out)
+[失效] CCTV16  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.184:8001
 [失效] CCTV16  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.184:8001
@@ -228,19 +214,17 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.170:9272
 [失效] CCTV17  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.186:5002
-[失效] CCTV17  (timed out)
-        http://114.254.38.234:8888/rtp/239.3.1.151:8144
 [失效] CCTV17  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.151:8144
 
-===== 卫视 ===== 失效 183 条
+===== 卫视 ===== 失效 181 条
 [失效] 北京卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.81:1110
 [失效] 北京卫视  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.177:9328
 [失效] 北京卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.88:5002
-[失效] 北京卫视  (timed out)
+[失效] 北京卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.241:8000
 [失效] 北京卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.241:8000
@@ -252,7 +236,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.176:9320
 [失效] 江苏卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.89:5002
-[失效] 江苏卫视  (timed out)
+[失效] 江苏卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.135:8028
 [失效] 江苏卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.135:8028
@@ -264,7 +248,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.175:9312
 [失效] 东方卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.111:5002
-[失效] 东方卫视  (timed out)
+[失效] 东方卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.136:8032
 [失效] 东方卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.136:8032
@@ -276,8 +260,6 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.144:9064
 [失效] 浙江卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.90:5002
-[失效] 浙江卫视  (timed out)
-        http://114.254.38.234:8888/rtp/239.3.1.137:8036
 [失效] 浙江卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.137:8036
 [失效] 湖南卫视  (<urlopen error [Errno 111] Connection refused>)
@@ -288,18 +270,18 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.143:9056
 [失效] 湖南卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.158:5002
-[失效] 湖南卫视  (timed out)
+[失效] 湖南卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.132:8012
 [失效] 湖南卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.132:8012
+[失效] 湖北卫视  (<urlopen error [Errno 111] Connection refused>)
+        http://8w97qbaxj0.apps.bot-hosting.cloud/hbws.m3u8
 [失效] 湖北卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.89:1118
 [失效] 湖北卫视  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.150:9112
 [失效] 湖北卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.163:5002
-[失效] 湖北卫视  (timed out)
-        http://114.254.38.234:8888/rtp/239.3.1.138:8044
 [失效] 湖北卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.138:8044
 [失效] 广东卫视  (<urlopen error [Errno 111] Connection refused>)
@@ -310,7 +292,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.146:9080
 [失效] 广东卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.92:5002
-[失效] 广东卫视  (timed out)
+[失效] 广东卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.142:8048
 [失效] 广东卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.142:8048
@@ -320,7 +302,7 @@ dotv 直播源可用性检测报告
         http://219.156.94.94:4022/rtp/225.1.4.31:1060
 [失效] 广西卫视  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.231:9760
-[失效] 广西卫视  (timed out)
+[失效] 广西卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.39:8300
 [失效] 广西卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.39:8300
@@ -332,7 +314,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.151:9120
 [失效] 黑龙江卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.28:5002
-[失效] 黑龙江卫视  (timed out)
+[失效] 黑龙江卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.133:8016
 [失效] 黑龙江卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.133:8016
@@ -346,7 +328,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.212:9608
 [失效] 海南卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.2.14:5002
-[失效] 海南卫视  (timed out)
+[失效] 海南卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.45:8304
 [失效] 海南卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.45:8304
@@ -358,6 +340,8 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.174:9304
 [失效] 重庆卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.233:5002
+[失效] 重庆卫视  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.122:8160
 [失效] 重庆卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.122:8160
 [失效] 深圳卫视  (<urlopen error [Errno 111] Connection refused>)
@@ -368,7 +352,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.147:9088
 [失效] 深圳卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.93:5002
-[失效] 深圳卫视  (timed out)
+[失效] 深圳卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.134:8020
 [失效] 深圳卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.134:8020
@@ -380,7 +364,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.179:9344
 [失效] 四川卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.2.15:5002
-[失效] 四川卫视  (timed out)
+[失效] 四川卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.29:8288
 [失效] 四川卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.29:8288
@@ -392,7 +376,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.52:8328
 [失效] 河南卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.2.37:5002
-[失效] 河南卫视  (timed out)
+[失效] 河南卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.27:8128
 [失效] 河南卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.254:1300
@@ -406,7 +390,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.188:9416
 [失效] 东南卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.113:5002
-[失效] 东南卫视  (timed out)
+[失效] 东南卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.156:8148
 [失效] 东南卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.156:8148
@@ -418,8 +402,6 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.180:9352
 [失效] 贵州卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.166:5002
-[失效] 贵州卫视  (timed out)
-        http://114.254.38.234:8888/rtp/239.3.1.149:8076
 [失效] 贵州卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.149:8076
 [失效] 贵州卫视  (HTTP Error 404: Not Found)
@@ -432,17 +414,17 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.54:8344
 [失效] 江西卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.167:5002
+[失效] 江西卫视  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.123:8164
 [失效] 江西卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.123:8164
-[失效] 辽宁卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/lnws.m3u8
 [失效] 辽宁卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.167:1208
 [失效] 辽宁卫视  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.173:9296
 [失效] 辽宁卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.164:5002
-[失效] 辽宁卫视  (timed out)
+[失效] 辽宁卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.210:8056
 [失效] 辽宁卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.210:8056
@@ -452,7 +434,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.145:9072
 [失效] 安徽卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.159:5002
-[失效] 安徽卫视  (timed out)
+[失效] 安徽卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.211:8064
 [失效] 安徽卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.211:8064
@@ -466,7 +448,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.178:9336
 [失效] 河北卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.168:5002
-[失效] 河北卫视  (timed out)
+[失效] 河北卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.148:8072
 [失效] 河北卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.148:8072
@@ -478,7 +460,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.149:9104
 [失效] 山东卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.87:5002
-[失效] 山东卫视  (timed out)
+[失效] 山东卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.209:8052
 [失效] 山东卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.209:8052
@@ -490,7 +472,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.148:9096
 [失效] 天津卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.165:5002
-[失效] 天津卫视  (timed out)
+[失效] 天津卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.141:1234
 [失效] 天津卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.141:1234
@@ -502,7 +484,7 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.58:8376
 [失效] 吉林卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.2.49:5002
-[失效] 吉林卫视  (timed out)
+[失效] 吉林卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.240:8172
 [失效] 吉林卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.240:8172
@@ -510,21 +492,21 @@ dotv 直播源可用性检测报告
         http://8w97qbaxj0.apps.bot-hosting.cloud/saxws.m3u8
 [失效] 陕西卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.39:1068
-[失效] 陕西卫视  (timed out)
-        http://114.254.38.234:8888/rtp/239.3.1.41:8140
 [失效] 陕西卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.41:8140
 [失效] 宁夏卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/nxws.m3u8
 [失效] 宁夏卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.43:1072
-[失效] 宁夏卫视  (timed out)
+[失效] 宁夏卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.46:8124
 [失效] 宁夏卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.46:8124
+[失效] 内蒙古卫视  (<urlopen error [Errno 111] Connection refused>)
+        http://8w97qbaxj0.apps.bot-hosting.cloud/nmgws.m3u8
 [失效] 内蒙古卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.45:1074
-[失效] 内蒙古卫视  (timed out)
+[失效] 内蒙古卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.43:8176
 [失效] 内蒙古卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.43:8176
@@ -532,7 +514,7 @@ dotv 直播源可用性检测报告
         http://8w97qbaxj0.apps.bot-hosting.cloud/ynws.m3u8
 [失效] 云南卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.152:1307
-[失效] 云南卫视  (timed out)
+[失效] 云南卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.26:8108
 [失效] 云南卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.26:8108
@@ -542,7 +524,7 @@ dotv 直播源可用性检测报告
         http://219.156.94.94:4022/rtp/225.1.4.38:1067
 [失效] 山西卫视  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.152:9128
-[失效] 山西卫视  (timed out)
+[失效] 山西卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.42:8172
 [失效] 山西卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.42:8172
@@ -552,7 +534,7 @@ dotv 直播源可用性检测报告
         http://219.156.94.94:4022/rtp/225.1.4.44:1073
 [失效] 青海卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.2.51:5002
-[失效] 青海卫视  (timed out)
+[失效] 青海卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.44:8184
 [失效] 青海卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.44:8184
@@ -560,7 +542,7 @@ dotv 直播源可用性检测报告
         http://8w97qbaxj0.apps.bot-hosting.cloud/xizangws.m3u8
 [失效] 西藏卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.46:1075
-[失效] 西藏卫视  (timed out)
+[失效] 西藏卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.47:8164
 [失效] 西藏卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.47:8164
@@ -568,19 +550,19 @@ dotv 直播源可用性检测报告
         http://8w97qbaxj0.apps.bot-hosting.cloud/xjws.m3u8
 [失效] 新疆卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.47:1076
-[失效] 新疆卫视  (timed out)
+[失效] 新疆卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.48:8160
 [失效] 新疆卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.48:8160
 [失效] 兵团卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.97:1126
-[失效] 兵团卫视  (timed out)
+[失效] 兵团卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.144:4120
 [失效] 兵团卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.144:4120
 [失效] 三沙卫视  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.234:1280
-[失效] 三沙卫视  (timed out)
+[失效] 三沙卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.155:4120
 [失效] 三沙卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.155:4120
@@ -588,7 +570,7 @@ dotv 直播源可用性检测报告
         http://219.156.94.94:4022/rtp/225.1.4.42:1071
 [失效] 甘肃卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.2.22:5002
-[失效] 甘肃卫视  (timed out)
+[失效] 甘肃卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.49:8188
 [失效] 甘肃卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.49:8188
@@ -596,19 +578,17 @@ dotv 直播源可用性检测报告
         http://219.156.94.94:4022/rtp/225.1.4.164:1205
 [失效] 山东教育卫视  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.169:5002
-[失效] 山东教育卫视  (timed out)
-        http://114.254.38.234:8888/rtp/239.3.1.52:4120
 [失效] 山东教育卫视  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.52:4120
 
-===== 其他 ===== 失效 302 条
-[失效] CETV-1  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/cetv1.m3u8
+===== 其他 ===== 失效 295 条
 [失效] 国学频道  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/guoxue.m3u8
+[失效] 吉林影视频道  (timed out)
+        http://8.137.121.66:20241/968553184
 [失效] 武术世界  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.97:8688
-[失效] 快乐垂钓  (timed out)
+[失效] 快乐垂钓  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.164:8001
 [失效] 快乐垂钓  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.164:8001
@@ -626,163 +606,143 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.240:9820
 [失效] 嘉佳卡通  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.92:1121
-[失效] 嘉佳卡通  (timed out)
-        http://114.254.38.234:8888/rtp/239.3.1.147:9268
 [失效] 嘉佳卡通  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.147:9268
 [失效] 梨园频道  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.115:8832
-[失效] WTT 蒯曼晋级8强 周启豪3-1小布 全场回放 01:30  (timed out)
-        http://8.137.121.66:20241/968938024
 [失效] 西甲 比利亚雷亚尔VS西班牙人 全场回放（洪宇青） 03:55  (timed out)
         http://8.137.121.66:20241/968937656
 [失效] 法甲 里尔VS朗斯 全场回放（刘一臻） 04:00  (timed out)
         http://8.137.121.66:20241/968937660
+[失效] NBA 奇才VS黄蜂 全场回放（董倡硕） 06:55  (timed out)
+        http://8.137.121.66:20241/968941321
 [失效] NBA 篮网VS活塞 全场回放（英文原声） 07:25  (timed out)
         http://8.137.121.66:20241/968943835
 [失效] NBA 猛龙VS魔术 全场回放（英文原声） 07:25  (timed out)
         http://8.137.121.66:20241/968943610
+[失效] NBA 凯尔特人VS公牛 全场回放（英文原声） 07:25  (timed out)
+        http://8.137.121.66:20241/968943394
 [失效] NBA 76人VS尼克斯 全场回放（英文原声） 07:25  (timed out)
         http://8.137.121.66:20241/968942986
-[失效] NBA 森林狼VS快船 全场回放（徐秦威） 07:55  (timed out)
-        http://8.137.121.66:20241/968941896
+[失效] NBA 森林狼VS快船 全场回放（英文原声） 07:55  (timed out)
+        http://8.137.121.66:20241/968943443
 [失效] NBA 热火VS步行者 全场回放（英文原声） 07:55  (timed out)
         http://8.137.121.66:20241/968944237
 [失效] NBA 独行侠VS火箭 全场回放（孙博、巩晓彬、周鹏、裴优） 07:30  (timed out)
         http://8.137.121.66:20241/968942804
+[失效] 中国自行车运动协会系列赛 中国自由式小轮车联赛总决赛 2026中国自由式小轮车联赛总决赛全场回放（官方解说）（一） 08:30  (timed out)
+        http://8.137.121.66:20241/968951864
+[失效] 中国自行车运动协会系列赛 中国自由式小轮车联赛总决赛 2026中国自由式小轮车联赛总决赛全场回放（官方解说）（二） 08:30  (timed out)
+        http://8.137.121.66:20241/968984573
 [失效] 跑酷世界杯 跑酷世界杯北京站day2 2026跑酷世界杯北京站Day2全场回放（官方解说）（一） 09:30  (timed out)
         http://8.137.121.66:20241/968951601
-[失效] 跑酷世界杯 跑酷世界杯北京站day2 2026跑酷世界杯北京站Day2全场回放（官方解说）（二） 09:30  (timed out)
-        http://8.137.121.66:20241/968955145
-[失效] 斯诺克 周跃龙出局 塞尔比6-2怀特 【回放】马克·塞尔比6-2吉米·怀特（卢正浩） 09:30  (timed out)
-        http://8.137.121.66:20241/968944985
+[失效] 斯诺克 周跃龙出局 塞尔比6-2怀特 【回放】周跃龙2-6利亚姆·戴维斯（陶哲铭） 09:30  (timed out)
+        http://8.137.121.66:20241/968946562
+[失效] 斯诺克 周跃龙出局 塞尔比6-2怀特 【回放】斯蒂芬·霍尔沃斯6-1李俊（赛场原声） 09:30  (timed out)
+        http://8.137.121.66:20241/968947110
+[失效] 斯诺克 周跃龙出局 塞尔比6-2怀特 【回放】马克·塞尔比6-2吉米·怀特（赛场原声） 09:30  (timed out)
+        http://8.137.121.66:20241/968948148
 [失效] 斯诺克 周跃龙出局 塞尔比6-2怀特 【回放】周跃龙2-6利亚姆·戴维斯（AI观赛） 09:30  (timed out)
         http://8.137.121.66:20241/968949217
-[失效] NBA 勇士VS湖人 全场回放（王冠证、陈正昊、徐咏、廖昕阳） 09:30  (timed out)
-        http://8.137.121.66:20241/968946155
-[失效] NBA 勇士VS湖人 全场回放（洪荒） 09:30  (timed out)
-        http://8.137.121.66:20241/968946555
-[失效] WTA 施耐德VS波汉科娃 【回放】施耐德2-0波汉科娃（赛场原声） 11:00  (timed out)
-        http://8.137.121.66:20241/968950161
-[失效] 斯诺克 丁俊晖晋级 江俊2-6罗伯逊 【回放】尼尔·罗伯逊6-1江俊（赛场原声） 14:30  (timed out)
-        http://8.137.121.66:20241/968953921
-[失效] 斯诺克 丁俊晖晋级 江俊2-6罗伯逊 【回放】尼尔·罗伯逊6-1江俊（AI观赛） 14:30  (timed out)
-        http://8.137.121.66:20241/968954469
-[失效] 斯诺克 丁俊晖晋级 江俊2-6罗伯逊 【回放】斯图尔特·卡灵顿0-6侯赛因·瓦菲（赛场原声） 14:30  (timed out)
-        http://8.137.121.66:20241/968952150
-[失效] 斯诺克 丁俊晖晋级 江俊2-6罗伯逊 26/27赛季斯诺克南京国锦赛延期资格赛第1轮回放：雷佩凡4-6瑞恩·戴（赛场原声） 14:30  (timed out)
-        http://8.137.121.66:20241/968982600
-[失效] 湘超 湘潭队VS邵阳队 全场回放 15:00  (timed out)
-        http://8.137.121.66:20241/968954447
-[失效] 湘超 永州队VS张家界队 全场回放 15:00  (timed out)
-        http://8.137.121.66:20241/968954910
-[失效] 徽青赛 芜湖VS合肥 全场回放 15:30  (timed out)
-        http://8.137.121.66:20241/968954712
-[失效] 攀岩系列赛 全国青年攀岩锦标赛 2026年全国青年攀岩锦标赛Day2全场回放（官方解说）（一） 20:50  (timed out)
-        http://8.137.121.66:20241/968945359
+[失效] NBA 太阳VS掘金 全场回放（英文原声） 09:55  (timed out)
+        http://8.137.121.66:20241/968946713
+[失效] WTA 费尔南德斯VS拉克西莫娃 【回放】费尔南德斯2-0拉克西莫娃（鸿昆） 11:00  (timed out)
+        http://8.137.121.66:20241/968945260
+[失效] WTA 费尔南德斯VS拉克西莫娃 【回放】费尔南德斯2-0拉克西莫娃（赛场原声） 11:00  (timed out)
+        http://8.137.121.66:20241/968947449
+[失效] 辽超 沈阳队VS丹东队 全场回放 13:55  (timed out)
+        http://8.137.121.66:20241/968954569
+[失效] 中乙 成都蓉城希拉谷VS北京理工 全场回放（官方解说） 14:20  (timed out)
+        http://8.137.121.66:20241/968988058
+[失效] 中乙 温州俱乐部VS上海赛更达 全场回放（官方解说） 14:20  (timed out)
+        http://8.137.121.66:20241/968983613
+[失效] 中乙 广州蒲公英VS长春喜都 全场回放（官方解说） 14:20  (timed out)
+        http://8.137.121.66:20241/968993057
+[失效] 中乙 大连英博B队VS广东铭途 全场回放（官方解说） 14:20  (timed out)
+        http://8.137.121.66:20241/968983606
 [失效] WTT 孙颖莎险胜进半决赛 王艺迪4-3陈幸同 全场回放（周冠达、周雨、程靖淇） 19:00  (timed out)
         http://8.137.121.66:20241/968969321
+[失效] WTT 孙颖莎险胜进半决赛 王艺迪4-3陈幸同 全场回放（CCTV5） 19:00  (timed out)
+        http://8.137.121.66:20241/968972897
 [失效] WTT 孙颖莎险胜进半决赛 王艺迪4-3陈幸同 全场回放 19:00  (timed out)
         http://8.137.121.66:20241/968972609
-[失效] WTT 孙颖莎险胜进半决赛 王艺迪4-3陈幸同 全场回放（AI观赛） 19:00  (timed out)
-        http://8.137.121.66:20241/968970092
-[失效] 浙BA 湖州79-77义乌 2026浙江省城市篮球联赛小组赛第8轮全场回放：湖州VS义乌（赛场原声） 19:30  (timed out)
-        http://8.137.121.66:20241/968962812
-[失效] CBA 福建晋江文旅VS青岛崂山啤酒 全场回放（石楷文） 19:25  (timed out)
-        http://8.137.121.66:20241/968959183
-[失效] CBA 福建晋江文旅VS青岛崂山啤酒 全场回放（刘沛元） 19:25  (timed out)
-        http://8.137.121.66:20241/968959249
-[失效] CBA 山东高速VS广东东阳光 全场回放（连睿、巩晓彬、周鹏、裴优） 19:25  (timed out)
-        http://8.137.121.66:20241/968958870
-[失效] 琼超 琼海VS屯昌 全场回放 19:35  (timed out)
-        http://8.137.121.66:20241/968968082
+[失效] 斯诺克 赵心童、吴宜泽速胜 斯佳辉、王信伯晋级 【回放】杰克·琼斯3-6王信伯（杨江浩） 19:30  (timed out)
+        http://8.137.121.66:20241/968969181
+[失效] 斯诺克 赵心童、吴宜泽速胜 斯佳辉、王信伯晋级 【回放】杰克逊·佩奇6-2米哈尔·苏巴尔奇克（赛场原声） 19:30  (timed out)
+        http://8.137.121.66:20241/968962495
+[失效] 斯诺克 赵心童、吴宜泽速胜 斯佳辉、王信伯晋级 【回放】大卫·格雷斯4-6斯佳辉（赛场原声） 19:30  (timed out)
+        http://8.137.121.66:20241/968969251
+[失效] 斯诺克 赵心童、吴宜泽速胜 斯佳辉、王信伯晋级 【回放】杰克·琼斯3-6王信伯（赛场原声） 19:30  (timed out)
+        http://8.137.121.66:20241/968971250
+[失效] CBA 北京控股VS新疆广汇能源 全场回放（赛场原声） 19:25  (timed out)
+        http://8.137.121.66:20241/968968329
+[失效] CBA 福建晋江文旅VS青岛崂山啤酒 全场回放（洪荒） 19:25  (timed out)
+        http://8.137.121.66:20241/968959223
+[失效] CBA 福建晋江文旅VS青岛崂山啤酒 全场回放（赛场原声） 19:25  (timed out)
+        http://8.137.121.66:20241/968959387
+[失效] CBA 山东高速VS广东东阳光 全场回放（赛场原声） 19:25  (timed out)
+        http://8.137.121.66:20241/968961038
 [失效] 英超 切尔西VS曼联 全场回放（娄一晨、刘越、邵凌霄） 20:25  (timed out)
         http://8.137.121.66:20241/968968663
-[失效] 英超 切尔西VS曼联 全场回放（陆毅隽、何辉） 20:25  (timed out)
-        http://8.137.121.66:20241/968967373
-[失效] 英超 切尔西VS曼联 全场回放（AI观赛） 20:25  (timed out)
-        http://8.137.121.66:20241/968962399
-[失效] 西甲 莱万特VS马德里竞技 全场回放（张天翼、贺宇） 20:45  (timed out)
-        http://8.137.121.66:20241/968963656
-[失效] BWF 大波波夫止步四强 辛杜晋级决赛 【回放】哈尔布0-2辛杜（杨妮娜） 21:00  (timed out)
-        http://8.137.121.66:20241/968963019
+[失效] 英女超 埃弗顿女足VS曼联女足 全场回放（林梦鸽） 20:30  (timed out)
+        http://8.137.121.66:20241/968961218
+[失效] 西甲 莱万特VS马德里竞技 全场回放（AI智慧观赛） 20:45  (timed out)
+        http://8.137.121.66:20241/968963563
+[失效] BWF 大波波夫止步四强 辛杜晋级决赛 【回放】大波波夫0-2拉克什亚（鸿昆） 23:50  (timed out)
+        http://8.137.121.66:20241/968968433
+[失效] BWF 大波波夫止步四强 辛杜晋级决赛 2026BWF海露羽毛球公开赛Day5二号场地全场回放（赛场原声） 23:50  (timed out)
+        http://8.137.121.66:20241/968984534
+[失效] 意甲 博洛尼亚VS蒙扎 全场回放（乔迁） 21:45  (timed out)
+        http://8.137.121.66:20241/968965345
+[失效] 德甲 云达不莱梅VS霍芬海姆 全场回放（马延峰） 22:15  (timed out)
+        http://8.137.121.66:20241/968968973
+[失效] 德甲 门兴格拉德巴赫VS帕德博恩 全场回放（吴子越） 22:15  (timed out)
+        http://8.137.121.66:20241/968968369
 [失效] 德甲 奥格斯堡VS弗赖堡 全场回放（刘洪新） 22:15  (timed out)
         http://8.137.121.66:20241/968968366
-[失效] 英超 曼城VS布莱顿 全场回放（颜强、董方卓、程思钦） 22:55  (timed out)
-        http://8.137.121.66:20241/968970014
-[失效] WTT 林诗栋止步8强 蒯曼4-2闯进四强 全场回放（英文解说智能字幕） 01:00  (timed out)
-        http://8.137.121.66:20241/968977410
-[失效] 英超 托特纳姆热刺VS水晶宫 全场回放（江忠德） 01:15  (timed out)
-        http://8.137.121.66:20241/968974174
-[失效] 德甲 拜仁慕尼黑VS多特蒙德 全场回放（摩比动画） 01:25  (timed out)
-        http://8.137.121.66:20241/968974465
-[失效] 意甲 AC米兰VS国际米兰 全场回放（石庆圣、李彦、孙蕊） 03:40  (timed out)
-        http://8.137.121.66:20241/968976247
-[失效] 英超 阿斯顿维拉VS富勒姆 全场回放（刘焕） 03:45  (timed out)
-        http://8.137.121.66:20241/968976937
-[失效] 西甲 巴塞罗那VS阿拉维斯 全场回放（AI智慧观赛） 03:45  (timed out)
-        http://8.137.121.66:20241/968976637
-[失效] UFC格斗之夜 UFC格斗之夜：莫伊卡诺VS诺兰 王琰博 郝俊 04:55  (timed out)
-        http://8.137.121.66:20241/968886367
-[失效] UFC格斗之夜 UFC格斗之夜：莫伊卡诺VS诺兰 英文原声 04:55  (timed out)
-        http://8.137.121.66:20241/968886387
-[失效] UFC格斗之夜 UFC格斗之夜：莫伊卡诺VS诺兰 智能字幕 04:55  (timed out)
-        http://8.137.121.66:20241/968887641
-[失效] 铁人三项系列赛 铁人中国T51.5舟山公开赛 解说 07:00  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/968822984
-[失效] 马拉松系列赛 2026吉利汽车杭州马拉松 清流播出 06:45  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/968889182
-[失效] NBA 马刺VS森林狼 同看 08:00  (timed out)
-        http://8.137.121.66:20241/968749136
-[失效] NBA 马刺VS森林狼 智能字幕 07:55  (timed out)
-        http://8.137.121.66:20241/968787436
-[失效] 马拉松系列赛 2026扬州高邮大运河半程马拉松 清流播出 07:45  (timed out)
-        http://8.137.121.66:20241/968889248
-[失效] 逐马计划 2026马鞍山·采石矶半程马拉松 2026马鞍山·采石矶半程马拉松 07:45  (timed out)
-        http://8.137.121.66:20241/968889232
-[失效] NBA 火箭VS雷霆 连睿 丁彦雨航 周鹏 08:00  (timed out)
-        http://8.137.121.66:20241/968749136
-[失效] NBA 火箭VS雷霆 英文原声 08:25  (timed out)
-        http://8.137.121.66:20241/968749085
-[失效] 铁人三项系列赛 重庆长寿湖铁人三项亚洲杯赛 解说 08:30  (timed out)
-        http://8.137.121.66:20241/968822964
-[失效] 中国自行车运动协会系列赛 中国自由式小轮车联赛总决赛 解说 09:00  (timed out)
-        http://8.137.121.66:20241/968886179
-[失效] 攀岩系列赛 全国青年攀岩锦标赛 解说 09:00  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/968889219
-[失效] 中国体育舞蹈联合会系列赛 中国体育舞蹈公开系列赛北京站Day3 北京站 09:25  (timed out)
+[失效] 英超 曼城VS布莱顿 全场回放（任锴、陈曦） 22:55  (timed out)
+        http://8.137.121.66:20241/968971659
+[失效] 英超 赫尔城VS伊普斯维奇 全场回放（黄航） 22:45  (timed out)
+        http://8.137.121.66:20241/968970839
+[失效] 英超 考文垂VS桑德兰 全场回放（兰子非） 22:45  (timed out)
+        http://8.137.121.66:20241/968970105
+[失效] WTT 林诗栋止步8强 蒯曼4-2闯进四强 全场回放 01:00  (timed out)
+        http://8.137.121.66:20241/968984151
+[失效] 德甲 拜仁慕尼黑VS多特蒙德 全场回放（智能解说） 01:25  (timed out)
+        http://8.137.121.66:20241/968974647
+[失效] UFC格斗之夜 诺兰TKO莫伊卡诺 史密斯一致判定击败布朗 主赛（王琰博、郝俊） 04:55  (timed out)
+        http://8.137.121.66:20241/968986228
+[失效] NBA 雄鹿VS骑士 全场回放（王冠证、郭维盛、刘潇涵） 07:55  (timed out)
+        http://8.137.121.66:20241/968983959
+[失效] NBA 马刺VS森林狼 全场回放（英文原声） 07:55  (timed out)
+        http://8.137.121.66:20241/968988161
+[失效] NBA 火箭VS雷霆 全场回放（英文原声） 08:00  (timed out)
+        http://8.137.121.66:20241/968990438
+[失效] 中国体育舞蹈联合会系列赛 中国体育舞蹈公开系列赛北京站Day3 北京站 09:25  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968879929
-[失效] 斯诺克 希金斯、常冰玉出战 宾汉姆PK傅家俊 卢正浩 09:30  (timed out)
-        http://8.137.121.66:20241/968792693
-[失效] 斯诺克 希金斯、常冰玉出战 宾汉姆PK傅家俊 杨江源 09:30  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/968792825
-[失效] 斯诺克 希金斯、常冰玉出战 宾汉姆PK傅家俊 陶哲铭 09:30  (timed out)
-        http://8.137.121.66:20241/968792680
-[失效] 斯诺克 希金斯、常冰玉出战 宾汉姆PK傅家俊 5号桌 09:30  (timed out)
-        http://8.137.121.66:20241/968659860
-[失效] 斯诺克 希金斯、常冰玉出战 宾汉姆PK傅家俊 6号桌 09:30  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/968659882
-[失效] 斯诺克 希金斯、常冰玉出战 宾汉姆PK傅家俊 7号桌 09:30  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/968659908
+[失效] 斯诺克 张安达、常冰玉晋级 傅家俊6-4宾汉姆 【回放】吕昊天3-6约翰·希金斯（杨江源） 09:30  (timed out)
+        http://8.137.121.66:20241/968988292
+[失效] 斯诺克 张安达、常冰玉晋级 傅家俊6-4宾汉姆 26/27赛季斯诺克国际锦标赛第2轮回放：吕昊天3-6约翰·希金斯（赛场原声） 09:30  (timed out)
+        http://8.137.121.66:20241/968993323
 [失效] 跑酷世界杯 跑酷世界杯北京站day3 北京站 10:30  (timed out)
         http://8.137.121.66:20241/968884726
-[失效] WTA 费尔南德斯VS施耐德 赛场原声（新 对抗） 11:00  (timed out)
-        http://8.137.121.66:20241/968960052
-[失效] 青岛城市足球争霸赛 莱西市vs平度市 清流播出 13:50  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/968849697
-[失效] 青岛城市足球争霸赛 即墨区vs市南区 清流播出 13:50  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/968849703
+[失效] WTA 费尔南德斯VS施耐德 全场回放 11:00  (timed out)
+        http://8.137.121.66:20241/968994659
 [失效] 咪咕3X3篮球联赛 咪咕3x3济南大区赛决赛 清流播出 14:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968369641
-[失效] 斯诺克 丁俊晖、囧哥出战 袁思俊PK奥康纳 5号桌 14:00  (HTTP Error 604: status code 604)
+[失效] 斯诺克 丁俊晖VS高阳 范争一VS特鲁姆普 2号桌 14:00  (timed out)
+        http://8.137.121.66:20241/968658977
+[失效] 斯诺克 丁俊晖VS高阳 范争一VS特鲁姆普 4号桌 14:00  (timed out)
+        http://8.137.121.66:20241/968659071
+[失效] 斯诺克 丁俊晖VS高阳 范争一VS特鲁姆普 5号桌 14:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968659101
-[失效] 斯诺克 丁俊晖、囧哥出战 袁思俊PK奥康纳 6号桌 14:00  (HTTP Error 604: status code 604)
+[失效] 斯诺克 丁俊晖VS高阳 范争一VS特鲁姆普 6号桌 14:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968659137
-[失效] 中乙 山西崇德荣海VS杭州临平吴越 解说 14:20  (timed out)
+[失效] 中乙 山西崇德荣海VS杭州临平吴越 解说 14:20  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968940255
-[失效] 中乙 山西崇德荣海VS杭州临平吴越 赛场原声 14:20  (HTTP Error 604: status code 604)
+[失效] 中乙 山西崇德荣海VS杭州临平吴越 赛场原声 14:20  (timed out)
         http://8.137.121.66:20241/968940274
-[失效] 中乙 山东泰山B队VS深圳二零二八 解说 14:20  (HTTP Error 604: status code 604)
+[失效] 中乙 山东泰山B队VS深圳二零二八 解说 14:20  (timed out)
         http://8.137.121.66:20241/968940233
 [失效] 中乙 山东泰山B队VS深圳二零二八 赛场原声 14:20  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968940245
@@ -794,19 +754,21 @@ dotv 直播源可用性检测报告
         http://8.137.121.66:20241/968940158
 [失效] 中乙 上海海港B队VS贵州贵阳竞技 赛场原声 14:20  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968940183
-[失效] 青岛城市足球争霸赛 胶州市vs西海岸新区 清流播出 14:20  (HTTP Error 604: status code 604)
+[失效] 青岛城市足球争霸赛 胶州市vs西海岸新区 清流播出 14:20  (timed out)
         http://8.137.121.66:20241/968849683
 [失效] 徽青赛 亳州VS宣城 赛场原声 14:30  (timed out)
         http://8.137.121.66:20241/968791638
-[失效] 徽青赛 黄山VS六安 赛场原声 14:30  (timed out)
+[失效] 徽青赛 黄山VS六安 赛场原声 14:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968791628
-[失效] 国际马联场地障碍世界杯 1.45M级别浪琴表世界杯赛 杭州 15:00  (timed out)
+[失效] 铁人三项系列赛 重庆长寿湖铁人三项亚洲杯赛 解说 14:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/968822964
+[失效] 国际马联场地障碍世界杯 1.45M级别浪琴表世界杯赛 杭州 15:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968802104
-[失效] 青岛城市足球争霸赛 崂山区vs市北区 清流播出 15:20  (timed out)
+[失效] 青岛城市足球争霸赛 崂山区vs市北区 清流播出 15:20  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968849689
 [失效] 徽青赛 安庆VS铜陵 赛场原声 15:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968791668
-[失效] 徽青赛 宿州VS马鞍山 赛场原声 15:30  (HTTP Error 604: status code 604)
+[失效] 徽青赛 宿州VS马鞍山 赛场原声 15:30  (timed out)
         http://8.137.121.66:20241/968791652
 [失效] 琼超 文昌VS临高 赛场原声 15:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968802882
@@ -814,71 +776,69 @@ dotv 直播源可用性检测报告
         http://8.137.121.66:20241/968802898
 [失效] 琼超 东方VS万宁 赛场原声 15:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968802920
-[失效] 亚冠女足 神户雌狮女足VS巴姆卡顿女足 赛场原声 16:15  (timed out)
-        http://8.137.121.66:20241/968876999
-[失效] 亚冠女足 华川国民体育振兴公团女足VS4.25体育团 涂远 16:15  (timed out)
-        http://8.137.121.66:20241/968877121
-[失效] WTT 冲决赛！孙颖莎PK王艺迪 雨果战张禹珍 马特 18:00  (timed out)
+[失效] 攀岩系列赛 全国青年攀岩锦标赛 解说 09:00  (timed out)
+        http://8.137.121.66:20241/968889219
+[失效] 亚冠女足 神户雌狮女足VS巴姆卡顿女足 智能解说 16:25  (timed out)
+        http://8.137.121.66:20241/968916653
+[失效] WTT 冲决赛！孙颖莎PK王艺迪 蒯曼对决陈熠 马特 18:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968633544
-[失效] WTT 冲决赛！孙颖莎PK王艺迪 雨果战张禹珍 CCTV5 18:00  (HTTP Error 604: status code 604)
+[失效] WTT 冲决赛！孙颖莎PK王艺迪 蒯曼对决陈熠 CCTV5 18:00  (timed out)
         http://8.137.121.66:20241/968950265
-[失效] WTT 冲决赛！孙颖莎PK王艺迪 雨果战张禹珍 智能字幕 18:00  (timed out)
-        http://8.137.121.66:20241/968636207
+[失效] WTT 冲决赛！孙颖莎PK王艺迪 蒯曼对决陈熠 赛场原声 18:00  (timed out)
+        http://8.137.121.66:20241/968632967
 [失效] 亚冠女足 北京京坛女足VS卡雅女足 林梦鸽 18:15  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968877169
-[失效] 亚冠女足 北京京坛女足VS卡雅女足 赛场原声 18:15  (timed out)
-        http://8.137.121.66:20241/968877151
-[失效] 意甲 科莫VS威尼斯 刘焕 19:15  (timed out)
-        http://8.137.121.66:20241/968881842
 [失效] 意甲 科莫VS威尼斯 赛场原声 19:15  (timed out)
         http://8.137.121.66:20241/968881837
 [失效] 斯诺克 赵心童、吴宜泽出战 龙泽煌PK韦克林 朱峰立 19:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968792569
-[失效] 斯诺克 赵心童、吴宜泽出战 龙泽煌PK韦克林 2号桌 19:30  (timed out)
-        http://8.137.121.66:20241/968659366
-[失效] 斯诺克 赵心童、吴宜泽出战 龙泽煌PK韦克林 3号桌 19:30  (timed out)
-        http://8.137.121.66:20241/968659404
+[失效] 斯诺克 赵心童、吴宜泽出战 龙泽煌PK韦克林 4号桌 19:30  (timed out)
+        http://8.137.121.66:20241/968659469
 [失效] 斯诺克 赵心童、吴宜泽出战 龙泽煌PK韦克林 5号桌 19:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968659536
 [失效] 斯诺克 赵心童、吴宜泽出战 龙泽煌PK韦克林 6号桌 19:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968659573
-[失效] 斯诺克 赵心童、吴宜泽出战 龙泽煌PK韦克林 7号桌 19:30  (timed out)
+[失效] 斯诺克 赵心童、吴宜泽出战 龙泽煌PK韦克林 7号桌 19:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968659617
-[失效] 浙BA 云和VS嘉兴 赛场原声 19:30  (timed out)
+[失效] 浙BA 云和VS嘉兴 赛场原声 19:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968789250
-[失效] 浙BA 苍南VS富阳 赛场原声 19:30  (HTTP Error 604: status code 604)
+[失效] 浙BA 苍南VS富阳 赛场原声 19:30  (timed out)
         http://8.137.121.66:20241/968789260
 [失效] 足协杯 云南玉昆VS大连英博海发 苏东 刘越 18:00  (timed out)
         http://8.137.121.66:20241/968876699
-[失效] 足协杯 云南玉昆VS大连英博海发 孙雨轩 董方卓 程思钦 18:00  (timed out)
+[失效] 足协杯 云南玉昆VS大连英博海发 孙雨轩 董方卓 程思钦 18:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968876678
-[失效] 足协杯 云南玉昆VS大连英博海发 智能解说 19:30  (timed out)
-        http://8.137.121.66:20241/968917027
 [失效] CBA 长白山恩都里VS广州智都集团 季孟年 19:20  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968857502
-[失效] CBA 长白山恩都里VS广州智都集团 赛场原声 19:25  (timed out)
-        http://8.137.121.66:20241/968857662
+[失效] CBA 辽宁本钢VS深圳马可波罗 同看北京vs浙证 19:00  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/968857704
+[失效] CBA 辽宁本钢VS深圳马可波罗 同看上海vs南京 19:20  (timed out)
+        http://8.137.121.66:20241/968857975
 [失效] CBA 上海久事VS南京同曦宙光 李天宇 徐咏 19:20  (timed out)
         http://8.137.121.66:20241/968857975
-[失效] CBA 山西汾酒VS四川锦城 蔡凯臣 19:20  (timed out)
-        http://8.137.121.66:20241/968857462
+[失效] CBA 上海久事VS南京同曦宙光 同看浙江vs江苏 19:20  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/968857398
+[失效] CBA 北京首钢VS浙江浙商证券 同看浙江vs江苏 19:20  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/968857398
 [失效] CBA 天津先行者VS宁波町渥 王冠证 19:20  (timed out)
         http://8.137.121.66:20241/968857420
 [失效] CBA 天津先行者VS宁波町渥 天津主队解说 19:25  (timed out)
         http://8.137.121.66:20241/968857411
-[失效] CBA 天津先行者VS宁波町渥 宁波主队解说 19:25  (timed out)
-        http://8.137.121.66:20241/968857403
 [失效] CBA 浙江稠州金租VS江苏肯帝亚 徐秦威 19:20  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968857398
-[失效] 琼超 昌江VS陵水 赛场原声 19:35  (timed out)
+[失效] CBA 浙江稠州金租VS江苏肯帝亚 赛场原声 19:25  (timed out)
+        http://8.137.121.66:20241/968857610
+[失效] 琼超 昌江VS陵水 赛场原声 19:35  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968802930
-[失效] 英女超 伦敦城雌狮女足VS曼城女足 沈云怡 19:45  (HTTP Error 604: status code 604)
+[失效] 英女超 伦敦城雌狮女足VS曼城女足 沈云怡 19:45  (timed out)
         http://8.137.121.66:20241/968877817
-[失效] 英女超 阿森纳女足VS阿斯顿维拉女足 兰子非 19:45  (HTTP Error 604: status code 604)
+[失效] 英女超 伦敦城雌狮女足VS曼城女足 赛场原声 19:45  (timed out)
+        http://8.137.121.66:20241/968877797
+[失效] 英女超 阿森纳女足VS阿斯顿维拉女足 兰子非 19:45  (timed out)
         http://8.137.121.66:20241/968877763
-[失效] 英女超 阿森纳女足VS阿斯顿维拉女足 赛场原声 19:45  (timed out)
-        http://8.137.121.66:20241/968877736
-[失效] 浪琴环球马术冠军赛 拉巴特站LGCT大奖赛 中文解说原声 20:35  (timed out)
+[失效] 亚冠女足 我故乡女足VS阿耶瓦底女足 赛场原声 20:15  (timed out)
+        http://8.137.121.66:20241/968877241
+[失效] 浪琴环球马术冠军赛 拉巴特站LGCT大奖赛 中文解说原声 20:35  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968791043
 [失效] 浪琴环球马术冠军赛 拉巴特站LGCT大奖赛 清流原声 20:35  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968790990
@@ -886,43 +846,41 @@ dotv 直播源可用性检测报告
         http://8.137.121.66:20241/968791012
 [失效] 西甲 赫塔菲VS塞维利亚 李霄 20:45  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968876803
-[失效] BWF 海露羽毛球公开赛第六日 1号场地 21:00  (HTTP Error 604: status code 604)
+[失效] 西甲 赫塔菲VS塞维利亚 赛场原声 20:45  (timed out)
+        http://8.137.121.66:20241/968955225
+[失效] BWF 辛杜冲冠！乔纳坦PK拉克什亚 1号场地 21:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968793544
-[失效] BWF 海露羽毛球公开赛第六日 1号场地英文视角 21:00  (timed out)
+[失效] BWF 辛杜冲冠！乔纳坦PK拉克什亚 1号场地英文视角 21:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968793561
-[失效] 意甲 拉齐奥VS卡利亚里 张昊泽 21:45  (timed out)
-        http://8.137.121.66:20241/968881824
-[失效] 意甲 拉齐奥VS卡利亚里 赛场原声 21:45  (timed out)
-        http://8.137.121.66:20241/968881817
 [失效] 意甲 弗罗西诺内VS都灵 马延峰 21:45  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968881832
+[失效] 意甲 弗罗西诺内VS都灵 赛场原声 21:45  (timed out)
+        http://8.137.121.66:20241/968881828
 [失效] 英女超 西汉姆联女足VS利物浦女足 刘焕 21:45  (timed out)
         http://8.137.121.66:20241/968878047
-[失效] 英女超 西汉姆联女足VS利物浦女足 赛场原声 21:45  (timed out)
-        http://8.137.121.66:20241/968878028
-[失效] 英女超 布莱顿女足VS水晶宫女足 魏欣怡 21:45  (timed out)
+[失效] 英女超 布莱顿女足VS水晶宫女足 魏欣怡 21:45  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968877958
-[失效] 英女超 布莱顿女足VS水晶宫女足 赛场原声 21:45  (timed out)
-        http://8.137.121.66:20241/968877929
 [失效] 英女超 伯明翰女足VS托特纳姆热刺女足 邵凌霄 21:45  (timed out)
         http://8.137.121.66:20241/968877858
 [失效] WTT 抽签仪式 朱子恒 22:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968853784
-[失效] WTT 抽签仪式 赛场原声 22:00  (timed out)
+[失效] WTT 抽签仪式 抽签仪式 22:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968854342
-[失效] CBA 《球你别说了》第3期 周鹏 邵化谦 季孟年 连睿 22:00  (HTTP Error 604: status code 604)
+[失效] WTT 抽签仪式 蒙彼利埃半决赛 18:00  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/968633544
+[失效] CBA 《球你别说了》名嘴大咖赛后专业复盘 周鹏 邵化谦 季孟年 连睿 22:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968920473
-[失效] 德甲 柏林联VS科隆 赵宇 22:15  (timed out)
+[失效] 德甲 柏林联VS科隆 赵宇 22:15  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968879672
+[失效] 德甲 柏林联VS科隆 赛场原声 22:15  (timed out)
+        http://8.137.121.66:20241/968879683
 [失效] 英女超 查尔顿女足VS切尔西女足 胡小凡 22:15  (timed out)
         http://8.137.121.66:20241/968878085
-[失效] 英女超 查尔顿女足VS切尔西女足 赛场原声 22:15  (timed out)
-        http://8.137.121.66:20241/968878060
-[失效] 亚冠女足 墨尔本城女足VS纳萨夫女足 兰子非 22:15  (timed out)
-        http://8.137.121.66:20241/968877331
-[失效] 短道速滑世界巡回赛 加拿大温哥华站 25分钟版 解说 22:40  (timed out)
+[失效] 亚冠女足 墨尔本城女足VS纳萨夫女足 赛场原声 22:15  (timed out)
+        http://8.137.121.66:20241/968877318
+[失效] 短道速滑世界巡回赛 加拿大温哥华站 25分钟版 解说 22:40  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968940184
-[失效] 法甲 巴黎FCVS摩纳哥 盛斌 00:00  (timed out)
+[失效] 法甲 巴黎FCVS摩纳哥 盛斌 00:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968877458
 [失效] 法甲 巴黎FCVS摩纳哥 赛场原声 00:00  (timed out)
         http://8.137.121.66:20241/968877466
@@ -930,78 +888,90 @@ dotv 直播源可用性检测报告
         http://8.137.121.66:20241/968891647
 [失效] 法甲 里昂VS昂热 乔迁 00:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968890492
-[失效] 英超 利物浦VS阿森纳 詹俊 张路 李子琪 00:00  (HTTP Error 604: status code 604)
+[失效] 英超 利物浦VS阿森纳 詹俊 张路 李子琪 00:00  (timed out)
         http://8.137.121.66:20241/968879656
 [失效] 英超 利物浦VS阿森纳 石庆圣 鲁靖明 00:15  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968879688
-[失效] 英超 利物浦VS阿森纳 英文原声 00:15  (timed out)
-        http://8.137.121.66:20241/968879427
+[失效] 英超 利物浦VS阿森纳 陈凯冬 何辉 00:15  (timed out)
+        http://8.137.121.66:20241/968879732
 [失效] 英超 利物浦VS阿森纳 AI字幕 00:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968891801
-[失效] 德甲 法兰克福VS汉堡 周楚雄 00:15  (timed out)
+[失效] 德甲 法兰克福VS汉堡 周楚雄 00:15  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968879705
-[失效] 德甲 法兰克福VS汉堡 赛场原声 00:15  (timed out)
-        http://8.137.121.66:20241/968879713
-[失效] WTT 男女单打决赛 周冠达 刘国正 程靖淇 23:30  (timed out)
+[失效] WTT 男女单打决赛 周冠达 侯英超 程靖淇 23:30  (timed out)
         http://8.137.121.66:20241/968633662
+[失效] WTT 男女单打决赛 CCTV5 00:30  (timed out)
+        http://8.137.121.66:20241/968990717
+[失效] 骑行系列赛 UCI BMX竞速世界杯美国站 解说 00:55  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/968915036
 [失效] 意甲 莱切VS热那亚 吴奕博 00:45  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968881800
+[失效] 西甲 埃尔切VS瓦伦西亚 鹿中原 01:15  (timed out)
+        http://8.137.121.66:20241/968876857
 [失效] 西甲 埃尔切VS瓦伦西亚 赛场原声 01:15  (timed out)
         http://8.137.121.66:20241/968876838
-[失效] 西甲 埃尔切VS瓦伦西亚 赛场原声 01:15  (timed out)
-        http://8.137.121.66:20241/968955239
-[失效] 骑行系列赛 UCI BMX竞速世界杯美国站 解说 01:55  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/968915036
 [失效] 法甲 马赛VS图卢兹 张天翼 03:30  (timed out)
         http://8.137.121.66:20241/968877474
-[失效] 意甲 尤文图斯VS那不勒斯 孙雨轩 刘腾 03:30  (HTTP Error 604: status code 604)
+[失效] 法甲 马赛VS图卢兹 赛场原声 03:30  (timed out)
+        http://8.137.121.66:20241/968877501
+[失效] 意甲 尤文图斯VS那不勒斯 孙雨轩 刘腾 03:30  (timed out)
         http://8.137.121.66:20241/968881788
 [失效] 意甲 尤文图斯VS那不勒斯 AI字幕 03:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968891680
-[失效] 西甲 毕尔巴鄂竞技VS皇家社会 林梦鸽 孙雷 03:45  (HTTP Error 604: status code 604)
+[失效] 意甲 尤文图斯VS那不勒斯 智能解说 03:40  (timed out)
+        http://8.137.121.66:20241/968917438
+[失效] 西甲 毕尔巴鄂竞技VS皇家社会 林梦鸽 孙雷 03:45  (timed out)
         http://8.137.121.66:20241/968876905
-[失效] 西甲 毕尔巴鄂竞技VS皇家社会 赛场原声 03:45  (timed out)
-        http://8.137.121.66:20241/968955253
-[失效] 西甲 毕尔巴鄂竞技VS皇家社会 AI字幕 03:45  (HTTP Error 604: status code 604)
+[失效] 西甲 毕尔巴鄂竞技VS皇家社会 AI字幕 03:45  (timed out)
         http://8.137.121.66:20241/968891703
-[失效] NBA 魔术VS凯尔特人 英文原声 04:25  (timed out)
-        http://8.137.121.66:20241/968946803
+[失效] NBA 步行者VS篮网 王冠证 05:55  (timed out)
+        http://8.137.121.66:20241/968948093
 [失效] 咪咕体育日报 undefined 咪咕体育日报 第229期 08:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968818237
-[失效] 斯诺克 32进16轮次上午场 2号桌 09:30  (timed out)
-        http://8.137.121.66:20241/968660107
-[失效] 斯诺克 32进16轮次上午场 4号桌 09:30  (timed out)
+[失效] 国际自盟场地自行车世锦赛 国际自盟场地自行车世锦赛-1 解说 08:55  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/968988369
+[失效] NBA 勇士VS快船 拜月宁 09:25  (timed out)
+        http://8.137.121.66:20241/968948474
+[失效] NBA 勇士VS快船 英文原声 09:25  (timed out)
+        http://8.137.121.66:20241/968948426
+[失效] 斯诺克 32进16轮次上午场 AI智慧分析 09:30  (timed out)
+        http://8.137.121.66:20241/968826077
+[失效] 斯诺克 32进16轮次上午场 4号桌 09:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968660157
 [失效] 斯诺克 32进16轮次上午场 5号桌 09:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968660186
-[失效] 斯诺克 32进16轮次上午场 6号桌 09:30  (timed out)
+[失效] 斯诺克 32进16轮次上午场 6号桌 09:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968660195
+[失效] 短道速滑世界巡回赛 短道速滑世界巡回赛 加拿大温哥华站 1 解说 13:57  (timed out)
+        http://8.137.121.66:20241/968988346
 [失效] 斯诺克 32进16轮次下午场 3号桌 14:00  (timed out)
         http://8.137.121.66:20241/968660252
-[失效] 斯诺克 32进16轮次下午场 4号桌 14:00  (timed out)
+[失效] 斯诺克 32进16轮次下午场 4号桌 14:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968660282
-[失效] 斯诺克 32进16轮次下午场 5号桌 14:00  (HTTP Error 604: status code 604)
+[失效] 斯诺克 32进16轮次下午场 5号桌 14:00  (timed out)
         http://8.137.121.66:20241/968660305
-[失效] 斯诺克 32进16轮次下午场 6号桌 14:00  (HTTP Error 604: status code 604)
+[失效] 斯诺克 32进16轮次下午场 6号桌 14:00  (timed out)
         http://8.137.121.66:20241/968660317
 [失效] WTT 周冠达、侯英超、程靖淇、徐晨皓前瞻 周冠达 侯英超 程靖淇 徐晨皓 18:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968849554
 [失效] 斯诺克 32进16轮次晚场 AI智慧分析 19:30  (timed out)
         http://8.137.121.66:20241/968826157
-[失效] 斯诺克 32进16轮次晚场 4号桌 19:30  (HTTP Error 604: status code 604)
+[失效] 斯诺克 32进16轮次晚场 4号桌 19:30  (timed out)
         http://8.137.121.66:20241/968660393
-[失效] 斯诺克 32进16轮次晚场 5号桌 19:30  (timed out)
+[失效] 斯诺克 32进16轮次晚场 5号桌 19:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968660409
-[失效] 斯诺克 32进16轮次晚场 6号桌 19:30  (timed out)
+[失效] 斯诺克 32进16轮次晚场 6号桌 19:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968660427
 [失效] CBA 广东东阳光VS青岛崂山啤酒 吕程 杨鸣 19:15  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968858256
-[失效] 国际马联场地障碍世界杯 西欧联赛法国里昂站 尹少坤 20:00  (timed out)
+[失效] CBA 山东高速VS北京控股 赛场原声 19:25  (timed out)
+        http://8.137.121.66:20241/968858471
+[失效] 国际马联场地障碍世界杯 西欧联赛法国里昂站 尹少坤 20:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968805567
-[失效] 亚冠精英 塔什干棉农VS利雅得胜利 智能解说 21:40  (timed out)
-        http://8.137.121.66:20241/968917488
 [失效] CBA 《球你别说了》第4期 周鹏 邵化谦 季孟年 连睿 22:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968920459
+[失效] 短道速滑世界巡回赛 短道速滑世界巡回赛 加拿大蒙特利尔站 1 解说 22:35  (timed out)
+        http://8.137.121.66:20241/968988179
 [失效] 兵器科技  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.223:9696
 [失效] 风云音乐  (<urlopen error timed out>)
@@ -1032,44 +1002,40 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.181:9360
 [失效] 中国教育1台  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.2.7:5002
-[失效] 中国教育1台  (timed out)
+[失效] 中国教育1台  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.57:8152
 [失效] 中国教育1台  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.57:8152
 [失效] 中国教育2台  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.165:1206
-[失效] 中国教育2台  (timed out)
-        http://114.254.38.234:8888/rtp/239.3.1.54:4120
 [失效] 中国教育2台  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.54:4120
 [失效] 中国教育4台  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.171:1710
-[失效] 中国教育4台  (timed out)
-        http://114.254.38.234:8888/rtp/239.3.1.56:4120
 [失效] 中国教育4台  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.56:4120
 [失效] 早期教育  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.99:8704
-[失效] 淘电影  (timed out)
+[失效] 淘电影  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.250:8001
 [失效] 淘电影  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.250:8001
-[失效] 淘剧场  (timed out)
-        http://114.254.38.234:8888/rtp/239.3.1.95:8001
 [失效] 淘剧场  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.95:8001
-[失效] 淘4K  (timed out)
+[失效] 淘4K  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.249:8001
 [失效] 淘4K  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.249:8001
-[失效] 淘娱乐  (timed out)
+[失效] 淘娱乐  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.100:8001
 [失效] 淘娱乐  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.100:8001
-[失效] 淘BABY  (timed out)
+[失效] 淘BABY  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.238:8001
 [失效] 淘BABY  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.238:8001
+[失效] 淘萌宠  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.102:8001
 [失效] 淘萌宠  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.102:8001
 [失效] 金鹰纪实  (<urlopen error timed out>)
@@ -1078,31 +1044,33 @@ dotv 直播源可用性检测报告
         http://171.119.206.17:6000/rtp/226.0.2.194:9464
 [失效] 金鹰纪实  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.170:5002
-[失效] 金鹰纪实  (timed out)
+[失效] 金鹰纪实  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.58:8156
 [失效] 金鹰纪实  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.58:8156
 [失效] 纪实科教  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.172:5002
+[失效] 纪实科教  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.115:8000
 [失效] 纪实科教  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.115:8000
-[失效] 睛彩青少  (timed out)
+[失效] 睛彩青少  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.127:8001
 [失效] 睛彩青少  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.127:8001
-[失效] 睛彩竞技  (timed out)
+[失效] 睛彩竞技  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.125:8001
 [失效] 睛彩竞技  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.125:8001
-[失效] 睛彩篮球  (timed out)
+[失效] 睛彩篮球  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.126:8001
 [失效] 睛彩篮球  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.126:8001
-[失效] 睛彩广场舞  (timed out)
+[失效] 睛彩广场舞  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.128:8001
 [失效] 睛彩广场舞  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.128:8001
-[失效] 茶频道  (timed out)
+[失效] 茶频道  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.165:8001
 [失效] 茶频道  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.165:8001
@@ -1124,9 +1092,7 @@ dotv 直播源可用性检测报告
         http://219.156.94.94:4022/rtp/225.1.4.212:1265
 [失效] 卡酷少儿  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.48:1077
-[失效] 卡酷少儿  ([Errno 104] Connection reset by peer)
-        http://115.171.216.32:4000/udp/225.1.8.35:8000
-[失效] 卡酷少儿  (timed out)
+[失效] 卡酷少儿  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.189:8000
 [失效] 卡酷少儿  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.189:8000
@@ -1134,75 +1100,75 @@ dotv 直播源可用性检测报告
         http://219.156.94.94:4022/rtp/225.1.4.49:1078
 [失效] 金鹰卡通  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.172:9288
-[失效] 金鹰卡通  (timed out)
+[失效] 金鹰卡通  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.51:9252
 [失效] 金鹰卡通  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.51:9252
 [失效] 中国交通  (<urlopen error timed out>)
         http://144.255.16.190:6688/udp/239.21.1.115:5002
-[失效] 中国交通  (timed out)
+[失效] 中国交通  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.188:8001
 [失效] 中国交通  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.188:8001
 [失效] 中国天气  (<urlopen error timed out>)
         http://171.119.206.17:6000/rtp/226.0.2.103:8736
-[失效] 华数4K  (timed out)
+[失效] 华数4K  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.236:2000
 [失效] 华数4K  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.236:2000
-[失效] 华数星影  (timed out)
+[失效] 华数星影  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.94:4120
 [失效] 华数星影  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.94:4120
-[失效] 华数动作影院  (timed out)
+[失效] 华数动作影院  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.92:4120
 [失效] 华数动作影院  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.92:4120
-[失效] 华数喜剧影院  (timed out)
+[失效] 华数喜剧影院  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.91:4120
 [失效] 华数喜剧影院  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.91:4120
-[失效] 华数家庭影院  (timed out)
+[失效] 华数家庭影院  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.93:4120
 [失效] 华数家庭影院  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.93:4120
 [失效] 华数经典电影  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.175:1233
-[失效] 华数经典电影  (timed out)
+[失效] 华数经典电影  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.195:9024
 [失效] 华数经典电影  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.195:9024
 [失效] 华数热播剧场  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.190:1239
-[失效] 华数热播剧场  (timed out)
+[失效] 华数热播剧场  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.194:9020
 [失效] 华数热播剧场  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.194:9020
-[失效] 华数军旅剧场  (timed out)
+[失效] 华数军旅剧场  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.68:4120
 [失效] 华数军旅剧场  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.68:4120
-[失效] 华数城市剧场  (timed out)
+[失效] 华数城市剧场  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.67:4120
 [失效] 华数城市剧场  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.67:4120
-[失效] 华数武侠剧场  (timed out)
+[失效] 华数武侠剧场  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.90:4120
 [失效] 华数武侠剧场  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.90:4120
 [失效] 华数魅力时尚  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.205:1253
-[失效] 华数魅力时尚  (timed out)
+[失效] 华数魅力时尚  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.196:9012
 [失效] 华数魅力时尚  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.196:9012
 [失效] 华数少儿动画  (<urlopen error timed out>)
         http://219.156.94.94:4022/rtp/225.1.4.189:1238
-[失效] 华数少儿动画  (timed out)
+[失效] 华数少儿动画  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.199:9000
 [失效] 华数少儿动画  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.199:9000
-[失效] 华数动画  (timed out)
+[失效] 华数动画  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.80:4120
 [失效] 华数动画  (<urlopen error timed out>)
         http://111.196.128.44:20000/rtp/239.3.1.80:4120
