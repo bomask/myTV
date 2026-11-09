@@ -3,19 +3,7 @@ dotv 直播源可用性检测报告
 探测并发 64 | 超时 7s
 注意: HTTP 探测仅验证地址可达, 不代表画面内容一定正常。
 
-===== 央视 ===== 失效 140 条
-[失效] CCTV1  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/cctv1.m3u8
-[失效] CCTV2  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/cctv2.m3u8
-[失效] CCTV3  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/cctv3.m3u8
-[失效] CCTV4  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/cctv4.m3u8
-[失效] CCTV5  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/cctv5.m3u8
-[失效] CCTV5+  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/cctv5p.m3u8
+===== 央视 ===== 失效 69 条
 [失效] CCTV6  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cctv6.m3u8
 [失效] CCTV7  (<urlopen error [Errno 111] Connection refused>)
@@ -24,16 +12,10 @@ dotv 直播源可用性检测报告
         http://8w97qbaxj0.apps.bot-hosting.cloud/cctv8.m3u8
 [失效] CCTV9  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cctv9.m3u8
-[失效] CCTV10  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/cctv10.m3u8
-[失效] CCTV13  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/cctv13.m3u8
-[失效] CCTV14  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/cctv14.m3u8
-[失效] CCTV15  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/cctv15.m3u8
-[失效] CCTV17  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/cctv17.m3u8
+[失效] CCTV16  (HTTP Error 503: Service Unavailable)
+        http://8w97qbaxj0.apps.bot-hosting.cloud/cctv16.m3u8
+[失效] CCTV16  (HTTP Error 503: Service Unavailable)
+        http://8w97qbaxj0.apps.bot-hosting.cloud/cctv164k.m3u8
 [失效] CCTV4K  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cctv4k.m3u8
 [失效] CCTV8K  (<urlopen error [Errno 111] Connection refused>)
@@ -54,1062 +36,758 @@ dotv 直播源可用性检测报告
         http://8w97qbaxj0.apps.bot-hosting.cloud/cctvfyjc.m3u8
 [失效] CCTV 第一剧场  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cctvdyjc.m3u8
-[失效] CCTV16  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/cctv16.m3u8
-[失效] CCTV16  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/cctv164k.m3u8
-[失效] CCTV4欧洲  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.5.31:1342
-[失效] CCTV4欧洲  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.2.28:5002
+[失效] CCTV 怀旧剧场  (<urlopen error [Errno 111] Connection refused>)
+        http://8w97qbaxj0.apps.bot-hosting.cloud/cctvhjjc.m3u8
+[失效] CCTV4欧洲  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.5.31:1342
 [失效] CCTV4欧洲  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.213:4220
-[失效] CCTV4欧洲  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.213:4220
-[失效] CCTV4美洲  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.5.32:1343
+[失效] CCTV4欧洲  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.213:4220
+[失效] CCTV4美洲  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.5.32:1343
 [失效] CCTV4美洲  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.214:4220
-[失效] CCTV4美洲  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.214:4220
-[失效] CCTV1  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.73:1102
-[失效] CCTV1  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.153:9136
-[失效] CCTV1  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.120:5002
-[失效] CCTV1  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.1:8008
-[失效] CCTV1  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.33:8002
-[失效] CCTV1  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.53:8060
-[失效] CCTV1  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.81:8176
-[失效] CCTV1  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.126:8002
-[失效] CCTV1  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.194:4120
-[失效] CCTV1  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.210:8068
-[失效] CCTV1  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.129:8008
-[失效] CCTV2  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.74:1103
-[失效] CCTV2  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.154:9144
-[失效] CCTV2  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.151:5002
-[失效] CCTV2  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.2:8084
+[失效] CCTV4美洲  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.214:4220
+[失效] CCTV1  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.73:1102
+[失效] CCTV1  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.129:8008
+[失效] CCTV1  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.129:8008
+[失效] CCTV2  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.74:1103
 [失效] CCTV2  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.60:8084
-[失效] CCTV2  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.60:8084
-[失效] CCTV3  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.158:1194
-[失效] CCTV3  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.208:9576
-[失效] CCTV3  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.2.45:5002
-[失效] CCTV3  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.88:8000
-[失效] CCTV3  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.172:8001
-[失效] CCTV4  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.5.30:1333
-[失效] CCTV4  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.156:9160
-[失效] CCTV4  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.154:5002
-[失效] CCTV4  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.4:8092
-[失效] CCTV4  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.2.29:5002
-[失效] CCTV4  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.105:8092
-[失效] CCTV5  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.159:1195
-[失效] CCTV5  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.209:9584
-[失效] CCTV5  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.2.46:5002
-[失效] CCTV5  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.89:8000
+[失效] CCTV2  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.60:8084
+[失效] CCTV3  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.158:1194
+[失效] CCTV3  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.172:8001
+[失效] CCTV3  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.172:8001
+[失效] CCTV4  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.5.30:1333
+[失效] CCTV4  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.105:8092
+[失效] CCTV5  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.159:1195
 [失效] CCTV5  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.173:8001
-[失效] CCTV5  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.173:8001
-[失效] CCTV5+  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.75:1104
-[失效] CCTV5+  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.168:9256
-[失效] CCTV5+  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.142:5002
-[失效] CCTV5+  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.20:8004
+[失效] CCTV5  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.173:8001
+[失效] CCTV5+  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.75:1104
 [失效] CCTV5+  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.130:8004
-[失效] CCTV5+  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.130:8004
-[失效] CCTV6  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.160:1196
-[失效] CCTV6  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.210:9592
-[失效] CCTV6  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.2.47:5002
-[失效] CCTV6  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.84:8000
+[失效] CCTV5+  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.130:8004
+[失效] CCTV6  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.160:1196
 [失效] CCTV6  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.174:8001
-[失效] CCTV6  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.174:8001
-[失效] CCTV7  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.76:1105
-[失效] CCTV7  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.159:9184
-[失效] CCTV7  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.152:5002
-[失效] CCTV7  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.7:8104
+[失效] CCTV6  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.174:8001
+[失效] CCTV7  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.76:1105
 [失效] CCTV7  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.61:8104
-[失效] CCTV7  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.61:8104
-[失效] CCTV8  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.161:1197
-[失效] CCTV8  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.211:9600
-[失效] CCTV8  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.2.48:5002
-[失效] CCTV8  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.85:8000
+[失效] CCTV7  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.61:8104
+[失效] CCTV8  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.161:1197
 [失效] CCTV8  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.175:8001
-[失效] CCTV8  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.175:8001
-[失效] CCTV9  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.77:1106
-[失效] CCTV9  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.161:9200
-[失效] CCTV9  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.153:5002
-[失效] CCTV9  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.9:8112
+[失效] CCTV8  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.175:8001
+[失效] CCTV9  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.77:1106
 [失效] CCTV9  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.62:8112
-[失效] CCTV9  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.62:8112
-[失效] CCTV10  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.78:1107
-[失效] CCTV10  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.162:9208
-[失效] CCTV10  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.155:5002
-[失效] CCTV10  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.10:8116
-[失效] CCTV10  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.63:8116
-[失效] CCTV10  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.63:8116
-[失效] CCTV11  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.215:1268
-[失效] CCTV11  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.2.2:5002
-[失效] CCTV11  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.73:8120
-[失效] CCTV11  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.152:8120
-[失效] CCTV12  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.79:1108
-[失效] CCTV12  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.164:9224
-[失效] CCTV12  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.156:5002
-[失效] CCTV12  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.12:8124
-[失效] CCTV12  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.64:8124
-[失效] CCTV12  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.64:8124
-[失效] CCTV13  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.113:1293
-[失效] CCTV13  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.165:9232
-[失效] CCTV13  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.2.3:5002
-[失效] CCTV13  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.168:8130
-[失效] CCTV13  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.124:8128
-[失效] CCTV13  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.124:8128
-[失效] CCTV14  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.80:1109
-[失效] CCTV14  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.166:9240
-[失效] CCTV14  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.157:5002
-[失效] CCTV14  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.14:8132
+[失效] CCTV9  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.62:8112
+[失效] CCTV10  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.78:1107
+[失效] CCTV10  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.63:8116
+[失效] CCTV11  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.215:1268
+[失效] CCTV11  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.152:8120
+[失效] CCTV12  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.79:1108
+[失效] CCTV12  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.64:8124
+[失效] CCTV13  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.124:8128
+[失效] CCTV14  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.80:1109
 [失效] CCTV14  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.65:8132
-[失效] CCTV14  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.65:8132
-[失效] CCTV15  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.216:1269
-[失效] CCTV15  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.2.4:5002
-[失效] CCTV15  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.74:8136
+[失效] CCTV14  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.65:8132
+[失效] CCTV15  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.216:1269
 [失效] CCTV15  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.153:8136
-[失效] CCTV15  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.153:8136
-[失效] CCTV16  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.169:9264
+[失效] CCTV15  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.153:8136
 [失效] CCTV16  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.184:8001
-[失效] CCTV16  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.184:8001
-[失效] CCTV17  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.226:2506
-[失效] CCTV17  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.170:9272
-[失效] CCTV17  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.186:5002
-[失效] CCTV17  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.17:8144
+[失效] CCTV16  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.184:8001
+[失效] CCTV17  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.226:2506
 [失效] CCTV17  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.151:8144
-[失效] CCTV17  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.151:8144
 
-===== 卫视 ===== 失效 237 条
-[失效] 北京卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/bjws.m3u8
-[失效] 北京卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.81:1110
-[失效] 北京卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.177:9328
-[失效] 北京卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.88:5002
-[失效] 北京卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.21:8002
-[失效] 北京卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.241:8000
+===== 卫视 ===== 失效 129 条
+[失效] 北京卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.81:1110
+[失效] 北京卫视  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.241:8000
+[失效] 北京卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.241:8000
 [失效] 江苏卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/jsws.m3u8
-[失效] 江苏卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.83:1112
-[失效] 江苏卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.176:9320
-[失效] 江苏卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.89:5002
-[失效] 江苏卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/udp/225.1.8.44:8028
+[失效] 江苏卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.83:1112
 [失效] 江苏卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.135:8028
-[失效] 江苏卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.135:8028
+[失效] 江苏卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.135:8028
 [失效] 东方卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/dfws.m3u8
-[失效] 东方卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.85:1114
-[失效] 东方卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.175:9312
-[失效] 东方卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.111:5002
-[失效] 东方卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/udp/225.1.8.45:8032
+[失效] 东方卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.85:1114
 [失效] 东方卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.136:8032
-[失效] 东方卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.136:8032
+[失效] 东方卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.136:8032
 [失效] 浙江卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/zjws.m3u8
-[失效] 浙江卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.84:1113
-[失效] 浙江卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.144:9064
-[失效] 浙江卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.90:5002
-[失效] 浙江卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/udp/225.1.8.46:8036
+[失效] 浙江卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.84:1113
 [失效] 浙江卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.137:8036
-[失效] 浙江卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.137:8036
+[失效] 浙江卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.137:8036
 [失效] 湖南卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/hnws.m3u8
-[失效] 湖南卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.82:1111
-[失效] 湖南卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.143:9056
-[失效] 湖南卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.158:5002
-[失效] 湖南卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/udp/225.1.8.41:8012
+[失效] 湖南卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.82:1111
 [失效] 湖南卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.132:8012
-[失效] 湖南卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.132:8012
-[失效] 湖北卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/6969.m3u8
+[失效] 湖南卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.132:8012
 [失效] 湖北卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/hbws.m3u8
-[失效] 湖北卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.89:1118
-[失效] 湖北卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.150:9112
-[失效] 湖北卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.163:5002
-[失效] 湖北卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/udp/225.1.8.47:8044
 [失效] 湖北卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.138:8044
-[失效] 湖北卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.138:8044
+[失效] 湖北卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.138:8044
 [失效] 广东卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/gdws.m3u8
-[失效] 广东卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.166:1207
-[失效] 广东卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.146:9080
-[失效] 广东卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.92:5002
-[失效] 广东卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/udp/225.1.8.49:8048
+[失效] 广东卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.166:1207
 [失效] 广东卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.142:8048
-[失效] 广东卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.142:8048
+[失效] 广东卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.142:8048
 [失效] 广西卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/gxws.m3u8
-[失效] 广西卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.31:1060
-[失效] 广西卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.231:9760
-[失效] 广西卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.152:8300
+[失效] 广西卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.31:1060
 [失效] 广西卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.39:8300
-[失效] 广西卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.39:8300
+[失效] 广西卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.39:8300
 [失效] 黑龙江卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/hljws.m3u8
-[失效] 黑龙江卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.91:1120
-[失效] 黑龙江卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.151:9120
-[失效] 黑龙江卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.28:5002
-[失效] 黑龙江卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/udp/225.1.8.42:8016
-[失效] 黑龙江卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.133:8016
+[失效] 黑龙江卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.91:1120
+[失效] 黑龙江卫视  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.133:8016
+[失效] 黑龙江卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.133:8016
 [失效] 黑龙江卫视  (HTTP Error 404: Not Found)
         http://113.57.140.161:10081/newlive/live/hls/38/live.m3u8
 [失效] 海南卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/6973.m3u8
-[失效] 海南卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/hainanws.m3u8
-[失效] 海南卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.195:1310
-[失效] 海南卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.212:9608
-[失效] 海南卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.2.14:5002
-[失效] 海南卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.158:8304
+[失效] 海南卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.195:1310
 [失效] 海南卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.45:8304
-[失效] 海南卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.45:8304
+[失效] 海南卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.45:8304
 [失效] 重庆卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cqws.m3u8
-[失效] 重庆卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.157:1308
-[失效] 重庆卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.174:9304
-[失效] 重庆卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.233:5002
-[失效] 重庆卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/udp/225.1.8.172:8162
-[失效] 重庆卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.122:8160
-[失效] 深圳卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/6975.m3u8
+[失效] 重庆卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.157:1308
+[失效] 重庆卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.122:8160
 [失效] 深圳卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/szws.m3u8
-[失效] 深圳卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.90:1119
-[失效] 深圳卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.147:9088
-[失效] 深圳卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.93:5002
-[失效] 深圳卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/udp/225.1.8.43:8020
-[失效] 深圳卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.134:8020
-[失效] 四川卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/6976.m3u8
+[失效] 深圳卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.90:1119
+[失效] 深圳卫视  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.134:8020
+[失效] 深圳卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.134:8020
 [失效] 四川卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/scws.m3u8
-[失效] 四川卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.151:1306
-[失效] 四川卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.179:9344
-[失效] 四川卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.2.15:5002
-[失效] 四川卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.142:8288
+[失效] 四川卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.151:1306
 [失效] 四川卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.29:8288
-[失效] 四川卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.29:8288
 [失效] 河南卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/henanws.m3u8
-[失效] 河南卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.98:1127
-[失效] 河南卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.52:8328
-[失效] 河南卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.2.37:5002
-[失效] 河南卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.140:8128
+[失效] 河南卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.98:1127
 [失效] 河南卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.27:8128
-[失效] 河南卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.254:1300
-[失效] 河南卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.27:8128
-[失效] 东南卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/6978.m3u8
+[失效] 河南卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.254:1300
 [失效] 东南卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/dnws.m3u8
-[失效] 东南卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.228:1274
-[失效] 东南卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.188:9416
-[失效] 东南卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.113:5002
-[失效] 东南卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/udp/225.1.8.79:8148
+[失效] 东南卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.228:1274
 [失效] 东南卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.156:8148
-[失效] 东南卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.156:8148
-[失效] 贵州卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/6979.m3u8
+[失效] 东南卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.156:8148
 [失效] 贵州卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/gzws.m3u8
-[失效] 贵州卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.122:1302
-[失效] 贵州卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.180:9352
-[失效] 贵州卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.166:5002
-[失效] 贵州卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/udp/225.1.8.77:8076
 [失效] 贵州卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.149:8076
-[失效] 贵州卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.149:8076
+[失效] 贵州卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.149:8076
 [失效] 贵州卫视  (HTTP Error 404: Not Found)
         http://113.57.140.161:10081/newlive/live/hls/39/live.m3u8
 [失效] 江西卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/6980.m3u8
-[失效] 江西卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/jxws.m3u8
-[失效] 江西卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.139:1305
-[失效] 江西卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.54:8344
-[失效] 江西卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.167:5002
-[失效] 江西卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/udp/225.1.8.171:8166
-[失效] 江西卫视  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.123:8164
-[失效] 江西卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.1.9:8164
-[失效] 江西卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.123:8164
-[失效] 辽宁卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/6981.m3u8
-[失效] 辽宁卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/lnws.m3u8
-[失效] 辽宁卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.167:1208
-[失效] 辽宁卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.173:9296
-[失效] 辽宁卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.164:5002
-[失效] 辽宁卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/udp/225.1.8.51:8056
+[失效] 江西卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.139:1305
+[失效] 江西卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.123:8164
+[失效] 辽宁卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.167:1208
 [失效] 辽宁卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.210:8056
-[失效] 辽宁卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.210:8056
-[失效] 安徽卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/6982.m3u8
-[失效] 安徽卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.87:1116
-[失效] 安徽卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.145:9072
-[失效] 安徽卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.159:5002
-[失效] 安徽卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/udp/225.1.8.52:8064
+[失效] 辽宁卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.210:8056
+[失效] 安徽卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.87:1116
 [失效] 安徽卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.211:8064
-[失效] 安徽卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.211:8064
+[失效] 安徽卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.211:8064
 [失效] 安徽卫视  (HTTP Error 404: Not Found)
         http://113.57.140.161:10081/newlive/live/hls/40/live.m3u8
 [失效] 河北卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/6983.m3u8
-[失效] 河北卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/hebws.m3u8
-[失效] 河北卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.123:1304
-[失效] 河北卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.178:9336
-[失效] 河北卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.168:5002
-[失效] 河北卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/udp/225.1.8.76:8002
 [失效] 河北卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.148:8072
-[失效] 河北卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.148:8072
-[失效] 山东卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/6984.m3u8
+[失效] 河北卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.148:8072
 [失效] 山东卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/sdws.m3u8
-[失效] 山东卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.88:1117
-[失效] 山东卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.149:9104
-[失效] 山东卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.87:5002
-[失效] 山东卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/udp/225.1.8.50:8052
+[失效] 山东卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.88:1117
 [失效] 山东卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.209:8052
-[失效] 山东卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.209:8052
-[失效] 天津卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/6985.m3u8
-[失效] 天津卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://8w97qbaxj0.apps.bot-hosting.cloud/tjws.m3u8
-[失效] 天津卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.86:1115
-[失效] 天津卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.148:9096
-[失效] 天津卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.165:5002
-[失效] 天津卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/udp/225.1.8.48:8044
+[失效] 山东卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.209:8052
+[失效] 天津卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.86:1115
 [失效] 天津卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.141:1234
-[失效] 天津卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.141:1234
-[失效] 吉林卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/6986.m3u8
+[失效] 天津卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.141:1234
 [失效] 吉林卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/jlws.m3u8
-[失效] 吉林卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.174:1309
-[失效] 吉林卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.58:8376
-[失效] 吉林卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.2.49:5002
-[失效] 吉林卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.153:8200
+[失效] 吉林卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.174:1309
 [失效] 吉林卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.240:8172
-[失效] 吉林卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.240:8172
+[失效] 吉林卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.240:8172
 [失效] 陕西卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/6987.m3u8
-[失效] 陕西卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.39:1068
-[失效] 陕西卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.154:8140
+        http://8w97qbaxj0.apps.bot-hosting.cloud/saxws.m3u8
+[失效] 陕西卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.39:1068
 [失效] 陕西卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.41:8140
-[失效] 陕西卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.41:8140
-[失效] 宁夏卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/6988.m3u8
+[失效] 陕西卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.41:8140
 [失效] 宁夏卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/nxws.m3u8
-[失效] 宁夏卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.43:1072
-[失效] 宁夏卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.159:8124
+[失效] 宁夏卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.43:1072
 [失效] 宁夏卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.46:8124
-[失效] 宁夏卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.46:8124
+[失效] 宁夏卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.46:8124
 [失效] 内蒙古卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/nmgws.m3u8
-[失效] 内蒙古卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.45:1074
-[失效] 内蒙古卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.156:8176
+[失效] 内蒙古卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.45:1074
 [失效] 内蒙古卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.43:8176
-[失效] 内蒙古卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.43:8176
-[失效] 云南卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/6990.m3u8
+[失效] 内蒙古卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.43:8176
 [失效] 云南卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/ynws.m3u8
-[失效] 云南卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.152:1307
-[失效] 云南卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.139:8108
+[失效] 云南卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.152:1307
 [失效] 云南卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.26:8108
-[失效] 云南卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.26:8108
-[失效] 山西卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/6991.m3u8
+[失效] 云南卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.26:8108
 [失效] 山西卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/shanxiws.m3u8
-[失效] 山西卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.38:1067
-[失效] 山西卫视  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.152:9128
-[失效] 山西卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.155:8172
+[失效] 山西卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.38:1067
 [失效] 山西卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.42:8172
-[失效] 山西卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.42:8172
-[失效] 青海卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/6992.m3u8
+[失效] 山西卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.42:8172
 [失效] 青海卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/qhws.m3u8
-[失效] 青海卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.44:1073
-[失效] 青海卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.2.51:5002
-[失效] 青海卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.157:8184
+[失效] 青海卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.44:1073
 [失效] 青海卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.44:8184
-[失效] 青海卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.44:8184
-[失效] 西藏卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/6993.m3u8
+[失效] 青海卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.44:8184
 [失效] 西藏卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/xizangws.m3u8
-[失效] 西藏卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.46:1075
-[失效] 西藏卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.160:8164
+[失效] 西藏卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.46:1075
 [失效] 西藏卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.47:8164
-[失效] 西藏卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.47:8164
-[失效] 新疆卫视  (<urlopen error [Errno 111] Connection refused>)
-        http://45.192.97.170:8880/play/6994.m3u8
+[失效] 西藏卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.47:8164
 [失效] 新疆卫视  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/xjws.m3u8
-[失效] 新疆卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.47:1076
-[失效] 新疆卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.161:8160
+[失效] 新疆卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.47:1076
 [失效] 新疆卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.48:8160
-[失效] 新疆卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.48:8160
-[失效] 兵团卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.97:1126
-[失效] 兵团卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.167:4120
+[失效] 新疆卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.48:8160
+[失效] 兵团卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.97:1126
 [失效] 兵团卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.144:4120
-[失效] 兵团卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.144:4120
-[失效] 三沙卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.234:1280
-[失效] 三沙卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.78:4120
-[失效] 三沙卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.155:4120
-[失效] 甘肃卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.42:1071
-[失效] 甘肃卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.2.22:5002
-[失效] 甘肃卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.162:8188
+[失效] 兵团卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.144:4120
+[失效] 三沙卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.234:1280
+[失效] 三沙卫视  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.155:4120
+[失效] 三沙卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.155:4120
+[失效] 甘肃卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.42:1071
 [失效] 甘肃卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.49:8188
-[失效] 甘肃卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.49:8188
-[失效] 山东教育卫视  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.164:1205
-[失效] 山东教育卫视  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.169:5002
-[失效] 山东教育卫视  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.190:4120
-[失效] 山东教育卫视  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.52:4120
+[失效] 甘肃卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.49:8188
+[失效] 山东教育卫视  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.164:1205
+[失效] 山东教育卫视  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.52:4120
+[失效] 山东教育卫视  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.52:4120
 
-===== 其他 ===== 失效 175 条
+===== 其他 ===== 失效 193 条
 [失效] CETV-1  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/cetv1.m3u8
 [失效] 国学频道  (<urlopen error [Errno 111] Connection refused>)
         http://8w97qbaxj0.apps.bot-hosting.cloud/guoxue.m3u8
-[失效] 武术世界  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.97:8688
-[失效] 快乐垂钓  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.71:8002
+[失效] 吉林影视频道  (timed out)
+        http://8.137.121.66:20241/968553184
+[失效] 武术世界  (timed out)
+        http://8.137.121.66:20241/958475359
 [失效] 快乐垂钓  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.164:8001
-[失效] 快乐垂钓  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.164:8001
-[失效] CHC影迷电影  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.207:1260
-[失效] CHC影迷电影  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.93:8004
-[失效] CHC动作电影  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.208:1261
-[失效] CHC动作电影  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.94:8012
-[失效] CHC家庭影院  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.209:1262
-[失效] CHC家庭影院  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.240:9820
-[失效] 嘉佳卡通  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.92:1121
-[失效] 嘉佳卡通  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.170:9268
+[失效] 快乐垂钓  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.164:8001
+[失效] CHC动作电影  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.208:1261
+[失效] CHC家庭影院  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.209:1262
+[失效] 嘉佳卡通  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.92:1121
 [失效] 嘉佳卡通  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.147:9268
-[失效] 嘉佳卡通  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.147:9268
-[失效] 梨园频道  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.115:8832
-[失效] UFC格斗马拉松 UFC格斗马拉松第一周 格斗马拉松 00:00  (HTTP Error 604: status code 604)
+[失效] 嘉佳卡通  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.147:9268
+[失效] 英超 诺丁汉森林VS曼城 全场回放（詹俊、张路、郭小仙儿） 01:25  (timed out)
+        http://8.137.121.66:20241/969228703
+[失效] 德甲 斯图加特VS云达不莱梅 全场回放（吴子越） 01:15  (timed out)
+        http://8.137.121.66:20241/969228032
+[失效] 足总杯 奥特林查姆VS诺茨郡 全场回放（涂远） 01:15  (timed out)
+        http://8.137.121.66:20241/969229707
+[失效] 法甲 巴黎圣日耳曼VS特鲁瓦 全场回放（鹿中原、王宇） 04:00  (timed out)
+        http://8.137.121.66:20241/969232816
+[失效] UFC格斗之夜 沃克TKO阿科斯塔 苏亚雷斯判定取胜 主赛（英文原声） 05:55  (timed out)
+        http://8.137.121.66:20241/969245658
+[失效] UFC格斗之夜 沃克TKO阿科斯塔 苏亚雷斯判定取胜 副赛（陈瑞阳、郑文祺） 05:55  (timed out)
+        http://8.137.121.66:20241/969241548
+[失效] UFC格斗之夜 沃克TKO阿科斯塔 苏亚雷斯判定取胜 副赛（英文原声） 05:55  (timed out)
+        http://8.137.121.66:20241/969242802
+[失效] 马拉松系列赛 杭州钱塘女子半程马拉松 2026杭州钱塘女子半程马拉松全场回放 06:45  (timed out)
+        http://8.137.121.66:20241/969242138
+[失效] 马拉松系列赛 蒙牛眉山东坡马拉松 2026蒙牛眉山东坡马拉松全场回放（赛场原声） 07:15  (timed out)
+        http://8.137.121.66:20241/969244378
+[失效] 马拉松系列赛 雅迪锡山宛山湖马拉松 2026雅迪锡山宛山湖马拉松全场回放（赛场原声） 07:15  (timed out)
+        http://8.137.121.66:20241/969252642
+[失效] 马拉松系列赛 新余仙女湖马拉松 2026新余仙女湖马拉松全场回放 07:15  (timed out)
+        http://8.137.121.66:20241/969244548
+[失效] 马拉松系列赛 黄冈半程马拉松 2026黄冈半程马拉松全场回放 07:45  (timed out)
+        http://8.137.121.66:20241/969242145
+[失效] NBA 雷霆VS奇才 全场回放（王凯） 08:55  (timed out)
+        http://8.137.121.66:20241/969242546
+[失效] NBA 雷霆VS奇才 全场回放（英文原声） 08:55  (timed out)
+        http://8.137.121.66:20241/969243556
+[失效] NBA 骑士VS尼克斯 全场回放（刘圳展、陈正昊、张兆旭、魏欣怡） 08:55  (timed out)
+        http://8.137.121.66:20241/969242679
+[失效] NBA 骑士VS尼克斯 全场回放（英文原声） 08:55  (timed out)
+        http://8.137.121.66:20241/969243439
+[失效] NBA 勇士VS魔术 全场回放（蔡凯臣、马健、季孟年、小七） 09:00  (timed out)
+        http://8.137.121.66:20241/969243631
+[失效] NBA 太阳VS火箭 全场回放（英文原声） 09:30  (timed out)
+        http://8.137.121.66:20241/969245176
+[失效] BWF 国羽一金一银收官！安洗莹夺冠 【回放】广上瑠依/保原彩夏2-0金裕贞/李幽琳（鸿昆） 12:50  (timed out)
+        http://8.137.121.66:20241/969243116
+[失效] BWF 国羽一金一银收官！安洗莹夺冠 2026BWF韩国羽毛球公开赛Day6一号场地全场回放（英文视角） 12:50  (timed out)
+        http://8.137.121.66:20241/969263377
+[失效] NBA 开拓者VS马刺 全场回放（孙博、盛哲） 10:55  (timed out)
+        http://8.137.121.66:20241/969245273
+[失效] NBA 开拓者VS马刺 全场回放（英文原声） 10:55  (timed out)
+        http://8.137.121.66:20241/969247214
+[失效] RIZIN 李凯文判定憾负 拉拉米加冕蝇量级新王 RIZIN55期全场回放（英文原声） 12:55  (timed out)
+        http://8.137.121.66:20241/969273402
+[失效] WTA 刘婧文生涯首冠 詹皓晴组合女双夺冠 【女单决赛】刘婧文2-0伊埃拉（赛场原声） 13:30  (timed out)
+        http://8.137.121.66:20241/969265096
+[失效] FIBA Open 3x3 FIBA Open 3x3年度总决赛 淘汰赛及决赛 全场回放（一） 13:55  (timed out)
+        http://8.137.121.66:20241/969266328
+[失效] 徽青赛 宣城VS亳州 全场回放 14:30  (timed out)
+        http://8.137.121.66:20241/969266133
+[失效] 广东省女子篮球联赛 韶关88-54河源 全场回放（赛场原声） 14:20  (timed out)
+        http://8.137.121.66:20241/969254892
+[失效] 中超 青岛海牛VS深圳新鹏城 全场回放（张天翼、王伟） 15:15  (timed out)
+        http://8.137.121.66:20241/969261476
+[失效] 中超 山东泰山VS成都蓉城 全场回放（石庆圣、李彦、邵凌霄） 15:15  (timed out)
+        http://8.137.121.66:20241/969261728
+[失效] 中超 山东泰山VS成都蓉城 全场回放（乔迁） 15:15  (timed out)
+        http://8.137.121.66:20241/969261808
+[失效] 中超 大连英博海发VS天津津门虎 全场回放（鲁靖明、董方卓、孙继海） 15:15  (timed out)
+        http://8.137.121.66:20241/969262646
+[失效] 中超 北京国安VS重庆铜梁龙 全场回放（梁祥宇、贺宇） 15:15  (timed out)
+        http://8.137.121.66:20241/969261213
+[失效] 中超 上海海港VS辽宁铁人楠波湾 全场回放（娄一晨、赵鹏） 15:25  (timed out)
+        http://8.137.121.66:20241/969259390
+[失效] 中超 上海海港VS辽宁铁人楠波湾 全场回放（AI智慧观赛） 15:25  (timed out)
+        http://8.137.121.66:20241/969258948
+[失效] 中超 上海海港VS辽宁铁人楠波湾 全场回放（智能解说） 15:25  (timed out)
+        http://8.137.121.66:20241/969258616
+[失效] 徽青赛 六安VS黄山 全场回放 15:30  (timed out)
+        http://8.137.121.66:20241/969267232
+[失效] 琼超 临高VS儋州 全场回放 15:30  (timed out)
+        http://8.137.121.66:20241/969299791
+[失效] WTA 刘婧文VS伊埃拉 【女单决赛】刘婧文2-0伊埃拉（赛场原声） 13:30  (timed out)
+        http://8.137.121.66:20241/969265096
+[失效] 女篮俱乐部杯 山西兴瑞VS东莞新世纪 全场回放（赛场原声） 16:20  (timed out)
+        http://8.137.121.66:20241/969264062
+[失效] 女篮俱乐部杯 福建众腾VS江苏五台山 全场回放（赛场原声） 16:20  (timed out)
+        http://8.137.121.66:20241/969263592
+[失效] WTT 张本智和锁定决赛席 早田4-1美和 全场回放（英文解说智能字幕） 18:00  (timed out)
+        http://8.137.121.66:20241/969270374
+[失效] NBA经典赛事 NBA精彩重播：马刺 vs 开拓者 全场回放（孙博、盛哲） 18:00  (timed out)
+        http://8.137.121.66:20241/969245273
+[失效] 浙BA 玉环67-50海宁 2026浙江省城市篮球联赛小组赛第10轮全场回放：玉环VS海宁（赛场原声） 19:30  (timed out)
+        http://8.137.121.66:20241/969269610
+[失效] 女篮俱乐部杯 济源王屋山VS上海开元 全场回放（赛场原声） 19:20  (timed out)
+        http://8.137.121.66:20241/969269780
+[失效] 琼超 五指山VS昌江 全场回放 19:35  (timed out)
+        http://8.137.121.66:20241/969293226
+[失效] 湘超 衡阳队VS娄底队 全场回放 19:38  (timed out)
+        http://8.137.121.66:20241/969275334
+[失效] 英超 桑德兰VS切尔西 全场回放（涂远、赵鹏、邵凌霄） 21:45  (timed out)
+        http://8.137.121.66:20241/969274400
+[失效] 英超 水晶宫VS利物浦 全场回放（颜强、贺宇、李子琪） 21:45  (timed out)
+        http://8.137.121.66:20241/969275849
+[失效] 法甲 雷恩VS里尔 全场回放（智能解说） 21:55  (timed out)
+        http://8.137.121.66:20241/969275634
+[失效] 英女超 水晶宫女足VS查尔顿女足 全场回放（魏欣怡） 21:45  (timed out)
+        http://8.137.121.66:20241/969277894
+[失效] 德甲 科隆VS勒沃库森 全场回放（鲁靖明、马延峰） 22:15  (timed out)
+        http://8.137.121.66:20241/969274990
+[失效] 足总杯 温伯尼镇VS克劳利 全场回放（谭逸雄） 22:45  (timed out)
+        http://8.137.121.66:20241/969275992
+[失效] UFC格斗马拉松 解锁播时任务 赢万份会员+限量周边 格斗马拉松 00:00  (HTTP Error 610: status code 610)
         http://8.137.121.66:20241/969206155
-[失效] 广东省女子篮球联赛 佛山vs韶光 赛场原声 08:50  (timed out)
-        http://8.137.121.66:20241/969172669
-[失效] 广东省女子篮球联赛 阳江vs河源 赛场原声 08:50  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/969172690
-[失效] 全国羽毛球团体锦标赛 全国羽毛球团体锦标赛第一日 1号场地 09:00  (HTTP Error 604: status code 604)
+[失效] UFC格斗马拉松 解锁播时任务 赢万份会员+限量周边 格斗马拉松 00:00  (timed out)
+        http://8.137.121.66:20241/969266440
+[失效] 法甲 勒芒VS摩纳哥 全场回放（乔迁） 00:00  (timed out)
+        http://8.137.121.66:20241/969278175
+[失效] 英超 曼联VS阿斯顿维拉 全场回放（詹俊、张路、姚安妮） 00:25  (timed out)
+        http://8.137.121.66:20241/969278621
+[失效] 英超 曼联VS阿斯顿维拉 全场回放（洪荒） 00:25  (timed out)
+        http://8.137.121.66:20241/969279084
+[失效] 德甲 弗赖堡VS柏林联 全场回放（赵宇） 00:15  (timed out)
+        http://8.137.121.66:20241/969278322
+[失效] WTT 早田希娜登顶！张本智和夺冠小弗摘亚 【男单决赛】弗朗西斯卡2-4张本智和 00:30  (timed out)
+        http://8.137.121.66:20241/969278816
+[失效] WTT 早田希娜登顶！张本智和夺冠小弗摘亚 全场回放（CCTV5） 00:30  (timed out)
+        http://8.137.121.66:20241/969287673
+[失效] 意甲 国际米兰VS科莫 全场回放（AI智慧观赛） 00:55  (timed out)
+        http://8.137.121.66:20241/969279506
+[失效] 西甲 比利亚雷亚尔VS赫塔菲 全场回放（梁祥宇） 01:15  (timed out)
+        http://8.137.121.66:20241/969279549
+[失效] 德甲 霍芬海姆VS沙尔克04 全场回放（周楚雄） 02:15  (timed out)
+        http://8.137.121.66:20241/969281581
+[失效] 法甲 朗斯VS马赛 全场回放（鹿中原） 03:30  (timed out)
+        http://8.137.121.66:20241/969284498
+[失效] 西甲 马德里竞技VS巴塞罗那 全场回放（张昊泽、李欣） 03:55  (timed out)
+        http://8.137.121.66:20241/969285092
+[失效] WTA 抢十险胜！埃拉尼/保利尼逆转收获开门红 【回放】西尼亚科娃/汤森德1-2埃拉尼/保利尼（邱超） 04:00  (timed out)
+        http://8.137.121.66:20241/969294972
+[失效] WTA 抢十险胜！埃拉尼/保利尼逆转收获开门红 【回放】布克沙/梅里查尔2-0佩雷兹/舒尔斯（邱超） 04:00  (timed out)
+        http://8.137.121.66:20241/969298814
+[失效] WTA 抢十险胜！埃拉尼/保利尼逆转收获开门红 【回放】科斯秋克0-2诺斯科娃（鸿昆） 04:00  (timed out)
+        http://8.137.121.66:20241/969284651
+[失效] WTA 抢十险胜！埃拉尼/保利尼逆转收获开门红 【回放】高芙2-1佩古拉（王东、郭丰庆）（50帧原画） 04:00  (timed out)
+        http://8.137.121.66:20241/969291321
+[失效] WTA 抢十险胜！埃拉尼/保利尼逆转收获开门红 【回放】科斯秋克0-2诺斯科娃（赛场原声） 04:00  (timed out)
+        http://8.137.121.66:20241/969289165
+[失效] WTA 抢十险胜！埃拉尼/保利尼逆转收获开门红 【回放】高芙2-1佩古拉（英文原声） 04:00  (timed out)
+        http://8.137.121.66:20241/969295597
+[失效] WTA 科斯秋克VS诺斯科娃 【回放】科斯秋克0-2诺斯科娃（鸿昆） 04:00  (timed out)
+        http://8.137.121.66:20241/969284651
+[失效] WTA 科斯秋克VS诺斯科娃 【回放】科斯秋克0-2诺斯科娃（赛场原声） 04:00  (timed out)
+        http://8.137.121.66:20241/969289165
+[失效] WTA 高芙VS佩古拉 【回放】高芙2-1佩古拉（王东、郭丰庆）（50帧原画） 04:00  (timed out)
+        http://8.137.121.66:20241/969291321
+[失效] WTA 高芙VS佩古拉 【回放】高芙2-1佩古拉（英文原声） 04:00  (timed out)
+        http://8.137.121.66:20241/969295597
+[失效] NBA 活塞VS湖人 全场回放（杨健、丁彦雨航、曾令旭、佳依） 06:30  (timed out)
+        http://8.137.121.66:20241/969291533
+[失效] NBA 森林狼VS爵士 全场回放（刘圳展） 07:55  (timed out)
+        http://8.137.121.66:20241/969293840
+[失效] NBA 森林狼VS爵士 全场回放（英文原声） 07:55  (timed out)
+        http://8.137.121.66:20241/969298618
+[失效] NBA 雄鹿VS凯尔特人 全场回放（庄宁宇、刘炜、陈正昊、刘潇涵） 08:30  (timed out)
+        http://8.137.121.66:20241/969297120
+[失效] WTA 曾丽美VS里内特 【女单决赛】曾丽美1-2里内特（蔡凯臣） 13:30  (timed out)
+        http://8.137.121.66:20241/969308791
+[失效] 广东省女子篮球联赛 潮州60-80茂名 全场回放（赛场原声） 15:50  (timed out)
+        http://8.137.121.66:20241/969311473
+[失效] 中国之队·银川五人制国际足球邀请赛 中国香港vs中国 全场回放（官方解说） 16:25  (timed out)
+        http://8.137.121.66:20241/969312036
+[失效] 全国羽毛球团体锦标赛 全国羽毛球团体锦标赛第一日 1号场地 09:00  (timed out)
         http://8.137.121.66:20241/969267867
-[失效] 全国羽毛球团体锦标赛 全国羽毛球团体锦标赛第一日 3号场地 09:00  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/969268319
-[失效] 全国羽毛球团体锦标赛 全国羽毛球团体锦标赛第一日 5号场地 09:00  (timed out)
-        http://8.137.121.66:20241/969268617
-[失效] NBA 《球你别说了》NBA里的“大连逆袭夺冠” 《球你别说了》（周鹏，邵化谦，马健） 10:00  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/969269927
-[失效] 广东省女子篮球联赛 清远vs肇庆 赛场原声 10:20  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/969172698
-[失效] 广东省女子篮球联赛 深圳vs云浮 赛场原声 10:20  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/969172730
-[失效] 中国之队·银川五人制国际足球邀请赛 中国香港vs韩国选拔队 解说 13:25  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/969101667
-[失效] 广东省女子篮球联赛 东莞vs江门 赛场原声 14:20  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/969172758
-[失效] 广东省女子篮球联赛 惠州vs湛江 赛场原声 14:20  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/969172797
-[失效] 广东省女子篮球联赛 潮州vs茂名 赛场原声 15:50  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/969172805
-[失效] 中国之队·银川五人制国际足球邀请赛 中国香港vs中国 解说 16:25  (timed out)
-        http://8.137.121.66:20241/969101757
-[失效] WTT 周冠达、侯英超、程靖淇、徐晨皓复盘 周冠达 侯英超 程靖淇 徐晨皓 19:00  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/968849620
-[失效] 浙BA 云和VS宁波 赛场原声 19:30  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/969022833
-[失效] 浙BA 湖州VS富阳 赛场原声 19:30  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/969022842
-[失效] 浙BA 嘉兴VS苍南 赛场原声 19:30  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/969022860
-[失效] CBA经典赛事 中国篮球放映室：广东vs江苏 连睿 曾令旭 王仕鹏 19:30  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/969095207
-[失效] 中国之队·银川五人制国际足球邀请赛 马尔代夫vs中国 解说 19:25  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/969101680
-[失效] 广东省女子篮球联赛 广州vs中山 赛场原声 19:20  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/969172839
-[失效] 足总杯 普利茅斯公园大道VS伯克姆斯特德 洪宇青 03:15  (HTTP Error 604: status code 604)
+[失效] 国际自盟场地自行车世锦赛 国际自盟场地自行车世锦赛-1 解说 00:05  (HTTP Error 610: status code 610)
+        http://8.137.121.66:20241/969308747
+[失效] 斯诺克 斯诺克冠中冠第一小组决赛 AI智慧观赛 03:00  (timed out)
+        http://8.137.121.66:20241/969170193
+[失效] 足总杯 普利茅斯公园大道VS伯克姆斯特德 洪宇青 03:15  (HTTP Error 610: status code 610)
         http://8.137.121.66:20241/969129568
-[失效] 咪咕体育日报 undefined 咪咕体育日报 第237期 08:00  (HTTP Error 604: status code 604)
+[失效] 足总杯 普利茅斯公园大道VS伯克姆斯特德 智能解说 03:25  (timed out)
+        http://8.137.121.66:20241/969162375
+[失效] WTA 梅尔滕斯/张帅登场 郭涵煜组合女双亮相 解说 04:00  (timed out)
+        http://8.137.121.66:20241/969306545
+[失效] WTA 米拉·安德列娃VS斯维托丽娜 李宁 05:30  (timed out)
+        http://8.137.121.66:20241/969202415
+[失效] NBA 活塞VS奇才 英文原声 07:55  (timed out)
+        http://8.137.121.66:20241/969205483
+[失效] NBA 黄蜂VS骑士 英文原声 07:55  (timed out)
+        http://8.137.121.66:20241/969205340
+[失效] BWF 国羽男双德比压阵！梨子组合出战 1号场地 08:00  (HTTP Error 610: status code 610)
+        http://8.137.121.66:20241/969246473
+[失效] BWF 国羽男双德比压阵！梨子组合出战 2号场地 08:00  (HTTP Error 610: status code 610)
+        http://8.137.121.66:20241/969246499
+[失效] BWF 国羽男双德比压阵！梨子组合出战 3号场地 08:00  (HTTP Error 610: status code 610)
+        http://8.137.121.66:20241/969246531
+[失效] BWF 国羽男双德比压阵！梨子组合出战 4号场地 08:00  (HTTP Error 610: status code 610)
+        http://8.137.121.66:20241/969246614
+[失效] 咪咕体育日报 undefined 咪咕体育日报 第237期 08:00  (HTTP Error 610: status code 610)
         http://8.137.121.66:20241/968818064
-[失效] 全国羽毛球团体锦标赛 全国羽毛球团体锦标赛第二日 1号场地 09:00  (timed out)
+[失效] 短道速滑世界巡回赛 短道速滑世界巡回赛 加拿大温哥华站 2 解说 08:03  (HTTP Error 610: status code 610)
+        http://8.137.121.66:20241/969308761
+[失效] NBA 猛龙VS灰熊 贾磊 08:25  (timed out)
+        http://8.137.121.66:20241/969205556
+[失效] 短道速滑世界巡回赛 短道速滑世界巡回赛 加拿大温哥华站 2 解说 08:59  (HTTP Error 610: status code 610)
+        http://8.137.121.66:20241/969308815
+[失效] 全国羽毛球团体锦标赛 全国羽毛球团体锦标赛第二日 1号场地 09:00  (HTTP Error 610: status code 610)
         http://8.137.121.66:20241/969267911
-[失效] 全国羽毛球团体锦标赛 全国羽毛球团体锦标赛第二日 3号场地 09:00  (HTTP Error 604: status code 604)
+[失效] 全国羽毛球团体锦标赛 全国羽毛球团体锦标赛第二日 3号场地 09:00  (HTTP Error 610: status code 610)
         http://8.137.121.66:20241/969268447
-[失效] 全国羽毛球团体锦标赛 全国羽毛球团体锦标赛第二日 5号场地 09:00  (HTTP Error 604: status code 604)
+[失效] 全国羽毛球团体锦标赛 全国羽毛球团体锦标赛第二日 5号场地 09:00  (HTTP Error 610: status code 610)
         http://8.137.121.66:20241/969268603
-[失效] CBA经典赛事 中国篮球放映室：北京vs广东 杨健 杨鸣 李根 14:00  (HTTP Error 604: status code 604)
+[失效] NBA 火箭VS掘金 智能字幕 09:00  (timed out)
+        http://8.137.121.66:20241/969243609
+[失效] NBA 太阳VS马刺 李天宇 刘炜 殷文玉 09:30  (timed out)
+        http://8.137.121.66:20241/969204564
+[失效] NBA 太阳VS马刺 英文原声 09:55  (timed out)
+        http://8.137.121.66:20241/969204741
+[失效] NBA 勇士VS鹈鹕 拜月宁 10:55  (timed out)
+        http://8.137.121.66:20241/969204721
+[失效] NBA 勇士VS鹈鹕 智能字幕 10:30  (timed out)
+        http://8.137.121.66:20241/969243619
+[失效] CBA经典赛事 中国篮球放映室：北京vs广东 杨健 杨鸣 李根 14:00  (timed out)
         http://8.137.121.66:20241/969095284
-[失效] 中国之队·银川五人制国际足球邀请赛 中国vs伊朗 解说 18:55  (HTTP Error 604: status code 604)
+[失效] WTT 张旋、柳是宇领衔出战资格赛 凌维康 张铭哲 15:00  (timed out)
+        http://8.137.121.66:20241/969163169
+[失效] WTT 张旋、柳是宇领衔出战资格赛 1号桌 15:00  (timed out)
+        http://8.137.121.66:20241/969162991
+[失效] WTT 张旋、柳是宇领衔出战资格赛 4号桌 15:00  (timed out)
+        http://8.137.121.66:20241/969163149
+[失效] 中国之队·银川五人制国际足球邀请赛 中国vs伊朗 解说 18:55  (HTTP Error 610: status code 610)
         http://8.137.121.66:20241/969101763
-[失效] CBA经典赛事 中国篮球放映室：浙证vs辽宁 杨健 杨鸣 拜月宁 19:30  (HTTP Error 604: status code 604)
+[失效] CBA经典赛事 中国篮球放映室：浙证vs辽宁 杨健 杨鸣 拜月宁 19:30  (HTTP Error 610: status code 610)
         http://8.137.121.66:20241/969095317
-[失效] 湘超 邵阳队VS湘潭队 赛场原声 19:38  (HTTP Error 604: status code 604)
+[失效] 中超 中国足球职业联赛颁奖典礼 现场原声 16:55  (HTTP Error 610: status code 610)
+        http://8.137.121.66:20241/969173669
+[失效] 中国篮球城市冠军联赛 内蒙古vs辽宁 清流播出 19:25  (HTTP Error 610: status code 610)
+        http://8.137.121.66:20241/969292109
+[失效] 湘超 邵阳队VS湘潭队 赛场原声 19:38  (HTTP Error 610: status code 610)
         http://8.137.121.66:20241/969088140
-[失效] 兵器科技  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.223:9696
-[失效] 风云音乐  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.220:9672
-[失效] 风云足球  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.225:9712
-[失效] 风云剧场  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.227:9728
-[失效] 怀旧剧场  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.224:9704
-[失效] 第一剧场  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.221:9680
-[失效] 女性时尚  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.226:9720
-[失效] 世界地理  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.222:9688
-[失效] 央视台球  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.216:9640
-[失效] 高尔夫网球  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.217:9648
-[失效] 央视文化精品  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.219:9664
-[失效] 电视指南  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.218:9656
-[失效] 中国教育1台  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.173:1712
-[失效] 中国教育1台  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.181:9360
-[失效] 中国教育1台  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.2.7:5002
-[失效] 中国教育1台  (<urlopen error timed out>)
-        http://115.171.216.32:4000/udp/225.1.8.32:8152
-[失效] 中国教育1台  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.57:8152
-[失效] 中国教育1台  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.57:8152
-[失效] 中国教育2台  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.165:1206
-[失效] 中国教育2台  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.193:4120
+[失效] 斯诺克 尼尔·罗伯逊VS潘查娅·查诺伊 清流播出 21:00  (timed out)
+        http://8.137.121.66:20241/969170213
+[失效] 斯诺克 特鲁姆普VS杰克·琼斯 朱峰立 22:00  (timed out)
+        http://8.137.121.66:20241/969170503
+[失效] 斯诺克 特鲁姆普VS杰克·琼斯 清流播出 22:00  (timed out)
+        http://8.137.121.66:20241/969170449
+[失效] 中国教育1台  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.173:1712
+[失效] 中国教育1台  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.57:8152
+[失效] 中国教育2台  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.165:1206
 [失效] 中国教育2台  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.54:4120
-[失效] 中国教育2台  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.54:4120
-[失效] 中国教育4台  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.171:1710
-[失效] 中国教育4台  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.195:4120
+[失效] 中国教育2台  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.54:4120
+[失效] 中国教育4台  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.171:1710
 [失效] 中国教育4台  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.56:4120
-[失效] 中国教育4台  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.56:4120
-[失效] 早期教育  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.99:8704
-[失效] 淘电影  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.38:8002
-[失效] 淘电影  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.250:8001
-[失效] 淘电影  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.250:8001
-[失效] 淘剧场  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.37:8002
+[失效] 中国教育4台  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.56:4120
+[失效] 淘电影  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.250:8001
 [失效] 淘剧场  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.95:8001
-[失效] 淘剧场  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.95:8001
-[失效] 淘4K  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.211:8002
-[失效] 淘4K  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.249:8001
-[失效] 淘4K  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.249:8001
-[失效] 淘娱乐  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.61:8002
-[失效] 淘娱乐  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.100:8001
-[失效] 淘娱乐  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.100:8001
-[失效] 淘BABY  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.36:8002
+[失效] 淘剧场  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.95:8001
+[失效] 淘4K  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.249:8001
+[失效] 淘娱乐  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.100:8001
 [失效] 淘BABY  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.238:8001
-[失效] 淘BABY  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.238:8001
-[失效] 淘萌宠  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.63:8002
-[失效] 淘萌宠  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.102:8001
-[失效] 淘萌宠  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.102:8001
-[失效] 重温经典  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.39:8002
-[失效] 金鹰纪实  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.172:1711
-[失效] 金鹰纪实  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.194:9464
-[失效] 金鹰纪实  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.170:5002
-[失效] 金鹰纪实  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.31:8156
-[失效] 金鹰纪实  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.58:8156
-[失效] 金鹰纪实  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.58:8156
-[失效] 纪实科教  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.172:5002
-[失效] 纪实科教  (<urlopen error timed out>)
-        http://115.171.216.32:4000/udp/225.1.8.105:8002
-[失效] 纪实科教  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.115:8000
+[失效] 淘BABY  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.238:8001
+[失效] 淘萌宠  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.102:8001
+[失效] 金鹰纪实  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.172:1711
+[失效] 金鹰纪实  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.58:8156
 [失效] 睛彩青少  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.127:8001
-[失效] 睛彩青少  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.127:8001
+[失效] 睛彩青少  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.127:8001
 [失效] 睛彩竞技  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.125:8001
-[失效] 睛彩竞技  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.125:8001
-[失效] 睛彩篮球  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.126:8001
-[失效] 睛彩篮球  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.126:8001
+[失效] 睛彩篮球  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.126:8001
 [失效] 睛彩广场舞  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.128:8001
-[失效] 睛彩广场舞  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.128:8001
-[失效] 茶频道  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.72:8002
+[失效] 睛彩广场舞  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.128:8001
 [失效] 茶频道  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.165:8001
-[失效] 茶频道  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.165:8001
-[失效] 文物宝库  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.110:8792
-[失效] 乐游  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.77:8528
-[失效] 生活时尚  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.84:8584
-[失效] 都市剧场  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.81:8560
-[失效] 游戏风云  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.78:8536
-[失效] 金色学堂  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.182:9368
-[失效] 动漫秀场  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.183:9376
-[失效] 新动漫  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.212:1265
-[失效] 卡酷少儿  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.48:1077
-[失效] 卡酷少儿  (<urlopen error timed out>)
-        http://115.171.216.32:4000/udp/225.1.8.35:8000
+[失效] 茶频道  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.165:8001
+[失效] 新动漫  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.212:1265
+[失效] 卡酷少儿  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.48:1077
 [失效] 卡酷少儿  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.189:8000
-[失效] 卡酷少儿  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.189:8000
-[失效] 金鹰卡通  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.49:1078
-[失效] 金鹰卡通  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.172:9288
-[失效] 金鹰卡通  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.163:9252
+[失效] 卡酷少儿  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.189:8000
+[失效] 金鹰卡通  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.49:1078
 [失效] 金鹰卡通  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.51:9252
-[失效] 金鹰卡通  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.51:9252
-[失效] 中国交通  (<urlopen error timed out>)
-        http://144.255.16.190:6688/udp/239.21.1.115:5002
+[失效] 金鹰卡通  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.51:9252
 [失效] 中国交通  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.188:8001
-[失效] 中国交通  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.188:8001
-[失效] 中国天气  (<urlopen error timed out>)
-        http://171.119.206.17:6000/rtp/226.0.2.103:8736
-[失效] 华数4K  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.80:2000
+[失效] 中国交通  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.188:8001
 [失效] 华数4K  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.236:2000
-[失效] 华数4K  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.236:2000
-[失效] 华数星影  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.254:4120
-[失效] 华数星影  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.94:4120
-[失效] 华数动作影院  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.252:4120
+[失效] 华数4K  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.236:2000
+[失效] 华数星影  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.94:4120
+[失效] 华数星影  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.94:4120
 [失效] 华数动作影院  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.92:4120
-[失效] 华数动作影院  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.92:4120
-[失效] 华数喜剧影院  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.251:4120
+[失效] 华数动作影院  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.92:4120
 [失效] 华数喜剧影院  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.91:4120
-[失效] 华数喜剧影院  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.91:4120
-[失效] 华数家庭影院  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.253:4120
+[失效] 华数喜剧影院  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.91:4120
 [失效] 华数家庭影院  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.93:4120
-[失效] 华数家庭影院  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.93:4120
-[失效] 华数经典电影  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.175:1233
-[失效] 华数经典电影  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.203:9024
+[失效] 华数家庭影院  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.93:4120
+[失效] 华数经典电影  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.175:1233
 [失效] 华数经典电影  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.195:9024
-[失效] 华数经典电影  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.195:9024
-[失效] 华数热播剧场  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.190:1239
-[失效] 华数热播剧场  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.202:9020
-[失效] 华数热播剧场  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.194:9020
-[失效] 华数军旅剧场  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.228:4120
+[失效] 华数经典电影  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.195:9024
+[失效] 华数热播剧场  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.190:1239
+[失效] 华数热播剧场  (HTTP Error 503: Service Unavailable)
+        http://114.254.38.234:8888/rtp/239.3.1.194:9020
+[失效] 华数热播剧场  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.194:9020
 [失效] 华数军旅剧场  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.68:4120
-[失效] 华数军旅剧场  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.68:4120
-[失效] 华数城市剧场  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.227:4120
-[失效] 华数城市剧场  (HTTP Error 503: Service Unavailable)
-        http://114.254.38.234:8888/rtp/239.3.1.67:4120
-[失效] 华数城市剧场  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.67:4120
+[失效] 华数军旅剧场  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.68:4120
 [失效] 华数武侠剧场  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.90:4120
-[失效] 华数武侠剧场  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.90:4120
-[失效] 华数古装剧场  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.229:4120
-[失效] 华数魅力时尚  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.205:1253
-[失效] 华数魅力时尚  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.204:9012
+[失效] 华数武侠剧场  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.90:4120
+[失效] 华数魅力时尚  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.205:1253
 [失效] 华数魅力时尚  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.196:9012
-[失效] 华数魅力时尚  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.196:9012
-[失效] 华数少儿动画  (<urlopen error timed out>)
-        http://219.156.94.94:4022/rtp/225.1.4.189:1238
-[失效] 华数少儿动画  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.207:9000
+[失效] 华数魅力时尚  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.196:9012
+[失效] 华数少儿动画  (HTTP Error 503: Client limit reached)
+        http://219.156.35.25:4022/rtp/225.1.4.189:1238
 [失效] 华数少儿动画  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.199:9000
-[失效] 华数少儿动画  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.199:9000
-[失效] 华数动画  (<urlopen error timed out>)
-        http://115.171.216.32:4000/rtp/225.1.8.240:4120
+[失效] 华数少儿动画  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.199:9000
 [失效] 华数动画  (HTTP Error 503: Service Unavailable)
         http://114.254.38.234:8888/rtp/239.3.1.80:4120
-[失效] 华数动画  (<urlopen error timed out>)
-        http://111.196.128.44:20000/rtp/239.3.1.80:4120
+[失效] 华数动画  (HTTP Error 503: Client limit reached)
+        http://123.118.57.194:8686/rtp/239.3.1.80:4120
 
