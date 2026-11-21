@@ -3,141 +3,117 @@ dotv 直播源可用性检测报告
 探测并发 64 | 超时 7s
 注意: HTTP 探测仅验证地址可达, 不代表画面内容一定正常。
 
-===== 央视 ===== 失效 81 条
+===== 央视 ===== 失效 67 条
 [失效] CCTV1  ('ascii' codec can't encode characters in position 358-364: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fcctv1.m3u8%253Fuserid%253D7601455084%2526sign%253D27f9ab721c65cc8abc3ee3aece3b165ef32077ff8f830618afd3f025d7873aa2ddd258bf19019dda2b6aff5ab54dd08355e2457ecfea367a9113f5800954044bb687a755ddc13714bbc8eb047f%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] CCTV1  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.74:7980
 [失效] CCTV1  (HTTP Error 503: Client limit reached)
         http://116.2.174.65:4010/rtp/232.0.0.27:1234
-[失效] CCTV1  (HTTP Error 503: Service Unavailable)
-        http://114.254.36.150:8888/rtp/239.3.1.129:8008
 [失效] CCTV1  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.129:8008
 [失效] CCTV2  ('ascii' codec can't encode characters in position 358-364: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fcctv2.m3u8%253Fuserid%253D7601455084%2526sign%253D91b2d24ca47986b629530d655c5120e0100b866454fb4976eb38b64013f1bd95297adf5c49b003e8c76b2e6f1b04cbc93ddc330467f5c385c20ffc347be499743f744c132376340e305143d6ea%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] CCTV2  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.132:7980
 [失效] CCTV2  (HTTP Error 503: Client limit reached)
         http://116.2.174.65:4010/rtp/232.0.0.135:1234
+[失效] CCTV2  (HTTP Error 503: Service Unavailable)
+        http://114.254.36.150:8888/rtp/239.3.1.60:8084
+[失效] CCTV2  (HTTP Error 503: Client limit reached)
+        http://221.220.133.69:8012/rtp/239.3.1.60:8084
 [失效] CCTV3  ('ascii' codec can't encode characters in position 358-364: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fcctv3.m3u8%253Fuserid%253D7601455084%2526sign%253Dcbd985f83fce08d078faa37651d52913f5d85fa12106701d5d703732e1cb3708b58adce583a966a3d358f45a5a56daafd2b0550af0e83d3741d7a0f4a3f71627121a917ab73d47f548c30911d9%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] CCTV3  ([Errno 104] Connection reset by peer)
-        http://121.237.245.5:8888/rtp/239.49.1.3:6000
-[失效] CCTV3  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.142:7980
 [失效] CCTV3  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.172:8001
-[失效] CCTV3  ([Errno 104] Connection reset by peer)
-        http://171.8.84.49:8800/rtp/239.16.20.3:10030
 [失效] CCTV3  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.172:8001
 [失效] CCTV4  ('ascii' codec can't encode characters in position 358-364: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fcctv4.m3u8%253Fuserid%253D7601455084%2526sign%253Df46e77332c0d8d609f41e8f498a79f141002971439d364621c63976bfd3c0985f73b1dc910f82cc1761de80e5fce09bc6e2449aa4836f5e26ffdf0c9c38862571d0a47528c1f67e31f77e0cc85%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] CCTV4  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.176:7980
+[失效] CCTV4  (HTTP Error 503: Client limit reached)
+        http://116.2.174.65:4010/rtp/232.0.0.201:1234
+[失效] CCTV4  (HTTP Error 503: Service Unavailable)
+        http://114.254.36.150:8888/rtp/239.3.1.105:8092
 [失效] CCTV4  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.105:8092
-[失效] CCTV4  (<urlopen error timed out>)
-        http://113.57.140.161:10081/newlive/live/hls/4/live.m3u8
 [失效] CCTV5  ('ascii' codec can't encode characters in position 358-364: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fcctv5.m3u8%253Fuserid%253D7601455084%2526sign%253Db5cc420683627ecdb4c0ef23036c44805d2fc6b661a0d23bec4795532233d67452a8f11591669d92982be8b5121f23a73d499546e0990bf4b6b5d2586782135d89edc215556a966f02e803e38e%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] CCTV5  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.143:7980
 [失效] CCTV5  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.173:8001
 [失效] CCTV5  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.173:8001
 [失效] CCTV5+  ('ascii' codec can't encode characters in position 361-367: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fcctv5p.m3u8%253Fuserid%253D7601455084%2526sign%253D908bf921e68e8a4e0962af60896cdcd2f0fd56166b45bf3e549594abdd19ca13ce155bc73989555bab24944b63248c4d13c9ee115e5dfc2a48ab96514938b0a2018f7c3230ee1e099b6a6590cf37%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] CCTV5+  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.73:7980
 [失效] CCTV5+  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.130:8004
 [失效] CCTV5+  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.130:8004
-[失效] CCTV5+  (<urlopen error timed out>)
-        http://113.57.140.161:10081/newlive/live/hls/6/live.m3u8
 [失效] CCTV6  ('ascii' codec can't encode characters in position 358-364: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fcctv6.m3u8%253Fuserid%253D7601455084%2526sign%253Da87ba8d4c9c64bfa184d2e1bebb7e3a97763b6a35db2d24017c59c3bbf7a210e169daa1a46c34c6534b35f10b4ae08930659ea83dd865124ca3d76113699276d5cbb94e7f512725d1ae12cef6b%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] CCTV6  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.144:7980
+[失效] CCTV6  (HTTP Error 503: Client limit reached)
+        http://116.2.174.65:4010/rtp/232.0.0.172:1234
 [失效] CCTV6  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.174:8001
+[失效] CCTV6  (HTTP Error 503: Client limit reached)
+        http://221.220.133.69:8012/rtp/239.3.1.174:8001
 [失效] CCTV7  ('ascii' codec can't encode characters in position 358-364: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fcctv7.m3u8%253Fuserid%253D7601455084%2526sign%253Dfc12276194ff6cc9f16d6b7c33d456bf67be4d45750c86441fd4a3dcf98b00790e33dd814b63f1af2090beb2012d44fac2b4958e0c7d126c162da8050ca6245ef3e98af640704f0f17fb3819a2%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] CCTV7  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.127:7980
 [失效] CCTV7  (HTTP Error 503: Client limit reached)
         http://116.2.174.65:4010/rtp/232.0.0.136:1234
+[失效] CCTV7  (HTTP Error 503: Service Unavailable)
+        http://114.254.36.150:8888/rtp/239.3.1.61:8104
 [失效] CCTV7  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.61:8104
-[失效] CCTV7  (<urlopen error timed out>)
-        http://113.57.140.161:10081/newlive/live/hls/8/live.m3u8
 [失效] CCTV8  ('ascii' codec can't encode characters in position 358-364: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fcctv8.m3u8%253Fuserid%253D7601455084%2526sign%253D363963387a8d6f88404a692608c80e3fa42ea4f640e44a3752a2e95ede81c034f4e231eb8daf7a4d0eb1284071271d41a259f5fc8febeda555dd5fa398f4679b76e181ee727170244310a812e1%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] CCTV8  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.137:7980
 [失效] CCTV8  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.175:8001
 [失效] CCTV8  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.175:8001
 [失效] CCTV9  ('ascii' codec can't encode characters in position 358-364: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fcctv9.m3u8%253Fuserid%253D7601455084%2526sign%253D6930b445541f982fac1bcc34af8ba8550c80541874d10cb6488cff33ac5c7a3f85977a81d2f3ca78d407a7b30d250c861e79a0a44826899eb7ff1ab2f1a29da0a719d3b91745b9c68d2d51900a%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] CCTV9  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.131:7980
+[失效] CCTV9  (HTTP Error 503: Client limit reached)
+        http://116.2.174.65:4010/rtp/232.0.0.137:1234
+[失效] CCTV9  (HTTP Error 503: Service Unavailable)
+        http://114.254.36.150:8888/rtp/239.3.1.62:8112
 [失效] CCTV9  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.62:8112
 [失效] CCTV10  ('ascii' codec can't encode characters in position 361-367: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fcctv10.m3u8%253Fuserid%253D7601455084%2526sign%253D9610cab469fd1d8e8df54fafb0137022caf80a5f1b76a506682d8458fe6058c1356c035c82016fbf5988f1f3753f4c1e6e418387b00d4305a421c26f5dd565e048b82d05d4a272d562fefb034a1e%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] CCTV10  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.130:7980
+[失效] CCTV10  (HTTP Error 503: Service Unavailable)
+        http://114.254.36.150:8888/rtp/239.3.1.63:8116
 [失效] CCTV10  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.63:8116
 [失效] CCTV11  ('ascii' codec can't encode characters in position 361-367: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fcctv11.m3u8%253Fuserid%253D7601455084%2526sign%253D9e3406f474c2bed9b89da7de9dd89740d9ee108b10c6957a9fb7f97f6a376ae3268ce1104fe603f086e2ad95ffa6859d6b142151c7443e2a4b26834fdb1c9ed6022a814681605aa1d4303b0b7f3e%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] CCTV11  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.218:7980
 [失效] CCTV11  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.152:8120
 [失效] CCTV11  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.152:8120
 [失效] CCTV12  ('ascii' codec can't encode characters in position 361-367: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fcctv12.m3u8%253Fuserid%253D7601455084%2526sign%253D4ae31cd5d3b7511bbbe1923e35705326740d5b3806f53c3410e26a7aa7f27ae4b1a0c7a128470e07f5001e2bcefa8c0edf3d9eb0c2ee63f5d6e8785d4d551ec8235ab862a78066768e24d6f58058%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] CCTV12  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.129:7980
 [失效] CCTV12  (HTTP Error 503: Client limit reached)
         http://116.2.174.65:4010/rtp/232.0.0.139:1234
+[失效] CCTV12  (HTTP Error 503: Service Unavailable)
+        http://114.254.36.150:8888/rtp/239.3.1.64:8124
 [失效] CCTV12  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.64:8124
 [失效] CCTV13  ('ascii' codec can't encode characters in position 361-367: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fcctv13.m3u8%253Fuserid%253D7601455084%2526sign%253D92aa9d78e2f0389a992da2a0c07646c6c4ce55932107a23a62f0b46684af7a87063c23bfebdc9f1c5b73593f1c36c891aefb898a0ed052a136aa01d800ee84747aa1cb8ddb0194d045732c03c340%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] CCTV13  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.219:7980
 [失效] CCTV13  (HTTP Error 503: Client limit reached)
         http://116.2.174.65:4010/rtp/232.0.0.15:1234
+[失效] CCTV13  (timed out)
+        http://171.8.84.49:8800/rtp/239.16.20.13:10130
 [失效] CCTV13  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.124:8128
 [失效] CCTV14  ('ascii' codec can't encode characters in position 361-367: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fcctv14.m3u8%253Fuserid%253D7601455084%2526sign%253Da52d258789e934e99e6ea9e61aee7e807ae309adbfe002281cc0806f633d9e946f304e4dc535947b08cb2cdd12e9adb7301123db188bd452aa7270ebffe89a95dd7e77a309e57b9f4592eea073e7%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] CCTV14  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.128:7980
-[失效] CCTV14  (HTTP Error 503: Client limit reached)
-        http://116.2.174.65:4010/rtp/232.0.0.140:1234
 [失效] CCTV14  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.65:8132
 [失效] CCTV14  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.65:8132
 [失效] CCTV15  ('ascii' codec can't encode characters in position 361-367: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fcctv15.m3u8%253Fuserid%253D7601455084%2526sign%253D5045996db8a89edc7fde9006d04a7a57cf87b16f7777f6c55fdcb0d20d68c552c2873cb27bb5d5380d5737087a7b86826e1e7db081282b00c5a76ed7409d8ff65029c692f77cb16daa9d13af346c%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] CCTV15  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.220:7980
 [失效] CCTV15  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.153:8136
 [失效] CCTV15  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.153:8136
-[失效] CCTV15  (<urlopen error timed out>)
-        http://113.57.140.161:10081/newlive/live/hls/16/live.m3u8
 [失效] CCTV16  ('ascii' codec can't encode characters in position 361-367: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fcctv16.m3u8%253Fuserid%253D7601455084%2526sign%253D5e8e444fc7312f2790af5514a37602f2de50acc3ada5fe1712708b960bf07a0d12d410e536756ee635d6616b40a6d1e12c66a458822b09e2fd97944890b2fa789efbf54f90f31acb209fbc25bb70%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
 [失效] CCTV16  (HTTP Error 503: Client limit reached)
@@ -148,8 +124,6 @@ dotv 直播源可用性检测报告
         http://221.220.133.69:8012/rtp/239.3.1.184:8001
 [失效] CCTV17  ('ascii' codec can't encode characters in position 361-367: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fcctv17.m3u8%253Fuserid%253D7601455084%2526sign%253De30e65e050acfe1d9c7a15fee40a1ee6e82279497aa83ba7979b83f10b55a9f73ca2d6a005a1e9d2782322a7e9776f0824c45ced788d37450e16264f5e9eda8fbe4417ef7acd7c67ccd885e5d7c1%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] CCTV17  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.179:7980
 [失效] CCTV17  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.151:8144
 [失效] CCTV17  (HTTP Error 503: Client limit reached)
@@ -164,12 +138,12 @@ dotv 直播源可用性检测报告
         http://114.254.36.150:8888/rtp/239.3.1.214:4220
 [失效] CCTV4美洲  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.214:4220
-[失效] CCTV4K  ([Errno 104] Connection reset by peer)
-        http://106.59.2.209:55555/rtp/239.200.200.202:8784
 
-===== 其他 ===== 失效 170 条
+===== 其他 ===== 失效 277 条
 [失效] 第一剧场  ('ascii' codec can't encode characters in position 355-361: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fdyjc.m3u8%253Fuserid%253D7601455084%2526sign%253Db77170d2a90b1c1977dcfe24f03502e3e6ffcd8041734f1c377ff38944cb5a26e491f1963769b2528b65e4966d3a2cae7d7e1c9b8e3529c9bc1bbc8719c73a241eb695b96e57c65e751b539c%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
+[失效] 第一剧场  (HTTP Error 503: Client limit reached)
+        http://116.2.174.65:4010/rtp/232.0.0.29:1234
 [失效] 风云剧场  ('ascii' codec can't encode characters in position 355-361: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Ffyjc.m3u8%253Fuserid%253D7601455084%2526sign%253D50f7b747a342d974350eca19a7b8c8aba08b3adf40753fcdba06370445adf153be8e735011ccbc1b47cbfec4614d9c048cecbdc4fa09a82dc1c0b463e9e1fda82fbaeec7cba1508f35d52702%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
 [失效] 怀旧剧场  ('ascii' codec can't encode characters in position 355-361: o)
@@ -188,8 +162,6 @@ dotv 直播源可用性检测报告
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fcgtnsp.m3u8%253Fuserid%253D7601455084%2526sign%253D5774b91256a3a97a04898b14bf6555f98f1d51912456bc3e1c9b4d29544e5abbad2075df6ae8715d259792648efe549e9a4d74b486ecd0a87572334971ef6823d16fe464bc0394d9e31db66d5f16%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
 [失效] 国学频道  ('ascii' codec can't encode characters in position 361-367: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fguoxue.m3u8%253Fuserid%253D7601455084%2526sign%253Da16ff429e386c3069dba1bd486f483596a8e2812f407adade9690914befca7e1d8434c41b3cc55f4d02076b4435b5150f33dfd6594ed83171b24566190cd60c153068545e77f65e3e27049df5f38%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] 海南广播电视总台文旅频道  (timed out)
-        http://8.137.121.66:20241/962067526
 [失效] 快乐垂钓  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.164:8001
 [失效] 快乐垂钓  (HTTP Error 503: Client limit reached)
@@ -200,83 +172,111 @@ dotv 直播源可用性检测报告
         http://114.254.36.150:8888/rtp/239.3.1.147:9268
 [失效] 嘉佳卡通  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.147:9268
-[失效] WTT 陈垣宇PK袁励岑 林锺勋/吴晙诚冲冠 李柯鑫 徐儒叶 徐晨皓 19:00  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/969463684
-[失效] WTT 陈垣宇PK袁励岑 林锺勋/吴晙诚冲冠 智能字幕 19:00  (timed out)
-        http://8.137.121.66:20241/969513999
-[失效] 红拳出击 红拳出击：董华香VS萨曼莎 解说 19:37  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/969523849
-[失效] ONE冠军赛 ONE周五格斗夜179：查帕雅克VS克拉洛布 李威蓄 21:25  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/969550632
-[失效] ONE冠军赛 ONE周五格斗夜179：查帕雅克VS克拉洛布 英文原声 21:25  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/969550724
-[失效] U17世界杯 西班牙U17VS中国U17 CCTV-5 22:00  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/969582617
-[失效] CBA 《球你别说了》嘉宾热议杨瀚森再登场 王冠证 邢晨 马健 22:00  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/969499084
-[失效] 国际自盟场地自行车世锦赛 国际自盟场地自行车世锦赛-2 解说 00:00  (HTTP Error 604: status code 604)
-        http://8.137.121.66:20241/969582697
+[失效] 浪琴环球马术冠军赛 维罗纳季后赛GCL超级杯1/4决赛 2026维罗纳季后赛GCL超级杯1/4决赛全场回放（中文解说） 02:45  (timed out)
+        http://8.137.121.66:20241/969567981
+[失效] 浪琴环球马术冠军赛 维罗纳季后赛GCL超级杯1/4决赛 2026维罗纳季后赛GCL超级杯1/4决赛全场回放（赛场原声） 02:45  (timed out)
+        http://8.137.121.66:20241/969568404
+[失效] NBA 灰熊VS勇士 全场回放（董倡硕） 08:30  (timed out)
+        http://8.137.121.66:20241/969575904
+[失效] WTT 袁励岑3-2李天阳 陈垣宇晋级八强 全场回放（AI观赛） 14:00  (timed out)
+        http://8.137.121.66:20241/969587500
+[失效] CBA俱乐部杯 香港金牛VS广州智都集团 全场回放（李天宇、于德豪） 15:20  (timed out)
+        http://8.137.121.66:20241/969588413
+[失效] CBA俱乐部杯 香港金牛VS广州智都集团 全场回放（盛哲） 15:20  (timed out)
+        http://8.137.121.66:20241/969588315
+[失效] CBA俱乐部杯 合肥狂风VS南京同曦宙光 全场回放（石楷文） 15:20  (timed out)
+        http://8.137.121.66:20241/969587427
+[失效] CBA俱乐部杯 上海玄鸟VS深圳马可波罗 全场回放（邵化谦、季孟年） 15:50  (timed out)
+        http://8.137.121.66:20241/969588321
+[失效] CBA俱乐部杯 上海玄鸟VS深圳马可波罗 全场回放（张俊卿） 15:50  (timed out)
+        http://8.137.121.66:20241/969588254
+[失效] MLP亚洲匹克球超级联赛 马尼拉太阳神一日双赛 2026MLP亚洲匹克球超级联赛小组赛回放：马尼拉太阳神1-3中国龙战士（赛场原声） 18:00  (timed out)
+        http://8.137.121.66:20241/969590973
+[失效] 全国青年体操U系列冠军赛 谢谷英以53.932获得金牌 全场回放（赛场原声）（一） 14:00  (timed out)
+        http://8.137.121.66:20241/969588683
 [失效] 浪琴环球马术冠军赛 维罗纳季后赛GCL超级杯半决赛 中文解说 02:45  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969376188
 [失效] 浪琴环球马术冠军赛 维罗纳季后赛GCL超级杯半决赛 英文解说 02:45  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969376059
 [失效] 浪琴环球马术冠军赛 维罗纳季后赛GCL超级杯半决赛 赛场原声 02:45  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969375722
-[失效] 浪琴环球马术冠军赛 维罗纳季后赛GCL超级杯半决赛 智能字幕 02:45  (timed out)
+[失效] 浪琴环球马术冠军赛 维罗纳季后赛GCL超级杯半决赛 智能字幕 02:45  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969378710
-[失效] 德甲 拜仁慕尼黑VS科隆 胡小凡 张力 03:15  (HTTP Error 604: status code 604)
+[失效] 德甲 拜仁慕尼黑VS科隆 胡小凡 张力 03:15  (timed out)
         http://8.137.121.66:20241/969525655
+[失效] 德甲 拜仁慕尼黑VS科隆 胡小凡 张力 03:15  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969553206
+[失效] 德甲 拜仁慕尼黑VS科隆 智能解说 03:25  (timed out)
+        http://8.137.121.66:20241/969551802
 [失效] 法甲 特鲁瓦VS勒阿弗尔 邵煊 03:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969525148
 [失效] 咪咕体育日报 undefined 咪咕体育日报 第248期 08:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/968817808
-[失效] NBA 公牛VS奇才 吴博文 08:55  (timed out)
-        http://8.137.121.66:20241/969443967
+[失效] NBA 活塞VS猛龙 英文原声 08:25  (timed out)
+        http://8.137.121.66:20241/969443894
 [失效] NBA 公牛VS奇才 英文原声 08:55  (timed out)
         http://8.137.121.66:20241/969444072
-[失效] HADO世冠杯 3V3大战开启！国家队对决 清流播出 09:00  (HTTP Error 604: status code 604)
+[失效] HADO世冠杯 3V3大战开启！国家队对决 清流播出 09:00  (timed out)
         http://8.137.121.66:20241/969464885
-[失效] BWF 王祉怡PK宫崎友花 凤凰冲决赛 1号场地 10:00  (timed out)
+[失效] BWF 王祉怡PK宫崎友花 凤凰冲决赛 1号场地 10:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969464501
 [失效] BWF 王祉怡PK宫崎友花 凤凰冲决赛 1号场地 20:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969464562
-[失效] BWF 王祉怡PK宫崎友花 凤凰冲决赛 智能字幕 10:00  (timed out)
-        http://8.137.121.66:20241/969469420
+[失效] BWF 王祉怡PK宫崎友花 凤凰冲决赛 因达农VS李美妙 10:00  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969598442
+[失效] BWF 王祉怡PK宫崎友花 凤凰冲决赛 万炜聪/郑凯文VS兰基雷迪/谢提 10:20  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969598465
+[失效] BWF 王祉怡PK宫崎友花 凤凰冲决赛 王祉怡VS宫崎友花 11:10  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969598477
+[失效] BWF 王祉怡PK宫崎友花 凤凰冲决赛 冯彦哲/黄东萍VS吴埙阀/赖洁敏 12:50  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969598496
+[失效] BWF 王祉怡PK宫崎友花 凤凰冲决赛 德扬/费利沙VS蒋振邦/魏雅欣 16:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969598510
+[失效] BWF 王祉怡PK宫崎友花 凤凰冲决赛 阿玛莉亚/拉马丹蒂VS中出堇/高桥美优 17:20  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969598517
+[失效] BWF 王祉怡PK宫崎友花 凤凰冲决赛 安东森VS拉克什亚 18:10  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969598520
+[失效] BWF 王祉怡PK宫崎友花 凤凰冲决赛 刘子瑜/安琪拉VS陈康乐/蒂娜 19:00  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969598548
+[失效] BWF 王祉怡PK宫崎友花 凤凰冲决赛 乌拜迪拉VS昆拉武特 19:50  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969598593
 [失效] 射箭亚洲杯 复合弓、反曲弓多项金牌争夺 清流播出 10:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969497310
-[失效] NBA 爵士VS太阳 英文原声 10:25  (timed out)
-        http://8.137.121.66:20241/969442348
+[失效] NBA 掘金VS火箭 杨健 霍楠 马健 10:30  (timed out)
+        http://8.137.121.66:20241/969442724
 [失效] 中国网球公开赛 精彩回顾：德约科维奇 vs 兹维列夫 鸿昆、胡力涛 12:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969405619
 [失效] 青岛城市足球争霸赛 西海岸新区vs市北区 清流播出 13:50  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969486681
-[失效] 短道速滑世界巡回赛 韩国站-男子500米决赛等 解说 14:00  (HTTP Error 604: status code 604)
+[失效] 短道速滑世界巡回赛 韩国站-男子500米决赛等 解说 14:00  (timed out)
         http://8.137.121.66:20241/969582723
 [失效] 世界动力冲浪板锦标赛 UIM MotoSurf动力冲浪世界锦标赛Day1 解说 14:23  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969521846
-[失效] 徽青赛 池州VS滁州 赛场原声 14:30  (timed out)
+[失效] 徽青赛 池州VS滁州 赛场原声 14:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969468995
 [失效] 徽青赛 阜阳VS淮南 赛场原声 14:30  (timed out)
         http://8.137.121.66:20241/969469135
 [失效] 中国网球公开赛 精彩回顾：德约科维奇 vs 梅德维德夫 邱超、张浩 15:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969405649
-[失效] WTT 争冠！户上/大藤PK多尔/袁嘉楠 肖扬 15:00  (HTTP Error 604: status code 604)
+[失效] WTT 陈垣宇冲决赛！韩国内战：朴康贤PK吴晙诚 肖扬 15:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969463721
 [失效] 跑步系列赛 2026峨眉山越野挑战赛（冬季） 冬季 16:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969572755
 [失效] 斯诺克 巩晨智、黄佳浩出战 乔迁 17:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969539809
+[失效] 斯诺克 巩晨智、黄佳浩出战 2号桌 17:30  (timed out)
+        http://8.137.121.66:20241/969495213
 [失效] 斯诺克 巩晨智、黄佳浩出战 5号桌 17:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969495129
 [失效] 斯诺克 巩晨智、黄佳浩出战 6号桌 17:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969495114
 [失效] 斯诺克 巩晨智、黄佳浩出战 7号桌 17:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969494961
-[失效] 斯诺克 巩晨智、黄佳浩出战 8号桌 17:30  (HTTP Error 604: status code 604)
+[失效] 斯诺克 巩晨智、黄佳浩出战 8号桌 17:30  (timed out)
         http://8.137.121.66:20241/969494880
 [失效] 全国青年体操U系列冠军赛 强强对决！成年组单项决赛 清流播出 18:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969469510
-[失效] MLP亚洲匹克球超级联赛 越南黑豹一日双赛 清流播出 19:00  (timed out)
+[失效] MLP亚洲匹克球超级联赛 越南黑豹一日双赛 清流播出 19:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969393143
 [失效] MLP亚洲匹克球超级联赛 越南黑豹一日双赛 清流播出 20:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969393180
@@ -290,7 +290,7 @@ dotv 直播源可用性检测报告
         http://8.137.121.66:20241/969523879
 [失效] 格格象笼中斗 格格象笼中斗：蒋勇VS金敏圭 热格真、提海涛出战 解说 19:10  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969523675
-[失效] 格格象笼中斗 格格象笼中斗：蒋勇VS金敏圭 热格真、提海涛出战 赛场原声 19:10  (HTTP Error 604: status code 604)
+[失效] 格格象笼中斗 格格象笼中斗：蒋勇VS金敏圭 热格真、提海涛出战 赛场原声 19:10  (timed out)
         http://8.137.121.66:20241/969523682
 [失效] 川超 德阳重装队VS凉山好医生队 赛场原声 19:22  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969568850
@@ -302,7 +302,7 @@ dotv 直播源可用性检测报告
         http://8.137.121.66:20241/969324691
 [失效] WCBA 河南豫光金铅VS江苏南钢 赛场原声 19:20  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969324700
-[失效] 浙BA 衢州VS金华 赛场原声 19:30  (HTTP Error 604: status code 604)
+[失效] 浙BA 衢州VS金华 赛场原声 19:30  (timed out)
         http://8.137.121.66:20241/969464156
 [失效] 浙BA 江山VS杭州 赛场原声 19:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969464173
@@ -312,43 +312,59 @@ dotv 直播源可用性检测报告
         http://8.137.121.66:20241/969470459
 [失效] 琼超 琼中VS东方 赛场原声 19:35  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969470474
-[失效] 琼超 海口VS文昌 赛场原声 19:35  (timed out)
+[失效] 琼超 海口VS文昌 赛场原声 19:35  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969470485
-[失效] 琼超 三亚VS昌江 赛场原声 19:35  (timed out)
+[失效] 琼超 三亚VS昌江 赛场原声 19:35  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969470491
 [失效] 琼超 三沙VS保亭 赛场原声 19:35  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969470512
 [失效] 湘超 永州队VS长沙队 赛场原声 19:38  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969470894
-[失效] 英女超 利物浦女足VS切尔西女足 胡小凡 20:30  (HTTP Error 604: status code 604)
+[失效] 英超 曼城VS富勒姆 英文原声 20:15  (timed out)
+        http://8.137.121.66:20241/969525647
+[失效] 英女超 利物浦女足VS切尔西女足 胡小凡 20:30  (timed out)
         http://8.137.121.66:20241/969524774
+[失效] 英女超 利物浦女足VS切尔西女足 赛场原声 20:30  (timed out)
+        http://8.137.121.66:20241/969524816
 [失效] 西甲 阿拉维斯VS拉科鲁尼亚 李霄 20:45  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969526191
 [失效] WTT 男女单打决赛 马特 21:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969463807
 [失效] 意甲 拉齐奥VS莱切 张昊泽 21:45  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969546815
+[失效] 意甲 拉齐奥VS莱切 赛场原声 21:45  (timed out)
+        http://8.137.121.66:20241/969546795
 [失效] CBA 《球你别说了》 马世雪 拜月宁 秋童 廖昕阳 22:00  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969499064
 [失效] 德甲 埃尔沃斯贝格VS弗赖堡 刘洪新 22:15  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969524701
+[失效] 德甲 门兴格拉德巴赫VS多特蒙德 赛场原声 22:15  (timed out)
+        http://8.137.121.66:20241/969524643
 [失效] 德甲 法兰克福VS霍芬海姆 刘洋 22:15  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969525273
+[失效] 德甲 法兰克福VS霍芬海姆 赛场原声 22:15  (timed out)
+        http://8.137.121.66:20241/969525266
 [失效] 德甲 勒沃库森VS帕德博恩 鲁靖明 22:15  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969525750
+[失效] 德甲 勒沃库森VS帕德博恩 赛场原声 22:15  (timed out)
+        http://8.137.121.66:20241/969525887
 [失效] 斯诺克 白雨露、吴安仪出战 柏林 22:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969539761
+[失效] 斯诺克 白雨露、吴安仪出战 4号桌 22:30  (timed out)
+        http://8.137.121.66:20241/969494487
 [失效] 斯诺克 白雨露、吴安仪出战 5号桌 22:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969494425
-[失效] 斯诺克 白雨露、吴安仪出战 6号桌 22:30  (HTTP Error 604: status code 604)
+[失效] 斯诺克 白雨露、吴安仪出战 6号桌 22:30  (timed out)
         http://8.137.121.66:20241/969494388
-[失效] 斯诺克 白雨露、吴安仪出战 7号桌 22:30  (HTTP Error 604: status code 604)
+[失效] 斯诺克 白雨露、吴安仪出战 7号桌 22:30  (timed out)
         http://8.137.121.66:20241/969494342
-[失效] 斯诺克 白雨露、吴安仪出战 8号桌 22:30  (HTTP Error 604: status code 604)
+[失效] 斯诺克 白雨露、吴安仪出战 8号桌 22:30  (timed out)
         http://8.137.121.66:20241/969494317
 [失效] 英超 考文垂VS水晶宫 黄航 22:45  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969525779
-[失效] 英超 切尔西VS利兹联 石庆圣 李彦 邵凌霄 22:30  (HTTP Error 604: status code 604)
+[失效] 英超 考文垂VS水晶宫 赛场原声 22:45  (timed out)
+        http://8.137.121.66:20241/969525867
+[失效] 英超 切尔西VS利兹联 石庆圣 李彦 邵凌霄 22:30  (timed out)
         http://8.137.121.66:20241/969526215
 [失效] 英超 切尔西VS利兹联 智能字幕 22:30  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969553270
@@ -362,20 +378,204 @@ dotv 直播源可用性检测报告
         http://8.137.121.66:20241/969550590
 [失效] UFC格斗之夜 UFC格斗之夜：普罗哈兹卡VS斯特林 智能字幕 22:55  (HTTP Error 604: status code 604)
         http://8.137.121.66:20241/969552475
+[失效] 英女超 伦敦城雌狮女足VS水晶宫女足 涂远 01:00  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969524822
+[失效] 英超 纽卡斯尔联VS阿森纳 詹俊 张路 李子琪 01:00  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969525943
+[失效] 英超 纽卡斯尔联VS阿森纳 球星视角 01:20  (timed out)
+        http://8.137.121.66:20241/969552857
+[失效] 英超 纽卡斯尔联VS阿森纳 战术视角 01:20  (timed out)
+        http://8.137.121.66:20241/969553063
+[失效] 英超 纽卡斯尔联VS阿森纳 智能字幕 01:00  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969553175
+[失效] 西甲 塞维利亚VS皇家贝蒂斯 林梦鸽 孙雷 01:15  (timed out)
+        http://8.137.121.66:20241/969526348
+[失效] 西甲 塞维利亚VS皇家贝蒂斯 赛场原声 01:15  (timed out)
+        http://8.137.121.66:20241/969526315
+[失效] 西甲 塞维利亚VS皇家贝蒂斯 智能解说 01:25  (timed out)
+        http://8.137.121.66:20241/969553207
+[失效] 德甲 沙尔克04VS斯图加特 吴子越 01:15  (timed out)
+        http://8.137.121.66:20241/969524731
+[失效] 浪琴环球马术冠军赛 维罗纳季后赛LGCT超级大奖赛 中文解说 02:35  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969376224
+[失效] 浪琴环球马术冠军赛 维罗纳季后赛LGCT超级大奖赛 英文解说 02:35  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969376086
+[失效] 浪琴环球马术冠军赛 维罗纳季后赛LGCT超级大奖赛 赛场原声 02:35  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969375868
+[失效] 浪琴环球马术冠军赛 维罗纳季后赛LGCT超级大奖赛 智能字幕 02:35  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969378736
+[失效] 斯诺克 王信伯、埃文斯出战 杨江源 03:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969539744
+[失效] 斯诺克 王信伯、埃文斯出战 5号桌 03:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969493491
+[失效] 斯诺克 王信伯、埃文斯出战 6号桌 03:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969493528
+[失效] 斯诺克 王信伯、埃文斯出战 7号桌 03:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969493550
+[失效] 斯诺克 王信伯、埃文斯出战 8号桌 03:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969493598
+[失效] 法甲 斯特拉斯堡VS布雷斯特 刘一臻 03:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969525443
+[失效] 法甲 摩纳哥VS欧塞尔 盛斌 03:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969525402
+[失效] 法甲 里尔VS里昂 邵煊 03:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969525375
+[失效] 法甲 里尔VS里昂 赛场原声 03:30  (timed out)
+        http://8.137.121.66:20241/969525382
+[失效] 法甲 朗斯VS图卢兹 张天翼 03:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969525336
+[失效] 意甲 那不勒斯VS都灵 刘焕 03:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969546970
+[失效] 意甲 那不勒斯VS都灵 赛场原声 03:30  (timed out)
+        http://8.137.121.66:20241/969546960
+[失效] 跑步系列赛 2026峨眉山越野挑战赛（冬季） 冬季 05:40  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969572771
+[失效] 跑步系列赛 2026义乌半程马拉松 解说 06:30  (timed out)
+        http://8.137.121.66:20241/969427500
+[失效] 马拉松系列赛 锐力体育温州马拉松 清流播出 06:45  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969548420
+[失效] 马拉松系列赛 佛山市环两江稻田马拉松 清流播出 06:45  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969548456
+[失效] 马拉松系列赛 2026南京银行南京马拉松 2026南京马拉松 07:15  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969548494
+[失效] HADO世冠杯 国际校园赛+SOLO全球冠军赛 清流播出 08:00  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969464871
+[失效] 马拉松系列赛 中都樾玺黄石马拉松 清流播出 07:45  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969548516
+[失效] 马拉松系列赛 开化钱江源半程马拉松 清流播出 07:45  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969548535
+[失效] 马拉松系列赛 红了翠岗杯·2026宁都红色半程马拉松 清流播出 07:45  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969548549
+[失效] 咪咕体育日报 undefined 咪咕体育日报 第249期 08:00  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/968817796
+[失效] NBA 国王VS凯尔特人 刘圳展 刘炜 陈正昊 10:30  (timed out)
+        http://8.137.121.66:20241/969446109
+[失效] 中国网球公开赛 精彩回顾：德米纳尔 vs 卢布列夫 968113946 12:00  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969405761
+[失效] 世界动力冲浪板锦标赛 UIM MotoSurf动力冲浪世界锦标赛Day2 解说 12:48  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969521860
+[失效] 青岛城市足球争霸赛 平度市vs市南区 清流播出 13:50  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969486696
+[失效] BWF 中国香港羽毛球公开赛第六日：决赛 1号场地 14:00  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969464577
+[失效] 徽青赛 马鞍山VS安庆 赛场原声 14:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969469191
+[失效] 徽青赛 宣城VS六安 赛场原声 14:30  (timed out)
+        http://8.137.121.66:20241/969469210
+[失效] 徽青赛 黄山VS亳州 赛场原声 14:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969469216
+[失效] 中国网球公开赛 精彩回顾：德约科维奇 vs 德米纳尔 詹俊、郑洁、苏小玎 15:00  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969405772
+[失效] 琼超 澄迈VS儋州 赛场原声 15:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969470529
+[失效] 琼超 临高VS白沙 赛场原声 15:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969470541
+[失效] 琼超 屯昌VS定安 赛场原声 15:30  (timed out)
+        http://8.137.121.66:20241/969470600
+[失效] 琼超 五指山VS乐东 赛场原声 15:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969572741
+[失效] 亚洲大学生篮球联赛 延世大学VS上海交通大学 解说 15:45  (timed out)
+        http://8.137.121.66:20241/969587474
+[失效] 斯诺克 许医尘、刘文炜出战 涂子轩 17:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969539709
+[失效] 斯诺克 许医尘、刘文炜出战 6号桌 17:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969494022
+[失效] 斯诺克 许医尘、刘文炜出战 7号桌 17:30  (timed out)
+        http://8.137.121.66:20241/969494094
+[失效] 斯诺克 许医尘、刘文炜出战 8号桌 17:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969494186
+[失效] 全国青年体操U系列冠军赛 收官日！成年组单项决赛 清流播出 18:00  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969469517
+[失效] 中国网球公开赛 精彩回顾：郑钦文 vs 安德列娃 李宁、王蔷、张浩 19:00  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969405791
+[失效] 钓鱼系列赛 2026年中国舟钓路亚公开赛（安徽金寨站） 安徽金寨站 19:00  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969521837
+[失效] 乒乓球经典赛事 莎头组合横扫 中国队首秀8-1中国香港 经典赛事 19:00  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969579606
+[失效] 意甲 尤文图斯VS威尼斯 孙雨轩 刘腾 19:15  (timed out)
+        http://8.137.121.66:20241/969547013
+[失效] 浙BA 安吉VS台州 赛场原声 19:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969464209
+[失效] 浙BA 余姚VS桐乡 赛场原声 19:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969464220
+[失效] 徽青赛 宿州VS铜陵 赛场原声 19:30  (timed out)
+        http://8.137.121.66:20241/969469227
+[失效] 湘超 娄底队VS湘潭队 赛场原声 19:38  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969470910
+[失效] 英女超 曼城女足VS托特纳姆热刺女足 林梦鸽 19:45  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969524867
+[失效] 英女超 伯明翰女足VS曼联女足 兰子非 19:45  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969524851
+[失效] 英女超 伯明翰女足VS曼联女足 赛场原声 19:45  (timed out)
+        http://8.137.121.66:20241/969524858
+[失效] 浪琴环球马术冠军赛 维罗纳季后赛GCL超级杯决赛 中文解说 20:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969376251
+[失效] 浪琴环球马术冠军赛 维罗纳季后赛GCL超级杯决赛 英文解说 20:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969376107
+[失效] 浪琴环球马术冠军赛 维罗纳季后赛GCL超级杯决赛 赛场原声 20:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969375946
+[失效] 浪琴环球马术冠军赛 维罗纳季后赛GCL超级杯决赛 智能字幕 20:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969378782
+[失效] 西甲 巴塞罗那VS比利亚雷亚尔 张昊泽 李欣 20:30  (timed out)
+        http://8.137.121.66:20241/969526419
+[失效] 西甲 巴塞罗那VS比利亚雷亚尔 赛场原声 20:45  (timed out)
+        http://8.137.121.66:20241/969526393
+[失效] 英超 赫尔城VS布莱顿 英文原声 21:45  (timed out)
+        http://8.137.121.66:20241/969526095
+[失效] 英超 赫尔城VS布莱顿 智能字幕 21:45  (timed out)
+        http://8.137.121.66:20241/969573707
+[失效] 意甲 萨索洛VS热那亚 吴奕博 21:45  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969547122
+[失效] 意甲 博洛尼亚VS乌迪内斯 乔迁 21:45  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969547089
+[失效] 英女超 埃弗顿女足VS布莱顿女足 邵凌霄 21:45  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969524902
+[失效] 英女超 埃弗顿女足VS布莱顿女足 赛场原声 21:45  (timed out)
+        http://8.137.121.66:20241/969524915
+[失效] 英女超 查尔顿女足VS阿斯顿维拉女足 魏欣怡 21:45  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969524889
+[失效] CBA 《球你别说了》 蔡凯臣 郑泽鹏 贾磊 22:00  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969499047
+[失效] 德甲 奥格斯堡VS美因茨 赵宇 22:15  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969524750
+[失效] 德甲 奥格斯堡VS美因茨 赛场原声 22:15  (timed out)
+        http://8.137.121.66:20241/969524754
+[失效] 英女超 阿森纳女足VS西汉姆联女足 刘焕 22:15  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969524935
+[失效] 斯诺克 傅家俊、龙泽煌出战 朱峰立 22:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969539663
+[失效] 斯诺克 傅家俊、龙泽煌出战 5号桌 22:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969493534
+[失效] 斯诺克 傅家俊、龙泽煌出战 6号桌 22:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969493570
+[失效] 斯诺克 傅家俊、龙泽煌出战 7号桌 22:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969493619
+[失效] 斯诺克 傅家俊、龙泽煌出战 8号桌 22:30  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969493646
+[失效] 西甲 桑坦德竞技VS皇家社会 梁祥宇 23:00  (HTTP Error 604: status code 604)
+        http://8.137.121.66:20241/969526552
+[失效] 女性时尚  (HTTP Error 503: Client limit reached)
+        http://116.2.174.65:4010/rtp/232.0.0.51:1234
 [失效] 世界地理  (HTTP Error 503: Client limit reached)
         http://116.2.174.65:4010/rtp/232.0.0.63:1234
 [失效] 央视台球  (HTTP Error 503: Client limit reached)
         http://116.2.174.65:4010/rtp/232.0.0.60:1234
-[失效] 央视文化精品  (HTTP Error 503: Client limit reached)
-        http://116.2.174.65:4010/rtp/232.0.0.56:1234
+[失效] 中国教育1台  (HTTP Error 503: Client limit reached)
+        http://116.2.174.65:4010/rtp/232.0.0.212:1234
+[失效] 中国教育1台  (HTTP Error 503: Service Unavailable)
+        http://114.254.36.150:8888/rtp/239.3.1.57:8152
 [失效] 中国教育1台  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.57:8152
+[失效] 中国教育2台  (HTTP Error 503: Client limit reached)
+        http://116.2.174.65:4010/rtp/232.0.0.238:1234
 [失效] 中国教育2台  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.54:4120
 [失效] 中国教育2台  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.54:4120
 [失效] 中国教育4台  (HTTP Error 503: Client limit reached)
         http://116.2.174.65:4010/rtp/232.0.0.239:1234
+[失效] 中国教育4台  (HTTP Error 503: Service Unavailable)
+        http://114.254.36.150:8888/rtp/239.3.1.56:4120
 [失效] 中国教育4台  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.56:4120
 [失效] 淘电影  (HTTP Error 503: Service Unavailable)
@@ -384,44 +584,50 @@ dotv 直播源可用性检测报告
         http://221.220.133.69:8012/rtp/239.3.1.250:8001
 [失效] 淘剧场  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.95:8001
+[失效] 淘剧场  (HTTP Error 503: Client limit reached)
+        http://221.220.133.69:8012/rtp/239.3.1.95:8001
 [失效] 淘4K  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.249:8001
 [失效] 淘4K  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.249:8001
+[失效] 淘娱乐  (HTTP Error 503: Client limit reached)
+        http://221.220.133.69:8012/rtp/239.3.1.100:8001
 [失效] 淘BABY  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.238:8001
 [失效] 淘BABY  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.238:8001
+[失效] 淘萌宠  (HTTP Error 503: Service Unavailable)
+        http://114.254.36.150:8888/rtp/239.3.1.102:8001
 [失效] 淘萌宠  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.102:8001
+[失效] 金鹰纪实  (HTTP Error 503: Service Unavailable)
+        http://114.254.36.150:8888/rtp/239.3.1.58:8156
 [失效] 金鹰纪实  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.58:8156
 [失效] 纪实科教  (HTTP Error 503: Client limit reached)
         http://116.2.174.65:4010/rtp/232.0.0.162:1234
+[失效] 纪实科教  (HTTP Error 503: Service Unavailable)
+        http://114.254.36.150:8888/rtp/239.3.1.115:8000
 [失效] 纪实科教  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.115:8000
-[失效] 睛彩青少  (HTTP Error 503: Service Unavailable)
-        http://114.254.36.150:8888/rtp/239.3.1.127:8001
 [失效] 睛彩青少  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.127:8001
 [失效] 睛彩竞技  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.125:8001
-[失效] 睛彩篮球  (HTTP Error 503: Service Unavailable)
-        http://114.254.36.150:8888/rtp/239.3.1.126:8001
-[失效] 睛彩广场舞  (HTTP Error 503: Service Unavailable)
-        http://114.254.36.150:8888/rtp/239.3.1.128:8001
+[失效] 睛彩篮球  (HTTP Error 503: Client limit reached)
+        http://221.220.133.69:8012/rtp/239.3.1.126:8001
 [失效] 睛彩广场舞  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.128:8001
 [失效] 茶频道  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.165:8001
 [失效] 茶频道  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.165:8001
-[失效] 汽摩  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.195:7980
+[失效] 生活时尚  (HTTP Error 503: Client limit reached)
+        http://116.2.174.65:4010/rtp/232.0.0.107:1234
 [失效] 都市剧场  (HTTP Error 503: Client limit reached)
         http://116.2.174.65:4010/rtp/232.0.0.149:1234
-[失效] 欢笑剧场  (HTTP Error 503: Client limit reached)
-        http://116.2.174.65:4010/rtp/232.0.0.98:1234
+[失效] 金色学堂  (HTTP Error 503: Client limit reached)
+        http://116.2.174.65:4010/rtp/232.0.0.133:1234
 [失效] 动漫秀场  (HTTP Error 503: Client limit reached)
         http://116.2.174.65:4010/rtp/232.0.0.128:1234
 [失效] 卡酷少儿  (HTTP Error 503: Client limit reached)
@@ -444,32 +650,18 @@ dotv 直播源可用性检测报告
         http://114.254.36.150:8888/rtp/239.3.1.236:2000
 [失效] 华数4K  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.236:2000
-[失效] 华数星影  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.172:7980
-[失效] 华数星影  (HTTP Error 503: Service Unavailable)
-        http://114.254.36.150:8888/rtp/239.3.1.94:4120
 [失效] 华数星影  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.94:4120
-[失效] 华数动作影院  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.170:7980
 [失效] 华数动作影院  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.92:4120
 [失效] 华数动作影院  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.92:4120
-[失效] 华数喜剧影院  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.169:7980
 [失效] 华数喜剧影院  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.91:4120
 [失效] 华数喜剧影院  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.91:4120
-[失效] 华数家庭影院  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.171:7980
-[失效] 华数家庭影院  (HTTP Error 503: Service Unavailable)
-        http://114.254.36.150:8888/rtp/239.3.1.93:4120
 [失效] 华数家庭影院  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.93:4120
-[失效] 华数经典电影  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.48:7980
 [失效] 华数经典电影  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.195:9024
 [失效] 华数经典电影  (HTTP Error 503: Client limit reached)
@@ -478,8 +670,6 @@ dotv 直播源可用性检测报告
         http://114.254.36.150:8888/rtp/239.3.1.194:9020
 [失效] 华数热播剧场  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.194:9020
-[失效] 华数军旅剧场  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.146:7980
 [失效] 华数军旅剧场  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.68:4120
 [失效] 华数军旅剧场  (HTTP Error 503: Client limit reached)
@@ -488,14 +678,10 @@ dotv 直播源可用性检测报告
         http://114.254.36.150:8888/rtp/239.3.1.67:4120
 [失效] 华数城市剧场  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.67:4120
-[失效] 华数武侠剧场  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.168:7980
 [失效] 华数武侠剧场  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.90:4120
 [失效] 华数武侠剧场  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.90:4120
-[失效] 华数古装剧场  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.147:7980
 [失效] 华数魅力时尚  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.196:9012
 [失效] 华数魅力时尚  (HTTP Error 503: Client limit reached)
@@ -509,11 +695,9 @@ dotv 直播源可用性检测报告
 [失效] 华数动画  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.80:4120
 
-===== 卫视 ===== 失效 133 条
+===== 卫视 ===== 失效 123 条
 [失效] 北京卫视  ('ascii' codec can't encode characters in position 364-370: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fbeijing.m3u8%253Fuserid%253D7601455084%2526sign%253D27baf0bbae433432645db9a5dc0c4ea7c06b8c0932e5a89b9e3710651bd9bc525d2fb25852b422597a1f1a2a0ef7cc21c14ea641c12f24df1bb675f36c070f7b71b6c3f70dd9e6ddb14bda3ad6637d%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] 北京卫视  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.78:7980
 [失效] 北京卫视  (HTTP Error 503: Client limit reached)
         http://116.2.174.65:4010/rtp/232.0.0.117:1234
 [失效] 北京卫视  (HTTP Error 503: Service Unavailable)
@@ -522,34 +706,26 @@ dotv 直播源可用性检测报告
         http://221.220.133.69:8012/rtp/239.3.1.241:8000
 [失效] 湖南卫视  ('ascii' codec can't encode characters in position 358-364: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fhunan.m3u8%253Fuserid%253D7601455084%2526sign%253Dfef3d1fafd2ae88e2f1deade4bef677e10c9ef91ab796964ad56a83f6315b6aeea5b12f54faf8b63e699c42a1d47e4d8f538d4e40f650c495462b3b92e93abdb785590152e2923197887fd302f%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] 湖南卫视  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.75:7980
 [失效] 湖南卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.132:8012
 [失效] 湖南卫视  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.132:8012
 [失效] 江苏卫视  ('ascii' codec can't encode characters in position 364-370: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fjiangsu.m3u8%253Fuserid%253D7601455084%2526sign%253D0296a68192b9ed3d315f85403f33fbbcc13b590c17a93013c0dcb43374cc13941752fdabb89e3cfa17c7237bcd56a3848d090ee4ce8a5daf77dcf00c2db7233f01c31e155ce3a5fab08399c43a6cf0%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] 江苏卫视  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.79:7980
-[失效] 江苏卫视  (HTTP Error 503: Client limit reached)
-        http://116.2.174.65:4010/rtp/232.0.0.116:1234
 [失效] 江苏卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.135:8028
 [失效] 江苏卫视  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.135:8028
 [失效] 东方卫视  ('ascii' codec can't encode characters in position 367-373: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fdongfang.m3u8%253Fuserid%253D7601455084%2526sign%253D6125b6457d826e364bafafffcfc6a53d02991b56aa8f58df50847c57128439443f6a14667a5e614d1de34fa4abcbd07902605fc3a06a994533c8e7737e67a69e2764a1045d86ccb23f0fc0d9258f35ab%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] 东方卫视  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.80:7980
+[失效] 东方卫视  (HTTP Error 503: Client limit reached)
+        http://116.2.174.65:4010/rtp/232.0.0.122:1234
 [失效] 东方卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.136:8032
 [失效] 东方卫视  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.136:8032
 [失效] 浙江卫视  ('ascii' codec can't encode characters in position 367-373: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fzhejiang.m3u8%253Fuserid%253D7601455084%2526sign%253Dd01b2dbe3eb65e12bfea08cc133f9e520dada8cdff6e61be8578dc8ffbadce6552cc8c8a1208a5f089d8fb7960090ccd61fb3de3cb8475f92630512dace30a0150ddbe2949ddcfabc3b6f68ab2ff18c5%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] 浙江卫视  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.81:7980
 [失效] 浙江卫视  (HTTP Error 503: Client limit reached)
         http://116.2.174.65:4010/rtp/232.0.0.123:1234
 [失效] 浙江卫视  (HTTP Error 503: Service Unavailable)
@@ -558,32 +734,28 @@ dotv 直播源可用性检测报告
         http://221.220.133.69:8012/rtp/239.3.1.137:8036
 [失效] 湖北卫视  ('ascii' codec can't encode characters in position 358-364: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fhubei.m3u8%253Fuserid%253D7601455084%2526sign%253D57df2fd54661ab77af5e52fe8ee6c580606f6b3556d0156676ac51ef11a241ac32e861e9ecf0a6abdc8227bb9e0aa51f28303289dedc9896e3369eaadbe403ed13f9390d85c824faab7a0ca893%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] 湖北卫视  (HTTP Error 503: Service Unavailable)
-        http://114.254.36.150:8888/rtp/239.3.1.138:8044
+[失效] 湖北卫视  (HTTP Error 503: Client limit reached)
+        http://116.2.174.65:4010/rtp/232.0.0.124:1234
 [失效] 湖北卫视  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.138:8044
 [失效] 天津卫视  ('ascii' codec can't encode characters in position 367-373: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Ftianjing.m3u8%253Fuserid%253D7601455084%2526sign%253D7ebaeb86c48b35091c8e821015ec3bff78a981e4e6caaad97ae25b99ffe25a37899e2a26428e292b9bb7bdbd6700c191bc67671c15d33c85bd7ddc89eba5bca4be1b911bb143cb576570e0abbd9076aa%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] 天津卫视  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.82:7980
+[失效] 天津卫视  (HTTP Error 503: Client limit reached)
+        http://116.2.174.65:4010/rtp/232.0.0.125:1234
 [失效] 天津卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.141:1234
 [失效] 天津卫视  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.141:1234
 [失效] 山东卫视  ('ascii' codec can't encode characters in position 367-373: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fshandong.m3u8%253Fuserid%253D7601455084%2526sign%253Da8c2f4c1b5bfca944becd4f54cb689e7d93e3ddc16e69b9215111cd684aaf943ba158fa919dd9dc3d3fecb38b1742c3618d1e9e4958d2e5acd5e689059aa022d3e19b2db39731017be24922d46eae7f7%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] 山东卫视  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.199:7980
-[失效] 山东卫视  (HTTP Error 503: Client limit reached)
-        http://116.2.174.65:4010/rtp/232.0.0.131:1234
 [失效] 山东卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.209:8052
+[失效] 山东卫视  ([Errno 104] Connection reset by peer)
+        http://171.8.84.49:8800/rtp/239.16.20.80:10800
 [失效] 山东卫视  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.209:8052
 [失效] 辽宁卫视  ('ascii' codec can't encode characters in position 367-373: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fliaoning.m3u8%253Fuserid%253D7601455084%2526sign%253Dc13b5d26cc9719a0f8fc57721fbff5a73fc13f88838abe73902af8d2e60848a6b308796e208590c3d7cfd4b86c9aa5cc2196a4f7f49cc1f1faaefd0aa9561e8e0863b995ef87d9d64bc16ee715437c38%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] 辽宁卫视  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.98:7980
 [失效] 辽宁卫视  (HTTP Error 503: Client limit reached)
         http://116.2.174.65:4010/rtp/232.0.0.126:1234
 [失效] 辽宁卫视  (HTTP Error 503: Service Unavailable)
@@ -592,8 +764,6 @@ dotv 直播源可用性检测报告
         http://221.220.133.69:8012/rtp/239.3.1.210:8056
 [失效] 安徽卫视  ('ascii' codec can't encode characters in position 358-364: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fanhui.m3u8%253Fuserid%253D7601455084%2526sign%253D35b5429c801e33760ea7f98ae2db72d2d5c3e978c98eb79594a701362d32d17f68fe8d562d2c1a1db73b5529a8160c670f02654e3868e4db5e28dd0adb9167b695eed9bd447c5418d3a39aff94%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] 安徽卫视  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.133:7980
 [失效] 安徽卫视  (HTTP Error 503: Client limit reached)
         http://116.2.174.65:4010/rtp/232.0.0.141:1234
 [失效] 安徽卫视  (HTTP Error 503: Service Unavailable)
@@ -604,8 +774,6 @@ dotv 直播源可用性检测报告
         http://113.57.140.161:10081/newlive/live/hls/40/live.m3u8
 [失效] 黑龙江卫视  ('ascii' codec can't encode characters in position 379-385: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fheilongjiang.m3u8%253Fuserid%253D7601455084%2526sign%253Ded8d5f0a37a26a3ff1e678361657453bfcaf879ba5a46909fe950cbfef86baf0733357e3e016b28b7823160bd6ce1f1c904bf90815b8a2eefdb1caab0e812c63547b2c97104eab88c30bb38703d73bae4272a5d9%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] 黑龙江卫视  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.201:7980
 [失效] 黑龙江卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.133:8016
 [失效] 黑龙江卫视  (HTTP Error 503: Client limit reached)
@@ -614,8 +782,8 @@ dotv 直播源可用性检测报告
         http://113.57.140.161:10081/newlive/live/hls/38/live.m3u8
 [失效] 贵州卫视  ('ascii' codec can't encode characters in position 364-370: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fguizhou.m3u8%253Fuserid%253D7601455084%2526sign%253D501f05b5a9136e4a6f80e0e641aa342e9901039d92fc9595446553a732985ebbcbbb5368321fc935eeafd7525acefb3e4d6c11a01f2f006be4d4d3f75481c9b7f7d63fc50d3537bc2ef1a2cbb1e916%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] 贵州卫视  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.175:7980
+[失效] 贵州卫视  (HTTP Error 503: Client limit reached)
+        http://116.2.174.65:4010/rtp/232.0.0.181:1234
 [失效] 贵州卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.149:8076
 [失效] 贵州卫视  (HTTP Error 503: Client limit reached)
@@ -624,58 +792,52 @@ dotv 直播源可用性检测报告
         http://113.57.140.161:10081/newlive/live/hls/39/live.m3u8
 [失效] 东南卫视  ('ascii' codec can't encode characters in position 364-370: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fdongnan.m3u8%253Fuserid%253D7601455084%2526sign%253D00633ac59bc994717eda8a861b2f0b82eccdbecbdfed93d18d3905dd975ea1d469d456ea2fb4af7bd054b67985b7835c1f4e9b9f3b0eda4f36dbf518b3b787e72f82f41b147e3d3dfc17c77c6887a2%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] 东南卫视  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.200:7980
 [失效] 东南卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.156:8148
 [失效] 东南卫视  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.156:8148
-[失效] 东南卫视  (<urlopen error timed out>)
-        http://113.57.140.161:10081/newlive/live/hls/20/live.m3u8
 [失效] 重庆卫视  ('ascii' codec can't encode characters in position 370-376: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fchongqing.m3u8%253Fuserid%253D7601455084%2526sign%253D078e7e6741198ff64560bb94028e9f5e3b9d3ad54d851e75e14a7dea53137d6db3b944762f5173b113a24c19e4643434b220de4afa27656098dd45d2e31447a565b0ee4b04ce39cf2a8336a404f9d5df2e%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] 重庆卫视  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.187:7980
 [失效] 重庆卫视  (HTTP Error 503: Client limit reached)
         http://116.2.174.65:4010/rtp/232.0.0.186:1234
+[失效] 重庆卫视  (HTTP Error 503: Service Unavailable)
+        http://114.254.36.150:8888/rtp/239.3.1.122:8160
 [失效] 重庆卫视  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.122:8160
 [失效] 江西卫视  ('ascii' codec can't encode characters in position 364-370: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fjiangxi.m3u8%253Fuserid%253D7601455084%2526sign%253D401555d0bad85f758d9bec563f3aa9985960f4df19aacbf3ab4d57b7553b3d7bfe71d85d165070f08b6f21cd0985f4629c3b64f8f0b168a4c3e4a8f4b7877e22695b74e9965e9140a4ae25181d4cab%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] 江西卫视  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.203:7980
+[失效] 江西卫视  (HTTP Error 503: Service Unavailable)
+        http://114.254.36.150:8888/rtp/239.3.1.123:8164
 [失效] 江西卫视  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.123:8164
 [失效] 广东卫视  ('ascii' codec can't encode characters in position 370-376: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fguangdong.m3u8%253Fuserid%253D7601455084%2526sign%253Dcaed3a7c496448e058677e17017cf91fa23730b22183f793fbc60d551101629d4e727f44d074edab27c060295f82cdcb3418a99df125a5329daab7bb478c3694fc2ad0cd72cdf85cec7e2b4d1564d02343%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] 广东卫视  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.84:7980
 [失效] 广东卫视  (HTTP Error 503: Client limit reached)
         http://116.2.174.65:4010/rtp/232.0.0.130:1234
 [失效] 广东卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.142:8048
+[失效] 广东卫视  (HTTP Error 503: Client limit reached)
+        http://221.220.133.69:8012/rtp/239.3.1.142:8048
 [失效] 河北卫视  ('ascii' codec can't encode characters in position 358-364: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fhebei.m3u8%253Fuserid%253D7601455084%2526sign%253D07e4f1c9a1141e7a8cabe562de94cfb7c0459384a6df637a4704ec52f7b3a0cf50b97b0c150a5efb40bdbb9f97d49e08bf4210297256495794d6c252574f3dbbbe8895eea445a358238d1c3746%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] 河北卫视  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.174:7980
 [失效] 河北卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.148:8072
 [失效] 河北卫视  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.148:8072
-[失效] 河北卫视  (<urlopen error timed out>)
-        http://113.57.140.161:10081/newlive/live/hls/33/live.m3u8
 [失效] 深圳卫视  ('ascii' codec can't encode characters in position 370-376: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fshenzheng.m3u8%253Fuserid%253D7601455084%2526sign%253D95858a9f7efdc1058764bcec8fe6052d53770b1408c3bb3c9cb9f9a24d22e2ff21189bc5cece3cd8b74afc9850214ebd0c4874224257050eb64158abbedde1e50da509c5c52cc4f5800ed4e83201746575%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] 深圳卫视  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.202:7980
-[失效] 深圳卫视  (HTTP Error 503: Client limit reached)
-        http://116.2.174.65:4010/rtp/232.0.0.110:1234
 [失效] 深圳卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.134:8020
+[失效] 深圳卫视  ([Errno 104] Connection reset by peer)
+        http://121.237.245.5:8888/rtp/239.49.8.15:9430
+[失效] 深圳卫视  (HTTP Error 503: Client limit reached)
+        http://221.220.133.69:8012/rtp/239.3.1.134:8020
 [失效] 吉林卫视  ('ascii' codec can't encode characters in position 361-367: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fjiling.m3u8%253Fuserid%253D7601455084%2526sign%253D3c150f79034d074a506fe321c54bbf5760ec8101038d04e5ad391ac2763a7553b63af09a2bce2dda8f18a68de4be83d1c49ed3ebeee798d0832e0923e200b9358b37f4add0cd8d68b9b6d1b5ca4e%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
 [失效] 吉林卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.240:8172
+[失效] 吉林卫视  (HTTP Error 503: Client limit reached)
+        http://221.220.133.69:8012/rtp/239.3.1.240:8172
 [失效] 河南卫视  ('ascii' codec can't encode characters in position 358-364: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fhenan.m3u8%253Fuserid%253D7601455084%2526sign%253D583dc6c4d94670728800f631013efd67b697bebb9897ddb0ccaab0b5da96ad50b6f19f8c22b63f12118f02f8304179a1f19a2fcfa26d1d797fe38b9054d5e7468c945333ef9ce49d0d1095c539%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
 [失效] 河南卫视  (HTTP Error 503: Service Unavailable)
@@ -684,16 +846,12 @@ dotv 直播源可用性检测报告
         http://221.220.133.69:8012/rtp/239.3.1.27:8128
 [失效] 四川卫视  ('ascii' codec can't encode characters in position 364-370: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fsichuan.m3u8%253Fuserid%253D7601455084%2526sign%253Dd083b21f8338df986ceeea0c41e275c8d3e96a629cbf163a14625b8189a802f9856a2803bc4e53fa4db8449a0cac387083b7ee4f344b9a2051f4fd0f0c8868355b47917e09b6adba55db690d4ff7cc%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] 四川卫视  (<urlopen error timed out>)
-        http://211.158.64.39:8888/udp/225.0.4.204:7980
 [失效] 四川卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.29:8288
 [失效] 四川卫视  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.29:8288
 [失效] 广西卫视  ('ascii' codec can't encode characters in position 364-370: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fguangxi.m3u8%253Fuserid%253D7601455084%2526sign%253D41536d98af613227811b0eb369f2701fc6f15ce0f22ad410bc4a92438deb6662f385e1b61b723237b1f41a9f939a9397d1fc0f899bc6aecf592cda6b658bb7710714aba2eed6eb65c15e32601761c3%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] 广西卫视  (HTTP Error 503: Client limit reached)
-        http://116.2.174.65:4010/rtp/232.0.0.76:1234
 [失效] 广西卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.39:8300
 [失效] 广西卫视  (HTTP Error 503: Client limit reached)
@@ -724,36 +882,46 @@ dotv 直播源可用性检测报告
         http://221.220.133.69:8012/rtp/239.3.1.44:8184
 [失效] 海南卫视  ('ascii' codec can't encode characters in position 361-367: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fhainan.m3u8%253Fuserid%253D7601455084%2526sign%253D43399154b54c7a7e336e2e958dcba7b8dab032238ea81978713bbc6c2f7014857389967bd0128a11e7bb9caa335c4488afb5c0b8d79ca6db6de97550bfa028dc081eeb79c00c6b2d5130922f58b7%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
+[失效] 海南卫视  (HTTP Error 503: Client limit reached)
+        http://116.2.174.65:4010/rtp/232.0.0.26:1234
 [失效] 海南卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.45:8304
+[失效] 海南卫视  (HTTP Error 503: Client limit reached)
+        http://221.220.133.69:8012/rtp/239.3.1.45:8304
 [失效] 宁夏卫视  ('ascii' codec can't encode characters in position 364-370: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fningxia.m3u8%253Fuserid%253D7601455084%2526sign%253De74806c9202eb842bd201f98dfedc87143c3331f0166c46646640edbe916bdcf2f86291dee12f1cc6357966b16297c5a73eac96663d8857b5977fa0adb6925f0ad296aa97777c261bbd2dfbdd32114%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
+[失效] 宁夏卫视  (HTTP Error 503: Client limit reached)
+        http://116.2.174.65:4010/rtp/232.0.0.34:1234
 [失效] 宁夏卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.46:8124
 [失效] 宁夏卫视  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.46:8124
 [失效] 西藏卫视  ('ascii' codec can't encode characters in position 361-367: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fxizang.m3u8%253Fuserid%253D7601455084%2526sign%253D731c0320b502982110627569f357ed0e0ddd3e3dad045968a66df42a35db29a4932386f50f3a59ca7352c069955f93629bc0d2ec9707fb9b935337a7ea4c145979755889418f733378aa8b925b8e%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
-[失效] 西藏卫视  (HTTP Error 503: Client limit reached)
-        http://116.2.174.65:4010/rtp/232.0.0.114:1234
 [失效] 西藏卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.47:8164
 [失效] 西藏卫视  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.47:8164
 [失效] 新疆卫视  ('ascii' codec can't encode characters in position 367-373: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fxinjiang.m3u8%253Fuserid%253D7601455084%2526sign%253Da9b84d2e968c9a50a0eb3d9ce768ed5e78450147b995851d46d357f3111383352456b09538e019e0b8afbbd6a4c09825d19e2af8eb20bb642a4b306a708fed05a697913c92991fc1b5bb48a79c0b3046%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
+[失效] 新疆卫视  (HTTP Error 503: Client limit reached)
+        http://116.2.174.65:4010/rtp/232.0.0.18:1234
 [失效] 新疆卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.48:8160
 [失效] 新疆卫视  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.48:8160
 [失效] 甘肃卫视  ('ascii' codec can't encode characters in position 358-364: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fgansu.m3u8%253Fuserid%253D7601455084%2526sign%253Daa8bde5ce36cf0d17624342e39c61afef8d4e7135da870f39a51f43af2665b125df1f0b46dc0d0a430318e423c656ec9ad16e204e4b6cccedbe96411858e522bce2531a61fdd470a2ded5c528c%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
+[失效] 甘肃卫视  (HTTP Error 503: Client limit reached)
+        http://116.2.174.65:4010/rtp/232.0.0.50:1234
 [失效] 甘肃卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.49:8188
 [失效] 甘肃卫视  (HTTP Error 503: Client limit reached)
         http://221.220.133.69:8012/rtp/239.3.1.49:8188
 [失效] 云南卫视  ('ascii' codec can't encode characters in position 361-367: o)
         http://45.192.97.170:2095/?d=http%3A%2F%2F45.192.97.170%3A2095%2F%3Fd%3Dhttps%253A%252F%252Fmursor.ottiptv.cc%252Fmcp%252Fyunnan.m3u8%253Fuserid%253D7601455084%2526sign%253Dda6e75a41db0d22dbe319a8fafcc72aa81d08c68194e7333c44426bb77a78220d0630125a51e8a0f24afcc5a877b9945897c30e8dfd81cf0da7f935b917e439f91d32058db253ae5842ace97a536%2526auth_token%253D47968e58f2b34cace69dbe0d0fc69b93&公众号潇雨萌萌
+[失效] 云南卫视  (HTTP Error 503: Client limit reached)
+        http://116.2.174.65:4010/rtp/232.0.0.40:1234
 [失效] 云南卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.26:8108
 [失效] 云南卫视  (HTTP Error 503: Client limit reached)
@@ -770,8 +938,6 @@ dotv 直播源可用性检测报告
         http://221.220.133.69:8012/rtp/239.3.1.155:4120
 [失效] 延边卫视  (HTTP Error 503: Client limit reached)
         http://116.2.174.65:4010/rtp/232.0.0.161:1234
-[失效] 山东教育卫视  (HTTP Error 503: Client limit reached)
-        http://116.2.174.65:4010/rtp/232.0.0.169:1234
 [失效] 山东教育卫视  (HTTP Error 503: Service Unavailable)
         http://114.254.36.150:8888/rtp/239.3.1.52:4120
 [失效] 山东教育卫视  (HTTP Error 503: Client limit reached)
